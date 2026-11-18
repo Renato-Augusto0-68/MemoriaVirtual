@@ -1,27 +1,20 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "functions/dados.h"
-#include "functions/pagina.h"
-#include "functions/abrirTexto.h"
+#include "src/dados.h"
+#include "src/pagina.h"
+#include "src/abrirTexto.h"
 
 int main(){
     
     dados x;
-    pagina **atual;
-    atual=malloc(sizeof(pagina)*128);
-    if(atual!=NULL){
-        for(int i=0;i<128;i++){
-            atual[i]=malloc(sizeof(pagina)*128);
-            if(atual[i]==NULL){
-                exit(1);
-            }
-        }
+    pagina *atual;
+    atual=malloc(sizeof(pagina)*256);
+    if(atual==NULL){
+        exit(1);
     }
 
-    for(int i=0;i<128;i++){
-        for(int g=0;g<128;g++){
-            atual[i][g].informacao=-1;
-        }
+    for(int i=0;i<256;i++){   
+            atual[i].informacao=-1;
     }
 
 
@@ -37,7 +30,7 @@ int main(){
             x.enderecoBruto=x.enderecoBruto & 0xFFFF;
             x.pagina= (x.enderecoBruto>>8) & 0xFF;
             x.offset = x.enderecoBruto & 0xFF;
-            printf("%d",atual[i][g++].informacao);       
+            printf("%d",atual[i].informacao);       
             //localizarEnderecos(arq2,&x);
             i++;
         }

@@ -4070,4 +4070,44 @@ make: *** [makefile:4: functions] Error 1
     7 | void [01;31m[KlocalizarEnderecos[m[K(FILE *arquivo, dados *acessoAtual, pagina **tabela){
       |      [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
 In file included from [01m[Kfunctions/abrirTexto.c:3[m[K:
-[01m[Kfun
+[01m[Kfunctions/abrirTexto.h:7:6:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[KlocalizarEnderecos[m[K’ with type ‘[01m[Kvoid(FILE *, dados *)[m[K’
+    7 | void [01;36m[KlocalizarEnderecos[m[K(FILE *arquivo, dados *acessoAtual);
+      |      [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+make: *** [makefile:2: vm] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make run
+[?2004lgcc functions/abrirTexto.c main.c -o vm
+./vm
+make: *** [makefile:6: run] Segmentation fault
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make run[2@clea[C
+[?2004lrm -f vm
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make clean[2Pru[C
+[?2004lgcc functions/abrirTexto.c main.c -o vm
+./vm
+make: *** [makefile:6: run] Segmentation fault
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make run[2@clea[C
+[?2004lrm -f vm
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make clean
+[?2004lrm -f vm
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make clean[2Pru[C
+[?2004lmake: *** No rule to make target 'functions/abrirTexto.c', needed by 'vm'.  Stop.
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make run
+[?2004lgcc src/abrirTexto.c main.c -o vm
+[01m[Kmain.c:3:10:[m[K [01;31m[Kfatal error: [m[Kfunctions/dados.h: No such file or directory
+    3 | #include [01;31m[K"functions/dados.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make: *** [makefile:2: vm] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make run[2@clea[C
+[?2004lrm -f vm
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make clean[2Pru[C
+[?2004lgcc src/abrirTexto.c main.c -o vm
+./vm
+make: *** [makefile:6: run] Segmentation fault
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make run[2@clea[C
+[?2004lrm -f vm
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make clean[2Pru[C[2@clea[C
+[?2004lrm -f vm
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make clean[2Pru[C
+[?2004lgcc src/abrirTexto.c main.c -o vm
+./vm
+-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-100000000-311000000-12036-83-500007911-122-78929300-3220-122-78929300-324-122-78929300-324-122-78929300-324-122-78929300-324-122-78929300-324-122-78929300-3220-122-7892930000000000000000000000000000000000-965265-69311170030000000000000000000000002-122-78929300-1-1-1-1-1-1-1-100000000162-122-7892930000000000000000001043-122-78929300-1-1-1-100000000000000000000481665-693111700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
