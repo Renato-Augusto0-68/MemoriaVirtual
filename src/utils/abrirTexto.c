@@ -6,11 +6,14 @@
 
 void localizarEnderecos(FILE *arquivo, dados *acessoAtual, pagina *tabela){
     int resultado = tabela[acessoAtual->pagina].informacao;
-    if(resultado==-1){
-        printf("Deu -1\n");
+    if(resultado!=-1){
+        printf("Deu diferente\n");
     }else{
        printf("registrando\n");
-       fscanf(arquivo," %c", acessoAtual->pagina);
+       printf("* fingir que registra *\n");
+
+       fseek(arquivo,(acessoAtual->offset)*256L,SEEK_SET);
+       
     }
 
 }
