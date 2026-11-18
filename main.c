@@ -12,12 +12,9 @@ int main(){
     if(atual==NULL){
         exit(1);
     }
-
     for(int i=0;i<256;i++){   
             atual[i].informacao=-1;
     }
-
-
 
     FILE *arq,*arq2;
     
@@ -29,10 +26,8 @@ int main(){
         while(fscanf(arq,"%d",&x.enderecoBruto)!=EOF){
             x.enderecoBruto=x.enderecoBruto & 0xFFFF;
             x.pagina= (x.enderecoBruto>>8) & 0xFF;
-            x.offset = x.enderecoBruto & 0xFF;
-            printf("%d",atual[i].informacao);       
-            //localizarEnderecos(arq2,&x);
-            i++;
+            x.offset = x.enderecoBruto & 0xFF;     
+            localizarEnderecos(arq2,&x,atual);
         }
     }
     fclose(arq);
