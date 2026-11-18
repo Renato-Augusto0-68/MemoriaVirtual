@@ -2,7 +2,8 @@
 #define ABRIRTEXTO_H
 
 #include <stdio.h>
+#include "dados.h"
 
-void localizarEnderecos();
+void localizarEnderecos(FILE *arquivo, dados *acessoAtual);
 
 #endif
