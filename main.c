@@ -6,13 +6,17 @@
 int main(){
     printf("Hello world");
     dados x;
-    x.informacoes=ma
+    
 
     FILE *arq;
     
     arq=fopen("addresses.txt","r");
     if(arq!=NULL){
+        while(scanf("%d",&x.byteBruto)!=EOF){
+            x.pagina= x.byteBruto/256;
+            x.offset = x.byteBruto%256;
 
+        }
     }
 
 
