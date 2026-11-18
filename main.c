@@ -14,13 +14,15 @@ int main(){
     arq2 = fopen("BACKING_STORE.bin","rb");
     if(arq2!=NULL && arq!=NULL){
         while(fscanf(arq,"%d",&x.enderecoBruto)!=EOF){
-            x.pagina= x.enderecoBruto/256;
-            x.offset = x.enderecoBruto%256;
+            x.enderecoBruto=x.enderecoBruto & 0xFFFF;
+            x.pagina= (x.enderecoBruto>>8) & 0xFF;
+            x.offset = x.enderecoBruto & 0xFF;
             //localizarEnderecos(arq2,&x);
         
         }
-        fclose(arq);
     }
+    fclose(arq);
+    fclose(arq2);
 
 
 
