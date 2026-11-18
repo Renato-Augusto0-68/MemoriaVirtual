@@ -4,7 +4,7 @@
     typedef struct dados{
         int pagina;
         int offset;
-        int byteBruto;
+        int enderecoBruto;
     }dados;
 
 #endif

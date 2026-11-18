@@ -4,19 +4,22 @@
 #include "functions/abrirTexto.h"
 
 int main(){
-    printf("Hello world");
+    
     dados x;
     
 
-    FILE *arq;
+    FILE *arq,*arq2;
     
     arq=fopen("addresses.txt","r");
+    arq2 = fopen("BACKING_STORE.bin","r");
     if(arq!=NULL){
-        while(scanf("%d",&x.byteBruto)!=EOF){
-            x.pagina= x.byteBruto/256;
-            x.offset = x.byteBruto%256;
-
+        while(fscanf(arq,"%d",&x.enderecoBruto)!=EOF){
+            x.pagina= x.enderecoBruto/256;
+            x.offset = x.enderecoBruto%256;
+            
+        
         }
+        fclose(arq);
     }
 
 
