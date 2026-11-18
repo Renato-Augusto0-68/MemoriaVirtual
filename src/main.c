@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "src/dados.h"
-#include "src/pagina.h"
-#include "src/abrirTexto.h"
+#include "utils/dados.h"
+#include "utils/pagina.h"
+#include "utils/abrirTexto.h"
 
 int main(){
     

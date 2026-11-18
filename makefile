@@ -1,5 +1,5 @@
-vm: main.c src/abrirTexto.c src/abrirTexto.h src/dados.h src/pagina.h
-	gcc src/abrirTexto.c main.c -o vm
+vm: src/main.c src/utils/abrirTexto.c src/utils/abrirTexto.h src/utils/dados.h src/utils/pagina.h
+	gcc src/utils/abrirTexto.c src/main.c -o vm
 
 
 run: vm

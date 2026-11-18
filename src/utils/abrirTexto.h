@@ -5,6 +5,6 @@
 #include "dados.h"
 #include "pagina.h"
 
-void localizarEnderecos(FILE *arquivo, dados *acessoAtual, pagina **tabela);
+void localizarEnderecos(FILE *arquivo, dados *acessoAtual, pagina *tabela);
 
 #endif
