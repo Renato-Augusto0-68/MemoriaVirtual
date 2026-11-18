@@ -11,12 +11,12 @@ int main(){
     FILE *arq,*arq2;
     
     arq=fopen("addresses.txt","r");
-    arq2 = fopen("BACKING_STORE.bin","r");
-    if(arq!=NULL){
+    arq2 = fopen("BACKING_STORE.bin","rb");
+    if(arq2!=NULL && arq!=NULL){
         while(fscanf(arq,"%d",&x.enderecoBruto)!=EOF){
             x.pagina= x.enderecoBruto/256;
             x.offset = x.enderecoBruto%256;
-            
+            //localizarEnderecos(arq2,&x);
         
         }
         fclose(arq);

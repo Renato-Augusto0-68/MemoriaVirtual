@@ -1,7 +1,6 @@
-vm: main.c functions
-	gcc main.c -o vm
-functions: abrirTexto.c 
-			gcc abrirTexto.c abrirTexto.h
+vm: main.c functions/abrirTexto.c functions/abrirTexto.h functions/dados.h
+	gcc functions/abrirTexto.c main.c -o vm
+
 
 run: vm
 	./vm

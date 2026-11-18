@@ -2989,4 +2989,65 @@ Try: sudo apt install <deb name>
 30 51
 168 38
 236 82
-36 21
+36 21
+186 90
+171 197
+164 24
+107 68
+97 167
+202 221
+133 22
+254 131
+234 51
+36 61
+79 196
+175 60
+199 48
+41 87
+225 151
+90 155
+106 91
+167 64
+227 107
+146 230
+71 250
+82 246
+46 207
+189 10
+43 28
+119 93
+91 157
+194 183
+117 80
+187 193
+27 45
+8 253
+30 56
+122 28
+66 175
+34 236
+38 201
+177 251
+47 75
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ l[Kclear
+[?2004l[H[2J[3J[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make clean
+[?2004lrm -f vm
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make clean[5Pclearmake run
+[?2004lmake: *** No rule to make target 'abrirTexto.c', needed by 'functions'.  Stop.
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make run
+[?2004lgcc functions/abrirTexto.c functions/abrirTexto.h
+[01m[Kfunctions/abrirTexto.c:[m[K In function ‘[01m[KlocalizarEnderecos[m[K’:
+[01m[Kfunctions/abrirTexto.c:8:22:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K[01;32m[K%d[m[K[m[K’ expects argument of type ‘[01m[K[01;32m[Kint *[m[K[m[K’, but argument 3 has type ‘[01m[K[01;34m[Kint[m[K[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wformat-Wformat=]8;;[m[K]
+    8 |     fscanf(arquivo,"[01;32m[K%[m[K[01;32m[Kd[m[K",[01;34m[Ka[m[K[01;34m[Kc[m[K[01;34m[Ke[m[K[01;34m[Ks[m[K[01;34m[Ks[m[K[01;34m[Ko[m[K[01;34m[KA[m[K[01;34m[Kt[m[K[01;34m[Ku[m[K[01;34m[Ka[m[K[01;34m[Kl[m[K[01;34m[K-[m[K[01;34m[K>[m[K[01;34m[Ke[m[K[01;34m[Kn[m[K[01;34m[Kd[m[K[01;34m[Ke[m[K[01;34m[Kr[m[K[01;34m[Ke[m[K[01;34m[Kc[m[K[01;34m[Ko[m[K[01;34m[KB[m[K[01;34m[Kr[m[K[01;34m[Ku[m[K[01;34m[Kt[m[K[01;34m[Ko[m[K);
+      |                     [01;32m[K~[m[K[01;32m[K^[m[K  [01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K
+      |                      [01;32m[K|[m[K             [01;34m[K|[m[K
+      |                      [01;32m[Kint *[m[K         [01;34m[Kint[m[K
+/usr/bin/x86_64-linux-gnu-ld.bfd: /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:4: functions] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make run
+[?2004lgcc functions/abrirTexto.c main.c -o vm
+[01m[Kfunctions/abrirTexto.c:[m[K In function ‘[01m[KlocalizarEnderecos[m[K’:
+[01m[Kfunctions/abrirTexto.c:8:22:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K[01;32m[K%d[m[K[m[K’ expects argument of type ‘[01m[K[01;32m[Kint *[m[K[m[K’, but argument 3 has type ‘[01m[K[01;34m[Kint[m[K[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wformat-Wformat=]8;;[m[K]
+    8 |     fscanf(arquivo,"[01;32m[K%[m[K[01;32m[Kd[m[K",[01;34m[Ka[m[K[01;34m[Kc[m[K[01;34m[Ke[m[K[01;34m[Ks[m[K[01;34m[Ks[m[K[01;34m[Ko[m[K[01;34m[KA[m[K[01;34m[Kt[m[K[01;34m[Ku[m[K[01;34m[Ka[m[K[01;34m[Kl[m[K[01;34m[K-[m[K[01;34m[K>[m[K[01;34m[Ke[m[K[01;34m[Kn[m[K[01;34m[Kd[m[K[01;34m[Ke[m[K[01;34m[Kr[m[K[01;3
