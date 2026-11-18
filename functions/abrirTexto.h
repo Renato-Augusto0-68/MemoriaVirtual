@@ -1,3 +1,8 @@
+#ifndef ABRIRTEXTO_h
+#define ABRIRTEXTO_H
 
+#include <stdio.h>
 
-#define
+void localizarEnderecos();
+
+#endif
