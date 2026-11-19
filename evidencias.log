@@ -11214,4 +11214,57 @@ make: *** [makefile:6: run] Segmentation fault
 [?2004lgcc src/utils/abrirTexto.c src/main.c -o vm
 ./vm
 make: *** [makefile:6: run] Segmentation fault
-[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtualScript started on 2026-11-19 13:59:43-03:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="177" LINES="11"]
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make clean[2Pru[C
+[?2004lgcc src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+./vm
+make: *** [makefile:6: run] Segmentation fault
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make run[2@clea[C
+[?2004lrm -f vm
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make clean
+[?2004lrm -f vm
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make clean[2Pru[C
+[?2004lgcc src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+./vm
+make: *** [makefile:6: run] Segmentation fault
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make run[2@clea[C
+[?2004lrm -f vm
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make clean
+[?2004lrm -f vm
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make clean[2Pru[C
+[?2004lgcc src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+./vm
+make: *** [makefile:6: run] Segmentation fault
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make run
+[?2004lgcc src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+./vm
+make: *** [makefile:6: run] Segmentation fault
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make run
+[?2004lgcc src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+./vm
+make: *** [makefile:6: run] Segmentation fault
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make run[2@clea[C
+[?2004lrm -f vm
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make clean
+[?2004lrm -f vm
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make clean[2Pru[C
+[?2004lgcc src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+./vm
+make: *** [makefile:6: run] Segmentation fault
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make run[2@clea[C
+[?2004lrm -f vm
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make clean
+[?2004lrm -f vm
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make clean[2Pru[C
+[?2004lgcc src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+./vm
+make: *** [makefile:6: run] Segmentation fault
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make run[2@clea[C
+[?2004lrm -f vm
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make clean
+[?2004lrm -f vm
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make clean[2Pru[C
+[?2004lgcc src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+./vm
+make: *** [makefile:6: run] Segmentation fault
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtua

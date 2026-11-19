@@ -3,7 +3,7 @@
 
 typedef struct ram{
     signed char **RAM;
-    int proxFrame;
+    signed char proxFrame;
 }ram;
 
 #endif

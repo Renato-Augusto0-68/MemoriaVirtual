@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "abrirTexto.h"
 #include "dados.h"
 #include "pagina.h"
 #include "ram.h"
+#include "abrirTexto.h"
 
 void localizarEnderecos(FILE *arquivo, dados *acessoAtual, pagina *tabela, ram *usada){
     int resultado = tabela[acessoAtual->pagina].informacao;
+    printf("%d",resultado);
     if(resultado!=-1){
         printf("Deu diferente\n");
     }else{
