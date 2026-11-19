@@ -15,7 +15,7 @@ void localizarEnderecos(FILE *arquivo, dados *acessoAtual, pagina *tabela, ram *
         resultado=(usada->proxFrame);
         
         if(usada->reverse[resultado]!=-1){
-            tabela[acessoAtual->pagina].informacao=-1;
+            tabela[usada->reverse[resultado]].informacao=-1;
         }
         fseek(arquivo,(acessoAtual->pagina)*256L,SEEK_SET);
         
