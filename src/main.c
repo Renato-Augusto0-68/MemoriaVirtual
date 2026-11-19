@@ -10,7 +10,7 @@
 int main(){
     FILE *arqt;
     arqt=fopen("teste.txt","w");
-    int modo; //página, 1= fifo, 2 = lru
+    int modo=1; //página, 1= fifo, 2 = lru
     dados x;
     pagina *atual=NULL;
     alocarPaginas(&atual, modo);
