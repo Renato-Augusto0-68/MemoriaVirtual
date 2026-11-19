@@ -11,6 +11,7 @@ void alocarMemoria(ram **usada){
     }
     for(int i=0;i<128;i++){
         (*usada)->RAM[i]=malloc(sizeof(signed char)*256);
+        (*usada)->reverse[i]=-1;
     }
     (*usada)->proxFrame=0;
     (*usada)->pageFault=0;
