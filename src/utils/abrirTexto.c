@@ -22,7 +22,7 @@ void localizarEnderecos(FILE *arquivo, dados *acessoAtual, pagina *tabela, ram *
         usada->proxFrame++;
         printf("A");
     }
-    resultado*=(256)+acessoAtual->offset;
-    printf("%d %d",usada->RAM[resultado][acessoAtual->offset],resultado);
+    int sep=resultado*(256)+acessoAtual->offset;
+    printf("%d %d",usada->RAM[resultado][acessoAtual->offset],sep);
 }
 
