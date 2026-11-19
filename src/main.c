@@ -10,13 +10,13 @@
 int main(){
     
     dados x;
-    pagina *atual;
-    (atual)=malloc(sizeof(pagina)*256);
+    pagina *atual=NULL;
     alocarPaginas(&atual);
     
     ram *usada;
     usada = malloc(sizeof(ram));
     alocarMemoria(&usada);
+
     FILE *arq,*arq2;
     
     arq=fopen("addresses.txt","r");
@@ -40,7 +40,12 @@ int main(){
     }
     fclose(arq);
     fclose(arq2);
-
+    for(int i=0;i<256;i++){
+        free(usada->RAM[i]);
+    }
+    free(usada->RAM);
+    free(usada);
+    free(atual);
 
 
     return 0;

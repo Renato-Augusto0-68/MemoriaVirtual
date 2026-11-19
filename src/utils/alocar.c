@@ -4,6 +4,7 @@
 #include "pagina.h"
 
 void alocarMemoria(ram **usada){
+    
     (*usada)->RAM=malloc(sizeof(signed char*)*256);
     if((*usada)->RAM==NULL){
         printf("RAM é nulo");
@@ -16,6 +17,7 @@ void alocarMemoria(ram **usada){
 }
 
 void alocarPaginas(pagina **atual){
+    (*atual)=malloc(sizeof(pagina)*256);
     if(*atual==NULL){
         printf("aqui");
         exit(1);
