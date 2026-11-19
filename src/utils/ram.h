@@ -9,6 +9,8 @@ typedef struct ram{
     int pageFault;
     int reverse[RAMSIZE];
     int ocupados;
+    int lastUsed[RAMSIZE];
+    int timeGoing;
 }ram;
 
 #endif

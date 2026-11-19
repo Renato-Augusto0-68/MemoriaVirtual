@@ -4,6 +4,8 @@
 #include "pagina.h"
 #include "ram.h"
 #include "abrirTexto.h"
+#define MAX 999
+
 
 void localizarEnderecos(FILE *arquivo, dados *acessoAtual, pagina *tabela, ram *usada, FILE *arqt){
     int resultado = tabela[acessoAtual->pagina].informacao;
@@ -21,14 +23,27 @@ void localizarEnderecos(FILE *arquivo, dados *acessoAtual, pagina *tabela, ram *
         
 
         if (fread(usada->RAM[resultado],sizeof(signed char),256,arquivo)!=256){
-            
         }
         tabela[acessoAtual->pagina].informacao=resultado;
-        if(usada->modo==1)
-        usada->reverse[resultado] = acessoAtual->pagina;
-        usada->proxFrame=((usada->proxFrame+1)%128);
+        if(tabela->modo==1){
+            usada->reverse[resultado] = acessoAtual->pagina;
+            usada->proxFrame=((usada->proxFrame+1)%128);
+        }
+        if(tabela->modo==2){
+            int menor=usada->lastUsed[0];
+            resultado=0;
+            for(int i=1;i<128;i++){
+                usada->lastUsed[i];
+                if (usada->lastUsed[i]<menor){
+                    menor=usada->lastUsed[i];
+                    resultado=i;
+                }
+            }
+        } 
+
         usada->pageFault++;
     }
+    
     int sep=resultado*(256)+acessoAtual->offset;
     fprintf(arqt,"Virtual address: %d TLB: %d Physical address: %d\n",acessoAtual->enderecoBruto,sep,usada->RAM[resultado][acessoAtual->offset]);
 }

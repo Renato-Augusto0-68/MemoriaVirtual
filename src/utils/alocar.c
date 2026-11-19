@@ -12,11 +12,12 @@ void alocarMemoria(ram **usada){
     for(int i=0;i<128;i++){
         (*usada)->RAM[i]=malloc(sizeof(signed char)*256);
         (*usada)->reverse[i]=-1;
+        (*usada)->lastUsed[i]=0;
     }
     (*usada)->proxFrame=0;
     (*usada)->pageFault=0;
     (*usada)->ocupados=0;
-    
+    (*usada)->timeGoing=0;    
 }
 
 void alocarPaginas(pagina **atual, int modo){
