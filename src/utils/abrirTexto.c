@@ -21,7 +21,7 @@ void localizarEnderecos(FILE *arquivo, dados *acessoAtual, pagina *tabela, ram *
         
 
         if (fread(usada->RAM[resultado],sizeof(signed char),256,arquivo)!=256){
-            printf("deu falha de leitura\n");
+            
         }
         tabela[acessoAtual->pagina].informacao=resultado;
         usada->reverse[resultado] = acessoAtual->pagina;
@@ -29,6 +29,6 @@ void localizarEnderecos(FILE *arquivo, dados *acessoAtual, pagina *tabela, ram *
         usada->pageFault++;
     }
     int sep=resultado*(256)+acessoAtual->offset;
-    fprintf(arqt,"Virtual address: %d TLB: %d Physical address: %d\n",acessoAtual->enderecoBruto,usada->RAM[resultado][acessoAtual->offset],sep);
+    fprintf(arqt,"Virtual address: %d TLB: %d Physical address: %d\n",acessoAtual->enderecoBruto,sep,usada->RAM[resultado][acessoAtual->offset]);
 }
 
