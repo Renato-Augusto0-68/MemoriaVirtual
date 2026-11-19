@@ -15,7 +15,14 @@ int main(){
     for(int i=0;i<256;i++){   
             atual[i].informacao=-1;
     }
-
+    signed char **RAM;
+    RAM=malloc(sizeof(signed char *)*256);
+    if(RAM!=NULL){
+        for(int i=0;i<256;i++){
+            RAM[i]=malloc(sizeof(signed char)*256);
+        }
+    }
+    
     FILE *arq,*arq2;
     
     arq=fopen("addresses.txt","r");
