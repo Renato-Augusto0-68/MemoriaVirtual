@@ -6,6 +6,6 @@
 
 void alocarMemoria(ram **usada);
 
-void alocarPaginas(pagina **atual);
+void alocarPaginas(pagina **atual, int modo);
 
 #endif

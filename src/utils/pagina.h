@@ -4,6 +4,7 @@
 
 typedef struct pagina{
     signed char informacao;
+    int modo;
 }pagina;
 
 #endif

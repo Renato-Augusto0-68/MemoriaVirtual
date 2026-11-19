@@ -24,6 +24,7 @@ void localizarEnderecos(FILE *arquivo, dados *acessoAtual, pagina *tabela, ram *
             
         }
         tabela[acessoAtual->pagina].informacao=resultado;
+        if(usada->modo==1)
         usada->reverse[resultado] = acessoAtual->pagina;
         usada->proxFrame=((usada->proxFrame+1)%128);
         usada->pageFault++;
