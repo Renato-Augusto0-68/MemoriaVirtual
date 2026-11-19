@@ -40811,4 +40811,2032 @@ Deu diferente
 Deu diferente
 registrando
 * fingir que registra *
-D
+DScript started on 2026-11-19 19:31:45-03:00 [TERM="xterm-256color" TTY="/dev/pts/6" COLUMNS="206" LINES="11"]
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ nano -l main.c
+[?2004l[?2004h[?1049h[22;0;0t[1;11r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[9;98H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 8.7.1                                                                                       main.c                                                                                                 [1;205H(B[m[10d(B[0;7m^G(B[m Help[10;18H(B[0;7m^O(B[m Write Out     (B[0;7m^F(B[m Where Is[52G(B[0;7m^K(B[m Cut[10;69H(B[0;7m^T(B[m Execute[86G(B[0;7m^C(B[m Location[103G(B[0;7mM-U(B[m Undo[10;120H(B[0;7mM-A(B[m Set Mark     (B[0;7mM-](B[m To Bracket   (B[0;7mM-B(B[m Previous     (B[0;7m◂(B[m Back[10;188H(B[0;7m^◂(B[m Prev Word[11d(B[0;7m^X(B[m Exit[11;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Paste[11;69H(B[0;7m^J(B[m Justify[86G(B[0;7m^/(B[m Go To Line    (B[0;7mM-E(B[m Redo[11;120H(B[0;7mM-6(B[m Copy[11;137H(B[0;7m^B(B[m Where Was     (B[0;7mM-F(B[m Next[11;171H(B[0;7m▸(B[m Forward[11;188H(B[0;7m^▸(B[m Next Word[2d(B[0;7m 1[C(B[m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[11;1H[?1049l[23;0;0t[?1l>[?1049h[22;0;0t[1;12r[?12l[?25h[39;49m]104(B[m[4l[?7h[H[2J[?2004h[?1h=[?1h=(B[0;7m  GNU nano 8.7.1                                                                                       main.c                                                                                                 [1;205H(B[m[2d(B[0;7m 1[11d^G(B[m Help[11;18H(B[0;7m^O(B[m Write Out     (B[0;7m^F(B[m Where Is[52G(B[0;7m^K(B[m Cut[11;69H(B[0;7m^T(B[m Execute[86G(B[0;7m^C(B[m Location[103G(B[0;7mM-U(B[m Undo[11;120H(B[0;7mM-A(B[m Set Mark     (B[0;7mM-](B[m To Bracket   (B[0;7mM-B(B[m Previous     (B[0;7m◂(B[m Back[11;188H(B[0;7m^◂(B[m Prev Word[12d(B[0;7m^X(B[m Exit[12;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Paste[12;69H(B[0;7m^J(B[m Justify[86G(B[0;7m^/(B[m Go To Line    (B[0;7mM-E(B[m Redo[12;120H(B[0;7mM-6(B[m Copy[12;137H(B[0;7m^B(B[m Where Was     (B[0;7mM-F(B[m Next[12;171H(B[0;7m▸(B[m Forward[12;188H(B[0;7m^▸(B[m Next Word[?25l[?12l[?25h[2;4H[?25l[?12l[?25h[12;1H[?1049l[23;0;0t[?1l>[?1049h[22;0;0t[1;14r[?12l[?25h[39;49m]104(B[m[4l[?7h[H[2J(B[0;7m  GNU nano 8.7.1                                                                                       main.c                                                                                                 [2;1H 1[11d^G(B[m Help[11;18H(B[0;7m^O(B[m Write Out     (B[0;7m^F(B[m Where Is[52G(B[0;7m^K(B[m Cut[11;69H(B[0;7m^T(B[m Execute[86G(B[0;7m^C(B[m Location[103G(B[0;7mM-U(B[m Undo[11;120H(B[0;7mM-A(B[m Set Mark     (B[0;7mM-](B[m To Bracket   (B[0;7mM-B(B[m Previous     (B[0;7m◂(B[m Back[11;188H(B[0;7m^◂(B[m Prev Word[H[?2004h[?1h=[?1h=[205G[3d[2L[14d(B[0;7m^X(B[m Exit[14;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Paste[14;69H(B[0;7m^J(B[m Justify[86G(B[0;7m^/(B[m Go To Line    (B[0;7mM-E(B[m Redo[14;120H(B[0;7mM-6(B[m Copy[14;137H(B[0;7m^B(B[m Where Was     (B[0;7mM-F(B[m Next[14;171H(B[0;7m▸(B[m Forward[14;188H(B[0;7m^▸(B[m Next Word[?25l[?12l[?25h[14;1H[?1049l[23;0;0t[?1l>[?1049h[22;0;0t[1;17r[?12l[?25h[39;49m]104(B[m[4l[?7h[H[2J(B[0;7m  GNU nano 8.7.1                                                                                       main.c                                                                                                 [2;1H 1[H(B[m[?2004h[?1h=[?1h=[205G[16d(B[0;7m^G(B[m Help[16;18H(B[0;7m^O(B[m Write Out     (B[0;7m^F(B[m Where Is[52G(B[0;7m^K(B[m Cut[16;69H(B[0;7m^T(B[m Execute[86G(B[0;7m^C(B[m Location[103G(B[0;7mM-U(B[m Undo[16;120H(B[0;7mM-A(B[m Set Mark     (B[0;7mM-](B[m To Bracket   (B[0;7mM-B(B[m Previous     (B[0;7m◂(B[m Back[16;188H(B[0;7m^◂(B[m Prev Word[17d(B[0;7m^X(B[m Exit[17;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Paste[17;69H(B[0;7m^J(B[m Justify[86G(B[0;7m^/(B[m Go To Line    (B[0;7mM-E(B[m Redo[17;120H(B[0;7mM-6(B[m Copy[17;137H(B[0;7m^B(B[m Where Was     (B[0;7mM-F(B[m Next[17;171H(B[0;7m▸(B[m Forward[17;188H(B[0;7m^▸(B[m Next Word[?25l[?12l[?25h[2;4H[?25l[?12l[?25h[17;1H[?1049l[23;0;0t[?1l>[?1049h[22;0;0t[1;20r[?12l[?25h[39;49m]104(B[m[4l[?7h[H[2J(B[0;7m  GNU nano 8.7.1                                                                                       main.c                                                                                                 [2;1H 1[H(B[m[?2004h[?1h=[?1h=[205G[19d(B[0;7m^G(B[m Help[19;18H(B[0;7m^O(B[m Write Out     (B[0;7m^F(B[m Where Is[52G(B[0;7m^K(B[m Cut[19;69H(B[0;7m^T(B[m Execute[86G(B[0;7m^C(B[m Location[103G(B[0;7mM-U(B[m Undo[19;120H(B[0;7mM-A(B[m Set Mark     (B[0;7mM-](B[m To Bracket   (B[0;7mM-B(B[m Previous     (B[0;7m◂(B[m Back[19;188H(B[0;7m^◂(B[m Prev Word[20d(B[0;7m^X(B[m Exit[20;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Paste[20;69H(B[0;7m^J(B[m Justify[86G(B[0;7m^/(B[m Go To Line    (B[0;7mM-E(B[m Redo[20;120H(B[0;7mM-6(B[m Copy[20;137H(B[0;7m^B(B[m Where Was     (B[0;7mM-F(B[m Next[20;171H(B[0;7m▸(B[m Forward[20;188H(B[0;7m^▸(B[m Next Word[?25l[?12l[?25h[2;4H[?25l[?12l[?25h[20;1H[?1049l[23;0;0t[?1l>[?1049h[22;0;0t[1;21r[?12l[?25h[39;49m]104(B[m[4l[?7h[H[2J(B[0;7m  GNU nano 8.7.1                                                                                       main.c                                                                                                 [2;1H 1[H(B[m[?2004h[?1h=[?1h=[205G[20d(B[0;7m^G(B[m Help[20;18H(B[0;7m^O(B[m Write Out     (B[0;7m^F(B[m Where Is[52G(B[0;7m^K(B[m Cut[20;69H(B[0;7m^T(B[m Execute[86G(B[0;7m^C(B[m Location[103G(B[0;7mM-U(B[m Undo[20;120H(B[0;7mM-A(B[m Set Mark     (B[0;7mM-](B[m To Bracket   (B[0;7mM-B(B[m Previous     (B[0;7m◂(B[m Back[20;188H(B[0;7m^◂(B[m Prev Word[21d(B[0;7m^X(B[m Exit[21;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Paste[21;69H(B[0;7m^J(B[m Justify[86G(B[0;7m^/(B[m Go To Line    (B[0;7mM-E(B[m Redo[21;120H(B[0;7mM-6(B[m Copy[21;137H(B[0;7m^B(B[m Where Was     (B[0;7mM-F(B[m Next[21;171H(B[0;7m▸(B[m Forward[21;188H(B[0;7m^▸(B[m Next Word[?25l[?12l[?25h[21;1H[?1049l[23;0;0t[?1l>[?1049h[22;0;0t[1;23r[?12l[?25h[39;49m]104(B[m[4l[?7h[H[2J(B[0;7m  GNU nano 8.7.1                                                                                       main.c                                                                                                 [2;1H 1[20d^G(B[m Help[20;18H(B[0;7m^O(B[m Write Out     (B[0;7m^F(B[m Where Is[52G(B[0;7m^K(B[m Cut[20;69H(B[0;7m^T(B[m Execute[86G(B[0;7m^C(B[m Location[103G(B[0;7mM-U(B[m Undo[20;120H(B[0;7mM-A(B[m Set Mark     (B[0;7mM-](B[m To Bracket   (B[0;7mM-B(B[m Previous     (B[0;7m◂(B[m Back[20;188H(B[0;7m^◂(B[m Prev Word[H[?2004h[?1h=[?1h=[205G[3d[2L[23d(B[0;7m^X(B[m Exit[23;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Paste[23;69H(B[0;7m^J(B[m Justify[86G(B[0;7m^/(B[m Go To Line    (B[0;7mM-E(B[m Redo[23;120H(B[0;7mM-6(B[m Copy[23;137H(B[0;7m^B(B[m Where Was     (B[0;7mM-F(B[m Next[23;171H(B[0;7m▸(B[m Forward[23;188H(B[0;7m^▸(B[m Next Word[?25l[?12l[?25h[2;4H[?25l[?12l[?25h[23;1H[?1049l[23;0;0t[?1l>[?1049h[22;0;0t[1;24r[?12l[?25h[39;49m]104(B[m[4l[?7h[H[2J(B[0;7m  GNU nano 8.7.1                                                                                       main.c                                                                                                 [2;1H 1[H(B[m[?2004h[?1h=[?1h=[205G[23d(B[0;7m^G(B[m Help[23;18H(B[0;7m^O(B[m Write Out     (B[0;7m^F(B[m Where Is[52G(B[0;7m^K(B[m Cut[23;69H(B[0;7m^T(B[m Execute[86G(B[0;7m^C(B[m Location[103G(B[0;7mM-U(B[m Undo[23;120H(B[0;7mM-A(B[m Set Mark     (B[0;7mM-](B[m To Bracket   (B[0;7mM-B(B[m Previous     (B[0;7m◂(B[m Back[23;188H(B[0;7m^◂(B[m Prev Word[24d(B[0;7m^X(B[m Exit[24;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Paste[24;69H(B[0;7m^J(B[m Justify[86G(B[0;7m^/(B[m Go To Line    (B[0;7mM-E(B[m Redo[24;120H(B[0;7mM-6(B[m Copy[24;137H(B[0;7m^B(B[m Where Was     (B[0;7mM-F(B[m Next[24;171H(B[0;7m▸(B[m Forward[24;188H(B[0;7m^▸(B[m Next Word[?25l[?12l[?25h[2;4H[?25l[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?1049h[22;0;0t[1;25r[?12l[?25h[39;49m]104(B[m[4l[?7h[H[2J(B[0;7m  GNU nano 8.7.1                                                                                       main.c                                                                                                 [2;1H 1[23d^G(B[m Help[23;18H(B[0;7m^O(B[m Write Out     (B[0;7m^F(B[m Where Is[52G(B[0;7m^K(B[m Cut[23;69H(B[0;7m^T(B[m Execute[86G(B[0;7m^C(B[m Location[103G(B[0;7mM-U(B[m Undo[23;120H(B[0;7mM-A(B[m Set Mark     (B[0;7mM-](B[m To Bracket   (B[0;7mM-B(B[m Previous     (B[0;7m◂(B[m Back[23;188H(B[0;7m^◂(B[m Prev Word[H[?2004h[?1h=[?1h=[23d[J[1;205H[24d(B[0;7m^G(B[m Help[24;18H(B[0;7m^O(B[m Write Out     (B[0;7m^F(B[m Where Is[52G(B[0;7m^K(B[m Cut[24;69H(B[0;7m^T(B[m Execute[86G(B[0;7m^C(B[m Location[103G(B[0;7mM-U(B[m Undo[24;120H(B[0;7mM-A(B[m Set Mark     (B[0;7mM-](B[m To Bracket   (B[0;7mM-B(B[m Previous     (B[0;7m◂(B[m Back[24;188H(B[0;7m^◂(B[m Prev Word[25d(B[0;7m^X(B[m Exit[25;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Paste[25;69H(B[0;7m^J(B[m Justify[86G(B[0;7m^/(B[m Go To Line    (B[0;7mM-E(B[m Redo[25;120H(B[0;7mM-6(B[m Copy[25;137H(B[0;7m^B(B[m Where Was     (B[0;7mM-F(B[m Next[25;171H(B[0;7m▸(B[m Forward[25;188H(B[0;7m^▸(B[m Next Word[?25l[?12l[?25h[2;4H[?25l[?12l[?25h[?25l[24d[J[25d[?12l[?25h[25;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ cd src
+[?2004l[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual/src[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual/src[00m$ cd src[8@nano -l main.[C
+[?2004l[?2004h[?1049h[22;0;0t[1;25r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[23;97H(B[0;7m[ Reading... ](B[m[23;95H(B[0;7m[ Read 56 lines ](B[m[H(B[0;7m  GNU nano 8.7.1                                                                                       main.c                                                                                                 [1;205H(B[m[24d(B[0;7m^G(B[m Help[24;18H(B[0;7m^O(B[m Write Out     (B[0;7m^F(B[m Where Is[52G(B[0;7m^K(B[m Cut[24;69H(B[0;7m^T(B[m Execute[86G(B[0;7m^C(B[m Location[103G(B[0;7mM-U(B[m Undo[24;120H(B[0;7mM-A(B[m Set Mark     (B[0;7mM-](B[m To Bracket   (B[0;7mM-B(B[m Previous     (B[0;7m◂(B[m Back[24;188H(B[0;7m^◂(B[m Prev Word[25d(B[0;7m^X(B[m Exit[25;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Paste[25;69H(B[0;7m^J(B[m Justify[86G(B[0;7m^/(B[m Go To Line    (B[0;7mM-E(B[m Redo[25;120H(B[0;7mM-6(B[m Copy[25;137H(B[0;7m^B(B[m Where Was     (B[0;7mM-F(B[m Next[25;171H(B[0;7m▸(B[m Forward[25;188H(B[0;7m^▸(B[m Next Word[2d(B[0;7m 1(B[m (B[0;1m[36m#include[33m <stdio.h>[3d[39m(B[0;7m 2(B[m (B[0;1m[36m#include[33m <stdlib.h>[4d[39m(B[0;7m 3(B[m (B[0;1m[36m#include[39m(B[m (B[0;1m[33m"utils/dados.h"[5d[39m(B[0;7m 4(B[m (B[0;1m[36m#include[39m(B[m (B[0;1m[33m"utils/pagina.h"[6d[39m(B[0;7m 5(B[m (B[0;1m[36m#include[39m(B[m (B[0;1m[33m"utils/abrirTexto.h"[7d[39m(B[0;7m 6(B[m (B[0;1m[36m#include[39m(B[m (B[0;1m[33m"utils/ram.h"[8d[39m(B[0;7m 7(B[m (B[0;1m[36m#include[39m(B[m (B[0;1m[33m"utils/alocar.h"[9d[39m(B[0;7m 8[10d 9[11d10(B[m [32mint[39m(B[m main(){[12d(B[0;7m11(B[m     (B[0;1m[31mFILE[39m(B[m *arqt;[13d(B[0;7m12(B[m     arqt=fopen((B[0;1m[33m"teste.txt"[39m(B[m,(B[0;1m[33m"w"[39m(B[m);[14d(B[0;7m13(B[m     [32mint[39m(B[m modo=1;(B[0;1m[34m //página, 1= fifo, 2 = lru[15d[39m(B[0;7m14(B[m     dados x;[16d(B[0;7m15(B[m     pagina *atual=(B[0;1m[31mNULL[39m(B[m;[17d(B[0;7m16(B[m     alocarPaginas(&atual, modo);[18d(B[0;7m17(B[m [42m    [19d[49m(B[0;7m18[20d19(B[m     ram *usada;[21d(B[0;7m20(B[m     usada = malloc([32msizeof[39m(B[m(ram));[22d(B[0;7m21(B[m     alocarMemoria(&usada);[2;4H[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[?12l[?25h[18d[?25l[?12l[?25h[19d[?25l[?12l[?25h[20d[?25l[?12l[?25h[21d[?25l[23d[K[?12l[?25h[22;4H[?25l[?12l[?25h7[2;23r8[23d
+[1;25r[22;1H(B[0;7m22[C(B[m[?25l[?12l[?25h7[2;23r8[23d
+[1;25r[22;1H(B[0;7m23(B[m     (B[0;1m[31mFILE[39m(B[m *arq,*arq2;[4G[?25l[?12l[?25h7[2;23r8[23d
+[1;25r[22;1H(B[0;7m24(B[m [42m    [49m(B[m[?25l[?12l[?25h7[2;23r8[23d
+[1;25r[22;1H(B[0;7m25(B[m     arq=fopen((B[0;1m[33m"addresses.txt"[39m(B[m,(B[0;1m[33m"r"[39m(B[m);[4G[?25l[?12l[?25h7[2;23r8[23d
+[1;25r[22;1H(B[0;7m26(B[m     arq2 = fopen((B[0;1m[33m"BACKING_STORE.bin"[39m(B[m,(B[0;1m[33m"rb"[39m(B[m);[4G[?25l[?12l[?25h7[2;23r8[23d
+[1;25r[22;1H(B[0;7m27(B[m     (B[0;1m[33mif[39m(B[m(arq==(B[0;1m[31mNULL[39m(B[m){[4G[?25l[?12l[?25h7[2;23r8[23d
+[1;25r[22;1H(B[0;7m28[22;12H(B[mprintf((B[0;1m[33m"arq é nulo"[39m(B[m);[4G[?25l[?12l[?25h7[2;23r8[23d
+[1;25r[22;1H(B[0;7m29[22;12H(B[mexit(1);[4G[?25l[?12l[?25h7[2;23r8[23d
+[1;25r[22;1H(B[0;7m30(B[m     }[4G[?25l[?12l[?25h7[2;23r8[23d
+[1;25r[22;1H(B[0;7m31(B[m     (B[0;1m[33mif[39m(B[m(arq2==(B[0;1m[31mNULL[39m(B[m){[4G[?25l[?12l[?25h7[2;23r8[23d
+[1;25r[22;1H(B[0;7m32[22;12H(B[mprintf((B[0;1m[33m"arq2 é nulo"[39m(B[m);[4G[?25l[?12l[?25h7[2;23r8[23d
+[1;25r[22;1H(B[0;7m33[22;12H(B[mexit(1);[4G[?25l[?12l[?25h7[2;23r8[23d
+[1;25r[22;1H(B[0;7m34(B[m     }[4G[?25l[?12l[?25h7[2;23r8[23d
+[1;25r[22;1H(B[0;7m35[C(B[m[?25l[?12l[?25h7[2;23r8[23d
+[1;25r[22;1H(B[0;7m36(B[m     (B[0;1m[33mif[39m(B[m(arq2!=(B[0;1m[31mNULL[39m(B[m && arq!=(B[0;1m[31mNULL[39m(B[m && arqt){[4G[?25l[?12l[?25h7[2;23r8[23d
+[1;25r[22;1H(B[0;7m37[22;12H(B[0;1m[33mwhile[39m(B[m(fscanf(arq,(B[0;1m[33m"%d"[39m(B[m,&x.enderecoBruto)!=(B[0;1m[31mEOF[39m(B[m){[4G[?25l[?12l[?25h7[2;23r8[23d
+[1;25r[22;1H(B[0;7m38[22;16H(B[mx.enderecoBruto=x.enderecoBruto & 0xFFFF;[4G[?25l[?12l[?25h7[2;23r8[23d
+[1;25r[22;1H(B[0;7m39[22;16H(B[mx.pagina= (x.enderecoBruto>>8) & 0xFF;[4G[?25l[?12l[?25h7[2;23r8[23d
+[1;25r[22;1H(B[0;7m40[22;16H(B[mx.offset = x.enderecoBruto & 0xFF;[42m     [4G[49m(B[m[?25l[?12l[?25h7[2;23r8[23d
+[1;25r[22;1H(B[0;7m41[22;16H(B[mlocalizarEnderecos(arq2,&x,atual,usada, arqt);[4G[?25l[?12l[?25h7[2;23r8[23d
+[1;25r[22;1H(B[0;7m42[22;12H(B[m}[4G[?25l[?12l[?25h7[2;23r8[23d
+[1;25r[22;1H(B[0;7m43(B[m     }[4G[?25l[?12l[?25h7[2;23r8[23d
+[1;25r[22;1H(B[0;7m44(B[m     fclose(arq);[4G[?25l[?12l[?25h7[2;23r8[23d
+[1;25r[22;1H(B[0;7m45(B[m     fclose(arq2);[4G[?25l[?12l[?25h7[2;23r8[23d
+[1;25r[22;1H(B[0;7m46(B[m     fclose(arqt);[4G[?25l[?12l[?25h7[2;23r8[23d
+[1;25r[22;1H(B[0;7m47(B[m     (B[0;1m[33mfor[39m(B[m([32mint[39m(B[m i=0;i<128;i++){[4G[?25l[?12l[?25h7[2;23r8[23d
+[1;25r[22;1H(B[0;7m48[22;12H(B[mfree(usada->(B[0;1m[31mRAM[39m(B[m[i]);[4G[?25l[?12l[?25h7[2;23r8[23d
+[1;25r[22;1H(B[0;7m49(B[m     }[4G[?25l[?12l[?25h7[2;23r8[23d
+[1;25r[22;1H(B[0;7m50(B[m     free(usada->(B[0;1m[31mRAM[39m(B[m);[4G[?25l[?12l[?25h7[2;23r8[23d
+[1;25r[22;1H(B[0;7m51(B[m     free(usada);[4G[?25l[?12l[?25h7[2;23r8[23d
+[1;25r[22;1H(B[0;7m52(B[m     free(atual);[4G[?25l[?12l[?25h7[2;23r8[23d
+[1;25r[22;1H(B[0;7m53[C(B[m[?25l[?12l[?25h7[2;23r8[23d
+[1;25r[22;1H(B[0;7m54[C(B[m[?25l[?12l[?25h7[2;23r8[23d
+[1;25r[22;1H(B[0;7m55(B[m     [35mreturn[39m(B[m 0;[4G[?25l[?12l[?25h7[2;23r8[23d
+[1;25r[22;1H(B[0;7m56(B[m }[?25l[?12l[?25h7[2;23r8[23d
+[1;25r[22;1H(B[0;7m57[C(B[m[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h7[2;22r8M[1;25r[2;1H(B[0;7m36(B[m     (B[0;1m[33mif[39m(B[m(arq2!=(B[0;1m[31mNULL[39m(B[m && arq!=(B[0;1m[31mNULL[39m(B[m && arqt){[4G[?25l[?12l[?25h7[2;22r8M[1;25r[2;1H(B[0;7m35[C(B[m[?25l[?12l[?25h7[2;22r8M[1;25r[2;1H(B[0;7m34(B[m     }[4G[?25l[?12l[?25h7[2;22r8M[1;25r[2;1H(B[0;7m33[2;12H(B[mexit(1);[4G[?25l[?12l[?25h7[2;22r8M[1;25r[2;1H(B[0;7m32[2;12H(B[mprintf((B[0;1m[33m"arq2 é nulo"[39m(B[m);[4G[?25l[?12l[?25h7[2;22r8M[1;25r[2;1H(B[0;7m31(B[m     (B[0;1m[33mif[39m(B[m(arq2==(B[0;1m[31mNULL[39m(B[m){[4G[?25l[?12l[?25h7[2;22r8M[1;25r[2;1H(B[0;7m30(B[m     }[4G[?25l[?12l[?25h7[2;22r8M[1;25r[2;1H(B[0;7m29[2;12H(B[mexit(1);[4G[?25l[?12l[?25h7[2;22r8M[1;25r[2;1H(B[0;7m28[2;12H(B[mprintf((B[0;1m[33m"arq é nulo"[39m(B[m);[4G[?25l[?12l[?25h7[2;22r8M[1;25r[2;1H(B[0;7m27(B[m     (B[0;1m[33mif[39m(B[m(arq==(B[0;1m[31mNULL[39m(B[m){[4G[?25l[?12l[?25h7[2;22r8M[1;25r[2;1H(B[0;7m26(B[m     arq2 = fopen((B[0;1m[33m"BACKING_STORE.bin"[39m(B[m,(B[0;1m[33m"rb"[39m(B[m);[4G[?25l[?12l[?25h7[2;22r8M[1;25r[2;1H(B[0;7m25(B[m     arq=fopen((B[0;1m[33m"addresses.txt"[39m(B[m,(B[0;1m[33m"r"[39m(B[m);[4G[?25l[?12l[?25h7[2;22r8M[1;25r[2;1H(B[0;7m24(B[m [42m    [49m(B[m[?25l[?12l[?25h7[2;22r8M[1;25r[2;1H(B[0;7m23(B[m     (B[0;1m[31mFILE[39m(B[m *arq,*arq2;[4G[?25l[?12l[?25h7[2;22r8M[1;25r[2;1H(B[0;7m22[C(B[m[?25l[?12l[?25h7[2;22r8M[1;25r[2;1H(B[0;7m21(B[m     alocarMemoria(&usada);[4G[?25l[?12l[?25h7[2;22r8M[1;25r[2;1H(B[0;7m20(B[m     usada = malloc([32msizeof[39m(B[m(ram));[4G[?25l[?12l[?25h7[2;22r8M[1;25r[2;1H(B[0;7m19(B[m     ram *usada;[4G[?25l[?12l[?25h7[2;22r8M[1;25r[2;1H(B[0;7m18[C(B[m[?25l[?12l[?25h7[2;22r8M[1;25r[2;1H(B[0;7m17(B[m [42m    [49m(B[m[?25l[?12l[?25h7[2;22r8M[1;25r[2;1H(B[0;7m16(B[m     alocarPaginas(&atual, modo);[4G[?25l[?12l[?25h7[2;22r8M[1;25r[2;1H(B[0;7m15(B[m     pagina *atual=(B[0;1m[31mNULL[39m(B[m;[4G[?25l[?12l[?25h7[2;22r8M[1;25r[2;1H(B[0;7m14(B[m     dados x;[4G[?25l[?12l[?25h7[2;22r8M[1;25r[2;1H(B[0;7m13(B[m     [32mint[39m(B[m modo=1;(B[0;1m[34m //página, 1= fifo, 2 = lru[4G[39m(B[m[?25l[?12l[?25h7[2;22r8M[1;25r[2;1H(B[0;7m12(B[m     arqt=fopen((B[0;1m[33m"teste.txt"[39m(B[m,(B[0;1m[33m"w"[39m(B[m);[4G[?25l[?12l[?25h7[2;22r8M[1;25r[2;1H(B[0;7m11(B[m     (B[0;1m[31mFILE[39m(B[m *arqt;[4G[?25l[?12l[?25h7[2;22r8M[1;25r[2;1H(B[0;7m10(B[m [32mint[39m(B[m main(){[4G[?25l[?12l[?25h7[2;22r8M[1;25r[2;1H(B[0;7m 9[C(B[m[?25l[?12l[?25h7[2;22r8M[1;25r[2;1H(B[0;7m 8[C(B[m[?25l[?12l[?25h7[2;22r8M[1;25r[2;1H(B[0;7m 7(B[m (B[0;1m[36m#include[39m(B[m (B[0;1m[33m"utils/alocar.h"[4G[39m(B[m[?25l[?12l[?25h7[2;22r8M[1;25r[2;1H(B[0;7m 6(B[m (B[0;1m[36m#include[39m(B[m (B[0;1m[33m"utils/ram.h"[4G[39m(B[m[?25l[?12l[?25h7[2;22r8M[1;25r[2;1H(B[0;7m 5(B[m (B[0;1m[36m#include[39m(B[m (B[0;1m[33m"utils/abrirTexto.h"[4G[39m(B[m[?25l[?12l[?25h7[2;22r8M[1;25r[2;1H(B[0;7m 4(B[m (B[0;1m[36m#include[39m(B[m (B[0;1m[33m"utils/pagina.h"[4G[39m(B[m[?25l[?12l[?25h7[2;22r8M[1;25r[2;1H(B[0;7m 3(B[m (B[0;1m[36m#include[39m(B[m (B[0;1m[33m"utils/dados.h"[4G[39m(B[m[?25l[?12l[?25h7[2;22r8M[1;25r[2;1H(B[0;7m 2(B[m (B[0;1m[36m#include[33m <stdlib.h>[4G[39m(B[m[?25l[?12l[?25h7[2;22r8M[1;25r[2;1H(B[0;7m 1(B[m (B[0;1m[36m#include[33m <stdio.h>[4G[39m(B[m[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[24d[J[25d[?12l[?25h[25;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual/src[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual/src[00m$ nano -l main.c[8Pcd sr[C[K[K[K[K[K[Kcd -
+[?2004l/home/devcontainers/dev/MemoriaVirtual
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make run
+[?2004lgcc src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+./vm
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
+registrando
+* fingir que registra *
