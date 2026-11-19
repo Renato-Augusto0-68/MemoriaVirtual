@@ -4,6 +4,7 @@
 #include "utils/pagina.h"
 #include "utils/abrirTexto.h"
 #include "utils/ram.h"
+#include "utils/alocar.h"
 
 
 int main(){
