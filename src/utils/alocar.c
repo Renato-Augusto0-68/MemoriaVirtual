@@ -16,8 +16,6 @@ void alocarMemoria(ram **usada){
 }
 
 void alocarPaginas(pagina **atual){
-    
-    (*atual)=malloc(sizeof(pagina)*256);
     if(*atual==NULL){
         printf("aqui");
         exit(1);
