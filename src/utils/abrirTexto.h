@@ -4,7 +4,9 @@
 #include <stdio.h>
 #include "dados.h"
 #include "pagina.h"
+#include "ram.h"
 
-void localizarEnderecos(FILE *arquivo, dados *acessoAtual, pagina *tabela);
+
+void localizarEnderecos(FILE *arquivo, dados *acessoAtual, pagina *tabela, ram *usada);
 
 #endif

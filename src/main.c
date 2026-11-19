@@ -3,6 +3,8 @@
 #include "utils/dados.h"
 #include "utils/pagina.h"
 #include "utils/abrirTexto.h"
+#include "utils/ram.h"
+
 
 int main(){
     
@@ -15,14 +17,13 @@ int main(){
     for(int i=0;i<256;i++){   
             atual[i].informacao=-1;
     }
-    signed char **RAM;
-    RAM=malloc(sizeof(signed char *)*256);
-    if(RAM!=NULL){
-        for(int i=0;i<256;i++){
-            RAM[i]=malloc(sizeof(signed char)*256);
-        }
+    ram *usada;
+    usada->RAM=malloc(sizeof(signed char*)*256);
+    for(int i=0;i<256;i++){
+        usada->RAM[i]=malloc(sizeof(signed char)*256);
     }
-    
+    usada->proxFrame=0;
+
     FILE *arq,*arq2;
     
     arq=fopen("addresses.txt","r");
@@ -32,7 +33,7 @@ int main(){
             x.enderecoBruto=x.enderecoBruto & 0xFFFF;
             x.pagina= (x.enderecoBruto>>8) & 0xFF;
             x.offset = x.enderecoBruto & 0xFF;     
-            localizarEnderecos(arq2,&x,atual);
+            localizarEnderecos(arq2,&x,atual,usada);
         }
     }
     fclose(arq);

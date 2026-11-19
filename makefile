@@ -1,4 +1,4 @@
-vm: src/main.c src/utils/abrirTexto.c src/utils/abrirTexto.h src/utils/dados.h src/utils/pagina.h
+vm: src/main.c src/utils/abrirTexto.c src/utils/abrirTexto.h src/utils/dados.h src/utils/pagina.h src/utils/ram.h
 	gcc src/utils/abrirTexto.c src/main.c -o vm
 
 
