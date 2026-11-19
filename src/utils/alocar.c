@@ -9,11 +9,12 @@ void alocarMemoria(ram **usada){
     if((*usada)->RAM==NULL){
         printf("RAM é nulo");
     }
-    for(int i=0;i<256;i++){
+    for(int i=0;i<128;i++){
         (*usada)->RAM[i]=malloc(sizeof(signed char)*256);
     }
     (*usada)->proxFrame=0;
     (*usada)->pageFault=0;
+    (*usada)->ocupados=0;
     
 }
 

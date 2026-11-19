@@ -7,8 +7,8 @@ typedef struct ram{
     signed char **RAM;
     signed char proxFrame;
     int pageFault;
-    signed char reverse[RAMSIZE][RAMLENGHT];
-
+    int reverse[RAMSIZE];
+    int ocupados;
 }ram;
 
 #endif
