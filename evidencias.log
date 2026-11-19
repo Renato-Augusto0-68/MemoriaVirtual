@@ -17431,3 +17431,2464 @@ Deu diferente
 126 28667
 registrando
 * fingir que registra *
+0 29717
+registrando
+* fingir que registra *
+0 29993
+Deu diferente
+33 18006
+Deu diferente
+0 4217
+registrando
+* fingir que registra *
+-65 30463
+registrando
+* fingir que registra *
+0 30600
+Deu diferente
+0 28565
+registrando
+* fingir que registra *
+55 30946
+registrando
+* fingir que registra *
+92 31091
+registrando
+* fingir que registra *
+0 31460
+Deu diferente
+0 4284
+Deu diferente
+0 8569
+Deu diferente
+0 14000
+registrando
+* fingir que registra *
+0 31561
+registrando
+* fingir que registra *
+48 31939
+registrando
+* fingir que registra *
+92 32115
+registrando
+* fingir que registra *
+0 32480
+Deu diferente
+0 17981
+registrando
+* fingir que registra *
+0 32677
+Deu diferente
+0 4148
+registrando
+* fingir que registra *
+make: *** [makefile:6: run] Segmentation fault
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make run[2@clea[C
+[?2004lrm -f vm
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make clean[2Pru[C
+[?2004lgcc src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+./vm
+registrando
+* fingir que registra *
+Virtual address: 20 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 285 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 758 TLB: 0 Physical address: 29 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 947 TLB: 0 Physical address: 108 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 1273 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 1389 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 1678 TLB: 0 Physical address: 23 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 1807 TLB: 0 Physical address: 67 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 2095 TLB: 0 Physical address: 75 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 2423 TLB: 0 Physical address: -35 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 2746 TLB: 0 Physical address: 11 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 3048 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 3198 TLB: 0 Physical address: 56 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 3390 TLB: 0 Physical address: 27 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 3694 TLB: 0 Physical address: 53 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 3857 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 4193 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 4595 TLB: 0 Physical address: -68 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 4619 TLB: 0 Physical address: 66 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 5062 TLB: 0 Physical address: 62 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 5121 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 5577 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 5853 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 5966 TLB: 0 Physical address: 59 Value: 0
+Deu diferente
+Virtual address: 407 TLB: 0 Physical address: 37 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 6311 TLB: 0 Physical address: 105 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 6635 TLB: 0 Physical address: 58 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 6727 TLB: 0 Physical address: -111 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 6971 TLB: 0 Physical address: -114 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 7397 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 7588 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 7800 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 8137 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 8379 TLB: 0 Physical address: -18 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 8590 TLB: 0 Physical address: 48 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 8862 TLB: 0 Physical address: 40 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 9107 TLB: 0 Physical address: -28 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 9419 TLB: 0 Physical address: -14 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 9501 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 9729 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 10184 TLB: 0 Physical address: 0 Value: 0
+Deu diferente
+Virtual address: 1326 TLB: 0 Physical address: 28 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 10344 TLB: 0 Physical address: 0 Value: 0
+Deu diferente
+Virtual address: 1266 TLB: 0 Physical address: 39 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 10678 TLB: 0 Physical address: 58 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 10764 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 11234 TLB: 0 Physical address: 43 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 11506 TLB: 0 Physical address: 21 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 11771 TLB: 0 Physical address: -2 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 11917 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 12193 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 12378 TLB: 0 Physical address: 10 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 12789 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 12925 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 13210 TLB: 0 Physical address: 43 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 13393 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 13707 TLB: 0 Physical address: -30 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 13875 TLB: 0 Physical address: 12 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 14238 TLB: 0 Physical address: 18 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 14513 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 14744 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 14850 TLB: 0 Physical address: 57 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 15113 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 15546 TLB: 0 Physical address: 57 Value: 0
+Deu diferente
+Virtual address: 15576 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 15668 TLB: 0 Physical address: 0 Value: 0
+Deu diferente
+Virtual address: 14950 TLB: 0 Physical address: 57 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 15892 TLB: 0 Physical address: 0 Value: 0
+Deu diferente
+Virtual address: 6796 TLB: 0 Physical address: 0 Value: 0
+Deu diferente
+Virtual address: 9023 TLB: 0 Physical address: -49 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 16369 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 16420 TLB: 0 Physical address: 0 Value: 0
+Deu diferente
+Virtual address: 8747 TLB: 0 Physical address: 10 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 16675 TLB: 0 Physical address: -56 Value: 0
+Deu diferente
+Virtual address: 3073 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 16922 TLB: 0 Physical address: 61 Value: 0
+Deu diferente
+Virtual address: 14358 TLB: 0 Physical address: 35 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 17332 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 17521 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 17664 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 17921 TLB: 0 Physical address: 0 Value: 0
+Deu diferente
+Virtual address: 8509 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 18234 TLB: 0 Physical address: 36 Value: 0
+Deu diferente
+Virtual address: 10266 TLB: 0 Physical address: 57 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 18552 TLB: 0 Physical address: 0 Value: 0
+Deu diferente
+Virtual address: 9930 TLB: 0 Physical address: 17 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 18913 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 18988 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 19316 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 19636 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 19783 TLB: 0 Physical address: -47 Value: 0
+Deu diferente
+Virtual address: 14860 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 20140 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 20416 TLB: 0 Physical address: 0 Value: 0
+Deu diferente
+Virtual address: 4965 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 20571 TLB: 0 Physical address: -42 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 20872 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 21033 TLB: 0 Physical address: 0 Value: 0
+Deu diferente
+Virtual address: 11839 TLB: 0 Physical address: 79 Value: 0
+Deu diferente
+Virtual address: 11493 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 21412 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 21655 TLB: 0 Physical address: 101 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 21937 TLB: 0 Physical address: 0 Value: 0
+Deu diferente
+Virtual address: 508 TLB: 0 Physical address: 0 Value: 0
+Deu diferente
+Virtual address: 4202 TLB: 0 Physical address: 32 Value: 0
+Deu diferente
+Virtual address: 4998 TLB: 0 Physical address: 62 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 22141 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 22378 TLB: 0 Physical address: 60 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 22720 TLB: 0 Physical address: 0 Value: 0
+Deu diferente
+Virtual address: 16487 TLB: 0 Physical address: 89 Value: 0
+Deu diferente
+Virtual address: 13237 TLB: 0 Physical address: 0 Value: 0
+Deu diferente
+Virtual address: 3516 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 23016 TLB: 0 Physical address: 0 Value: 0
+Deu diferente
+Virtual address: 11208 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 23096 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 23517 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 23626 TLB: 0 Physical address: 59 Value: 0
+Deu diferente
+Virtual address: 2727 TLB: 0 Physical address: -23 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 23855 TLB: 0 Physical address: -53 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 24097 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 24496 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 24692 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 25078 TLB: 0 Physical address: 40 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 25113 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 25414 TLB: 0 Physical address: 50 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 25710 TLB: 0 Physical address: 46 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 25948 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 26348 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 26398 TLB: 0 Physical address: 6 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 26806 TLB: 0 Physical address: 34 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 27069 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 27350 TLB: 0 Physical address: 50 Value: 0
+Deu diferente
+Virtual address: 7397 TLB: 0 Physical address: 0 Value: 0
+Deu diferente
+Virtual address: 17581 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 27455 TLB: 0 Physical address: 79 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 27704 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 28066 TLB: 0 Physical address: 27 Value: 0
+Deu diferente
+Virtual address: 25980 TLB: 0 Physical address: 0 Value: 0
+Deu diferente
+Virtual address: 3840 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 28234 TLB: 0 Physical address: 62 Value: 0
+Deu diferente
+Virtual address: 2126 TLB: 0 Physical address: 63 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 28634 TLB: 0 Physical address: 61 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 28730 TLB: 0 Physical address: 26 Value: 0
+Deu diferente
+Virtual address: 1412 TLB: 0 Physical address: 0 Value: 0
+Deu diferente
+Virtual address: 22279 TLB: 0 Physical address: 65 Value: 0
+Deu diferente
+Virtual address: 12534 TLB: 0 Physical address: 10 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 29124 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 29273 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 29606 TLB: 0 Physical address: 42 Value: 0
+Deu diferente
+Virtual address: 2980 TLB: 0 Physical address: 0 Value: 0
+Deu diferente
+Virtual address: 28667 TLB: 0 Physical address: 126 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 29717 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 29993 TLB: 0 Physical address: 0 Value: 0
+Deu diferente
+Virtual address: 18006 TLB: 0 Physical address: 33 Value: 0
+Deu diferente
+Virtual address: 4217 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 30463 TLB: 0 Physical address: -65 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 30600 TLB: 0 Physical address: 0 Value: 0
+Deu diferente
+Virtual address: 28565 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 30946 TLB: 0 Physical address: 55 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 31091 TLB: 0 Physical address: 92 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 31460 TLB: 0 Physical address: 0 Value: 0
+Deu diferente
+Virtual address: 4284 TLB: 0 Physical address: 0 Value: 0
+Deu diferente
+Virtual address: 8569 TLB: 0 Physical address: 0 Value: 0
+Deu diferente
+Virtual address: 14000 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 31561 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 31939 TLB: 0 Physical address: 48 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 32115 TLB: 0 Physical address: 92 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 32480 TLB: 0 Physical address: 0 Value: 0
+Deu diferente
+Virtual address: 17981 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+Virtual address: 32677 TLB: 0 Physical address: 0 Value: 0
+Deu diferente
+Virtual address: 4148 TLB: 0 Physical address: 0 Value: 0
+registrando
+* fingir que registra *
+make: *** [makefile:6: run] Segmentation fault
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make run[2@clea[C
+[?2004lrm -f vm
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make clean[2Pru[C
+[?2004lgcc src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+./vm
+registrando
+* fingir que registra *
+Virtual address: 16916 TLB: 20 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 62493 TLB: 285 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 30198 TLB: 758 Physical address: 29
+registrando
+* fingir que registra *
+Virtual address: 53683 TLB: 947 Physical address: 108
+registrando
+* fingir que registra *
+Virtual address: 40185 TLB: 1273 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 28781 TLB: 1389 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 24462 TLB: 1678 Physical address: 23
+registrando
+* fingir que registra *
+Virtual address: 48399 TLB: 1807 Physical address: 67
+registrando
+* fingir que registra *
+Virtual address: 64815 TLB: 2095 Physical address: 75
+registrando
+* fingir que registra *
+Virtual address: 18295 TLB: 2423 Physical address: -35
+registrando
+* fingir que registra *
+Virtual address: 12218 TLB: 2746 Physical address: 11
+registrando
+* fingir que registra *
+Virtual address: 22760 TLB: 3048 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 57982 TLB: 3198 Physical address: 56
+registrando
+* fingir que registra *
+Virtual address: 27966 TLB: 3390 Physical address: 27
+registrando
+* fingir que registra *
+Virtual address: 54894 TLB: 3694 Physical address: 53
+registrando
+* fingir que registra *
+Virtual address: 38929 TLB: 3857 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 32865 TLB: 4193 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 64243 TLB: 4595 Physical address: -68
+registrando
+* fingir que registra *
+Virtual address: 2315 TLB: 4619 Physical address: 66
+registrando
+* fingir que registra *
+Virtual address: 64454 TLB: 5062 Physical address: 62
+registrando
+* fingir que registra *
+Virtual address: 55041 TLB: 5121 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 18633 TLB: 5577 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 14557 TLB: 5853 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 61006 TLB: 5966 Physical address: 59
+Deu diferente
+Virtual address: 62615 TLB: 407 Physical address: 37
+registrando
+* fingir que registra *
+Virtual address: 7591 TLB: 6311 Physical address: 105
+registrando
+* fingir que registra *
+Virtual address: 64747 TLB: 6635 Physical address: 58
+registrando
+* fingir que registra *
+Virtual address: 6727 TLB: 6727 Physical address: -111
+registrando
+* fingir que registra *
+Virtual address: 32315 TLB: 6971 Physical address: -114
+registrando
+* fingir que registra *
+Virtual address: 60645 TLB: 7397 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 6308 TLB: 7588 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 45688 TLB: 7800 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 969 TLB: 8137 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 40891 TLB: 8379 Physical address: -18
+registrando
+* fingir que registra *
+Virtual address: 49294 TLB: 8590 Physical address: 48
+registrando
+* fingir que registra *
+Virtual address: 41118 TLB: 8862 Physical address: 40
+registrando
+* fingir que registra *
+Virtual address: 21395 TLB: 9107 Physical address: -28
+registrando
+* fingir que registra *
+Virtual address: 6091 TLB: 9419 Physical address: -14
+registrando
+* fingir que registra *
+Virtual address: 32541 TLB: 9501 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 17665 TLB: 9729 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 3784 TLB: 10184 Physical address: 0
+Deu diferente
+Virtual address: 28718 TLB: 1326 Physical address: 28
+registrando
+* fingir que registra *
+Virtual address: 59240 TLB: 10344 Physical address: 0
+Deu diferente
+Virtual address: 40178 TLB: 1266 Physical address: 39
+registrando
+* fingir que registra *
+Virtual address: 60086 TLB: 10678 Physical address: 58
+registrando
+* fingir que registra *
+Virtual address: 42252 TLB: 10764 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 44770 TLB: 11234 Physical address: 43
+registrando
+* fingir que registra *
+Virtual address: 22514 TLB: 11506 Physical address: 21
+registrando
+* fingir que registra *
+Virtual address: 3067 TLB: 11771 Physical address: -2
+registrando
+* fingir que registra *
+Virtual address: 15757 TLB: 11917 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 31649 TLB: 12193 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 10842 TLB: 12378 Physical address: 10
+registrando
+* fingir que registra *
+Virtual address: 43765 TLB: 12789 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 33405 TLB: 12925 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 44954 TLB: 13210 Physical address: 43
+registrando
+* fingir que registra *
+Virtual address: 56657 TLB: 13393 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 5003 TLB: 13707 Physical address: -30
+registrando
+* fingir que registra *
+Virtual address: 50227 TLB: 13875 Physical address: 12
+registrando
+* fingir que registra *
+Virtual address: 19358 TLB: 14238 Physical address: 18
+registrando
+* fingir que registra *
+Virtual address: 36529 TLB: 14513 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 10392 TLB: 14744 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 58882 TLB: 14850 Physical address: 57
+registrando
+* fingir que registra *
+Virtual address: 5129 TLB: 15113 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 58554 TLB: 15546 Physical address: 57
+Deu diferente
+Virtual address: 58584 TLB: 15576 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 27444 TLB: 15668 Physical address: 0
+Deu diferente
+Virtual address: 58982 TLB: 14950 Physical address: 57
+registrando
+* fingir que registra *
+Virtual address: 51476 TLB: 15892 Physical address: 0
+Deu diferente
+Virtual address: 6796 TLB: 6796 Physical address: 0
+Deu diferente
+Virtual address: 21311 TLB: 9023 Physical address: -49
+registrando
+* fingir que registra *
+Virtual address: 30705 TLB: 16369 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 28964 TLB: 16420 Physical address: 0
+Deu diferente
+Virtual address: 41003 TLB: 8747 Physical address: 10
+registrando
+* fingir que registra *
+Virtual address: 20259 TLB: 16675 Physical address: -56
+Deu diferente
+Virtual address: 57857 TLB: 3073 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 63258 TLB: 16922 Physical address: 61
+Deu diferente
+Virtual address: 36374 TLB: 14358 Physical address: 35
+registrando
+* fingir que registra *
+Virtual address: 692 TLB: 17332 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 43121 TLB: 17521 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 48128 TLB: 17664 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 34561 TLB: 17921 Physical address: 0
+Deu diferente
+Virtual address: 49213 TLB: 8509 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 36922 TLB: 18234 Physical address: 36
+Deu diferente
+Virtual address: 59162 TLB: 10266 Physical address: 57
+registrando
+* fingir que registra *
+Virtual address: 50552 TLB: 18552 Physical address: 0
+Deu diferente
+Virtual address: 17866 TLB: 9930 Physical address: 17
+registrando
+* fingir que registra *
+Virtual address: 18145 TLB: 18913 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 3884 TLB: 18988 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 54388 TLB: 19316 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 42932 TLB: 19636 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 46919 TLB: 19783 Physical address: -47
+Deu diferente
+Virtual address: 58892 TLB: 14860 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 8620 TLB: 20140 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 38336 TLB: 20416 Physical address: 0
+Deu diferente
+Virtual address: 64357 TLB: 4965 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 23387 TLB: 20571 Physical address: -42
+registrando
+* fingir que registra *
+Virtual address: 42632 TLB: 20872 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 15913 TLB: 21033 Physical address: 0
+Deu diferente
+Virtual address: 15679 TLB: 11839 Physical address: 79
+Deu diferente
+Virtual address: 22501 TLB: 11493 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 37540 TLB: 21412 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 5527 TLB: 21655 Physical address: 101
+registrando
+* fingir que registra *
+Virtual address: 63921 TLB: 21937 Physical address: 0
+Deu diferente
+Virtual address: 62716 TLB: 508 Physical address: 0
+Deu diferente
+Virtual address: 32874 TLB: 4202 Physical address: 32
+Deu diferente
+Virtual address: 64390 TLB: 4998 Physical address: 62
+registrando
+* fingir que registra *
+Virtual address: 63101 TLB: 22141 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 61802 TLB: 22378 Physical address: 60
+registrando
+* fingir que registra *
+Virtual address: 19648 TLB: 22720 Physical address: 0
+Deu diferente
+Virtual address: 29031 TLB: 16487 Physical address: 89
+Deu diferente
+Virtual address: 44981 TLB: 13237 Physical address: 0
+Deu diferente
+Virtual address: 28092 TLB: 3516 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 9448 TLB: 23016 Physical address: 0
+Deu diferente
+Virtual address: 44744 TLB: 11208 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 61496 TLB: 23096 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 31453 TLB: 23517 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 60746 TLB: 23626 Physical address: 59
+Deu diferente
+Virtual address: 12199 TLB: 2727 Physical address: -23
+registrando
+* fingir que registra *
+Virtual address: 62255 TLB: 23855 Physical address: -53
+registrando
+* fingir que registra *
+Virtual address: 21793 TLB: 24097 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 26544 TLB: 24496 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 14964 TLB: 24692 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 41462 TLB: 25078 Physical address: 40
+registrando
+* fingir que registra *
+Virtual address: 56089 TLB: 25113 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 52038 TLB: 25414 Physical address: 50
+registrando
+* fingir que registra *
+Virtual address: 47982 TLB: 25710 Physical address: 46
+registrando
+* fingir que registra *
+Virtual address: 59484 TLB: 25948 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 50924 TLB: 26348 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 6942 TLB: 26398 Physical address: 6
+registrando
+* fingir que registra *
+Virtual address: 34998 TLB: 26806 Physical address: 34
+registrando
+* fingir que registra *
+Virtual address: 27069 TLB: 27069 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 51926 TLB: 27350 Physical address: 50
+Deu diferente
+Virtual address: 60645 TLB: 7397 Physical address: 0
+Deu diferente
+Virtual address: 43181 TLB: 17581 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 10559 TLB: 27455 Physical address: 79
+registrando
+* fingir que registra *
+Virtual address: 4664 TLB: 27704 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 28578 TLB: 28066 Physical address: 27
+Deu diferente
+Virtual address: 59516 TLB: 25980 Physical address: 0
+Deu diferente
+Virtual address: 38912 TLB: 3840 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 63562 TLB: 28234 Physical address: 62
+Deu diferente
+Virtual address: 64846 TLB: 2126 Physical address: 63
+registrando
+* fingir que registra *
+Virtual address: 62938 TLB: 28634 Physical address: 61
+registrando
+* fingir que registra *
+Virtual address: 27194 TLB: 28730 Physical address: 26
+Deu diferente
+Virtual address: 28804 TLB: 1412 Physical address: 0
+Deu diferente
+Virtual address: 61703 TLB: 22279 Physical address: 65
+Deu diferente
+Virtual address: 10998 TLB: 12534 Physical address: 10
+registrando
+* fingir que registra *
+Virtual address: 6596 TLB: 29124 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 37721 TLB: 29273 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 43430 TLB: 29606 Physical address: 42
+Deu diferente
+Virtual address: 22692 TLB: 2980 Physical address: 0
+Deu diferente
+Virtual address: 62971 TLB: 28667 Physical address: 126
+registrando
+* fingir que registra *
+Virtual address: 47125 TLB: 29717 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 52521 TLB: 29993 Physical address: 0
+Deu diferente
+Virtual address: 34646 TLB: 18006 Physical address: 33
+Deu diferente
+Virtual address: 32889 TLB: 4217 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 13055 TLB: 30463 Physical address: -65
+registrando
+* fingir que registra *
+Virtual address: 65416 TLB: 30600 Physical address: 0
+Deu diferente
+Virtual address: 62869 TLB: 28565 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 57314 TLB: 30946 Physical address: 55
+registrando
+* fingir que registra *
+Virtual address: 12659 TLB: 31091 Physical address: 92
+registrando
+* fingir que registra *
+Virtual address: 14052 TLB: 31460 Physical address: 0
+Deu diferente
+Virtual address: 32956 TLB: 4284 Physical address: 0
+Deu diferente
+Virtual address: 49273 TLB: 8569 Physical address: 0
+Deu diferente
+Virtual address: 50352 TLB: 14000 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 49737 TLB: 31561 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 15555 TLB: 31939 Physical address: 48
+registrando
+* fingir que registra *
+Virtual address: 47475 TLB: 32115 Physical address: 92
+registrando
+* fingir que registra *
+Virtual address: 15328 TLB: 32480 Physical address: 0
+Deu diferente
+Virtual address: 34621 TLB: 17981 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 51365 TLB: 32677 Physical address: 0
+Deu diferente
+Virtual address: 32820 TLB: 4148 Physical address: 0
+registrando
+* fingir que registra *
+make: *** [makefile:6: run] Segmentation fault
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make run[2@clea[C
+[?2004lrm -f vm
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make clean
+[?2004lrm -f vm
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ clean
+[?2004lCommand 'clean' not found, did you mean:
+  command 'pclean' from deb pbuilder-scripts (22build3)
+  command 'gclean' from deb python3-guidata (3.14.2-2)
+  command 'clear' from deb ncurses-bin (6.6+20251231-1)
+  command 'uclean' from deb svn-buildpackage (0.8.10)
+  command 'lean' from deb elan (4.1.2-3.1ubuntu1)
+Try: sudo apt install <deb name>
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ clear
+[?2004l[H[2J[3J[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ clearn[5@make [C[C[C[C[C
+[?2004lrm -f vm
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make clean[5Pclearn[5@make [C[C[C[C[C[2Pru[C
+[?2004lgcc src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+./vm
+registrando
+* fingir que registra *
+Virtual address: 16916 TLB: 20 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 62493 TLB: 285 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 30198 TLB: 758 Physical address: 29
+registrando
+* fingir que registra *
+Virtual address: 53683 TLB: 947 Physical address: 108
+registrando
+* fingir que registra *
+Virtual address: 40185 TLB: 1273 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 28781 TLB: 1389 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 24462 TLB: 1678 Physical address: 23
+registrando
+* fingir que registra *
+Virtual address: 48399 TLB: 1807 Physical address: 67
+registrando
+* fingir que registra *
+Virtual address: 64815 TLB: 2095 Physical address: 75
+registrando
+* fingir que registra *
+Virtual address: 18295 TLB: 2423 Physical address: -35
+registrando
+* fingir que registra *
+Virtual address: 12218 TLB: 2746 Physical address: 11
+registrando
+* fingir que registra *
+Virtual address: 22760 TLB: 3048 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 57982 TLB: 3198 Physical address: 56
+registrando
+* fingir que registra *
+Virtual address: 27966 TLB: 3390 Physical address: 27
+registrando
+* fingir que registra *
+Virtual address: 54894 TLB: 3694 Physical address: 53
+registrando
+* fingir que registra *
+Virtual address: 38929 TLB: 3857 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 32865 TLB: 4193 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 64243 TLB: 4595 Physical address: -68
+registrando
+* fingir que registra *
+Virtual address: 2315 TLB: 4619 Physical address: 66
+registrando
+* fingir que registra *
+Virtual address: 64454 TLB: 5062 Physical address: 62
+registrando
+* fingir que registra *
+Virtual address: 55041 TLB: 5121 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 18633 TLB: 5577 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 14557 TLB: 5853 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 61006 TLB: 5966 Physical address: 59
+Deu diferente
+Virtual address: 62615 TLB: 407 Physical address: 37
+registrando
+* fingir que registra *
+Virtual address: 7591 TLB: 6311 Physical address: 105
+registrando
+* fingir que registra *
+Virtual address: 64747 TLB: 6635 Physical address: 58
+registrando
+* fingir que registra *
+Virtual address: 6727 TLB: 6727 Physical address: -111
+registrando
+* fingir que registra *
+Virtual address: 32315 TLB: 6971 Physical address: -114
+registrando
+* fingir que registra *
+Virtual address: 60645 TLB: 7397 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 6308 TLB: 7588 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 45688 TLB: 7800 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 969 TLB: 8137 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 40891 TLB: 8379 Physical address: -18
+registrando
+* fingir que registra *
+Virtual address: 49294 TLB: 8590 Physical address: 48
+registrando
+* fingir que registra *
+Virtual address: 41118 TLB: 8862 Physical address: 40
+registrando
+* fingir que registra *
+Virtual address: 21395 TLB: 9107 Physical address: -28
+registrando
+* fingir que registra *
+Virtual address: 6091 TLB: 9419 Physical address: -14
+registrando
+* fingir que registra *
+Virtual address: 32541 TLB: 9501 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 17665 TLB: 9729 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 3784 TLB: 10184 Physical address: 0
+Deu diferente
+Virtual address: 28718 TLB: 1326 Physical address: 28
+registrando
+* fingir que registra *
+Virtual address: 59240 TLB: 10344 Physical address: 0
+Deu diferente
+Virtual address: 40178 TLB: 1266 Physical address: 39
+registrando
+* fingir que registra *
+Virtual address: 60086 TLB: 10678 Physical address: 58
+registrando
+* fingir que registra *
+Virtual address: 42252 TLB: 10764 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 44770 TLB: 11234 Physical address: 43
+registrando
+* fingir que registra *
+Virtual address: 22514 TLB: 11506 Physical address: 21
+registrando
+* fingir que registra *
+Virtual address: 3067 TLB: 11771 Physical address: -2
+registrando
+* fingir que registra *
+Virtual address: 15757 TLB: 11917 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 31649 TLB: 12193 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 10842 TLB: 12378 Physical address: 10
+registrando
+* fingir que registra *
+Virtual address: 43765 TLB: 12789 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 33405 TLB: 12925 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 44954 TLB: 13210 Physical address: 43
+registrando
+* fingir que registra *
+Virtual address: 56657 TLB: 13393 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 5003 TLB: 13707 Physical address: -30
+registrando
+* fingir que registra *
+Virtual address: 50227 TLB: 13875 Physical address: 12
+registrando
+* fingir que registra *
+Virtual address: 19358 TLB: 14238 Physical address: 18
+registrando
+* fingir que registra *
+Virtual address: 36529 TLB: 14513 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 10392 TLB: 14744 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 58882 TLB: 14850 Physical address: 57
+registrando
+* fingir que registra *
+Virtual address: 5129 TLB: 15113 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 58554 TLB: 15546 Physical address: 57
+Deu diferente
+Virtual address: 58584 TLB: 15576 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 27444 TLB: 15668 Physical address: 0
+Deu diferente
+Virtual address: 58982 TLB: 14950 Physical address: 57
+registrando
+* fingir que registra *
+Virtual address: 51476 TLB: 15892 Physical address: 0
+Deu diferente
+Virtual address: 6796 TLB: 6796 Physical address: 0
+Deu diferente
+Virtual address: 21311 TLB: 9023 Physical address: -49
+registrando
+* fingir que registra *
+Virtual address: 30705 TLB: 16369 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 28964 TLB: 16420 Physical address: 0
+Deu diferente
+Virtual address: 41003 TLB: 8747 Physical address: 10
+registrando
+* fingir que registra *
+Virtual address: 20259 TLB: 16675 Physical address: -56
+Deu diferente
+Virtual address: 57857 TLB: 3073 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 63258 TLB: 16922 Physical address: 61
+Deu diferente
+Virtual address: 36374 TLB: 14358 Physical address: 35
+registrando
+* fingir que registra *
+Virtual address: 692 TLB: 17332 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 43121 TLB: 17521 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 48128 TLB: 17664 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 34561 TLB: 17921 Physical address: 0
+Deu diferente
+Virtual address: 49213 TLB: 8509 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 36922 TLB: 18234 Physical address: 36
+Deu diferente
+Virtual address: 59162 TLB: 10266 Physical address: 57
+registrando
+* fingir que registra *
+Virtual address: 50552 TLB: 18552 Physical address: 0
+Deu diferente
+Virtual address: 17866 TLB: 9930 Physical address: 17
+registrando
+* fingir que registra *
+Virtual address: 18145 TLB: 18913 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 3884 TLB: 18988 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 54388 TLB: 19316 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 42932 TLB: 19636 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 46919 TLB: 19783 Physical address: -47
+Deu diferente
+Virtual address: 58892 TLB: 14860 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 8620 TLB: 20140 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 38336 TLB: 20416 Physical address: 0
+Deu diferente
+Virtual address: 64357 TLB: 4965 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 23387 TLB: 20571 Physical address: -42
+registrando
+* fingir que registra *
+Virtual address: 42632 TLB: 20872 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 15913 TLB: 21033 Physical address: 0
+Deu diferente
+Virtual address: 15679 TLB: 11839 Physical address: 79
+Deu diferente
+Virtual address: 22501 TLB: 11493 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 37540 TLB: 21412 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 5527 TLB: 21655 Physical address: 101
+registrando
+* fingir que registra *
+Virtual address: 63921 TLB: 21937 Physical address: 0
+Deu diferente
+Virtual address: 62716 TLB: 508 Physical address: 0
+Deu diferente
+Virtual address: 32874 TLB: 4202 Physical address: 32
+Deu diferente
+Virtual address: 64390 TLB: 4998 Physical address: 62
+registrando
+* fingir que registra *
+Virtual address: 63101 TLB: 22141 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 61802 TLB: 22378 Physical address: 60
+registrando
+* fingir que registra *
+Virtual address: 19648 TLB: 22720 Physical address: 0
+Deu diferente
+Virtual address: 29031 TLB: 16487 Physical address: 89
+Deu diferente
+Virtual address: 44981 TLB: 13237 Physical address: 0
+Deu diferente
+Virtual address: 28092 TLB: 3516 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 9448 TLB: 23016 Physical address: 0
+Deu diferente
+Virtual address: 44744 TLB: 11208 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 61496 TLB: 23096 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 31453 TLB: 23517 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 60746 TLB: 23626 Physical address: 59
+Deu diferente
+Virtual address: 12199 TLB: 2727 Physical address: -23
+registrando
+* fingir que registra *
+Virtual address: 62255 TLB: 23855 Physical address: -53
+registrando
+* fingir que registra *
+Virtual address: 21793 TLB: 24097 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 26544 TLB: 24496 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 14964 TLB: 24692 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 41462 TLB: 25078 Physical address: 40
+registrando
+* fingir que registra *
+Virtual address: 56089 TLB: 25113 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 52038 TLB: 25414 Physical address: 50
+registrando
+* fingir que registra *
+Virtual address: 47982 TLB: 25710 Physical address: 46
+registrando
+* fingir que registra *
+Virtual address: 59484 TLB: 25948 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 50924 TLB: 26348 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 6942 TLB: 26398 Physical address: 6
+registrando
+* fingir que registra *
+Virtual address: 34998 TLB: 26806 Physical address: 34
+registrando
+* fingir que registra *
+Virtual address: 27069 TLB: 27069 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 51926 TLB: 27350 Physical address: 50
+Deu diferente
+Virtual address: 60645 TLB: 7397 Physical address: 0
+Deu diferente
+Virtual address: 43181 TLB: 17581 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 10559 TLB: 27455 Physical address: 79
+registrando
+* fingir que registra *
+Virtual address: 4664 TLB: 27704 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 28578 TLB: 28066 Physical address: 27
+Deu diferente
+Virtual address: 59516 TLB: 25980 Physical address: 0
+Deu diferente
+Virtual address: 38912 TLB: 3840 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 63562 TLB: 28234 Physical address: 62
+Deu diferente
+Virtual address: 64846 TLB: 2126 Physical address: 63
+registrando
+* fingir que registra *
+Virtual address: 62938 TLB: 28634 Physical address: 61
+registrando
+* fingir que registra *
+Virtual address: 27194 TLB: 28730 Physical address: 26
+Deu diferente
+Virtual address: 28804 TLB: 1412 Physical address: 0
+Deu diferente
+Virtual address: 61703 TLB: 22279 Physical address: 65
+Deu diferente
+Virtual address: 10998 TLB: 12534 Physical address: 10
+registrando
+* fingir que registra *
+Virtual address: 6596 TLB: 29124 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 37721 TLB: 29273 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 43430 TLB: 29606 Physical address: 42
+Deu diferente
+Virtual address: 22692 TLB: 2980 Physical address: 0
+Deu diferente
+Virtual address: 62971 TLB: 28667 Physical address: 126
+registrando
+* fingir que registra *
+Virtual address: 47125 TLB: 29717 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 52521 TLB: 29993 Physical address: 0
+Deu diferente
+Virtual address: 34646 TLB: 18006 Physical address: 33
+Deu diferente
+Virtual address: 32889 TLB: 4217 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 13055 TLB: 30463 Physical address: -65
+registrando
+* fingir que registra *
+Virtual address: 65416 TLB: 30600 Physical address: 0
+Deu diferente
+Virtual address: 62869 TLB: 28565 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 57314 TLB: 30946 Physical address: 55
+registrando
+* fingir que registra *
+Virtual address: 12659 TLB: 31091 Physical address: 92
+registrando
+* fingir que registra *
+Virtual address: 14052 TLB: 31460 Physical address: 0
+Deu diferente
+Virtual address: 32956 TLB: 4284 Physical address: 0
+Deu diferente
+Virtual address: 49273 TLB: 8569 Physical address: 0
+Deu diferente
+Virtual address: 50352 TLB: 14000 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 49737 TLB: 31561 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 15555 TLB: 31939 Physical address: 48
+registrando
+* fingir que registra *
+Virtual address: 47475 TLB: 32115 Physical address: 92
+registrando
+* fingir que registra *
+Virtual address: 15328 TLB: 32480 Physical address: 0
+Deu diferente
+Virtual address: 34621 TLB: 17981 Physical address: 0
+registrando
+* fingir que registra *
+Virtual address: 51365 TLB: 32677 Physical address: 0
+Deu diferente
+Virtual address: 32820 TLB: 4148 Physical address: 0
+registrando
+* fingir que registra *
+make: *** [makefile:6: run] Segmentation fault
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make run
+[?2004lgcc src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+./vm
+registrando
+* fingir que registra *
+Virtual address: 16916 TLB: 0 Physical address: 20
+registrando
+* fingir que registra *
+Virtual address: 62493 TLB: 0 Physical address: 285
+registrando
+* fingir que registra *
+Virtual address: 30198 TLB: 29 Physical address: 758
+registrando
+* fingir que registra *
+Virtual address: 53683 TLB: 108 Physical address: 947
+registrando
+* fingir que registra *
+Virtual address: 40185 TLB: 0 Physical address: 1273
+registrando
+* fingir que registra *
+Virtual address: 28781 TLB: 0 Physical address: 1389
+registrando
+* fingir que registra *
+Virtual address: 24462 TLB: 23 Physical address: 1678
+registrando
+* fingir que registra *
+Virtual address: 48399 TLB: 67 Physical address: 1807
+registrando
+* fingir que registra *
+Virtual address: 64815 TLB: 75 Physical address: 2095
+registrando
+* fingir que registra *
+Virtual address: 18295 TLB: -35 Physical address: 2423
+registrando
+* fingir que registra *
+Virtual address: 12218 TLB: 11 Physical address: 2746
+registrando
+* fingir que registra *
+Virtual address: 22760 TLB: 0 Physical address: 3048
+registrando
+* fingir que registra *
+Virtual address: 57982 TLB: 56 Physical address: 3198
+registrando
+* fingir que registra *
+Virtual address: 27966 TLB: 27 Physical address: 3390
+registrando
+* fingir que registra *
+Virtual address: 54894 TLB: 53 Physical address: 3694
+registrando
+* fingir que registra *
+Virtual address: 38929 TLB: 0 Physical address: 3857
+registrando
+* fingir que registra *
+Virtual address: 32865 TLB: 0 Physical address: 4193
+registrando
+* fingir que registra *
+Virtual address: 64243 TLB: -68 Physical address: 4595
+registrando
+* fingir que registra *
+Virtual address: 2315 TLB: 66 Physical address: 4619
+registrando
+* fingir que registra *
+Virtual address: 64454 TLB: 62 Physical address: 5062
+registrando
+* fingir que registra *
+Virtual address: 55041 TLB: 0 Physical address: 5121
+registrando
+* fingir que registra *
+Virtual address: 18633 TLB: 0 Physical address: 5577
+registrando
+* fingir que registra *
+Virtual address: 14557 TLB: 0 Physical address: 5853
+registrando
+* fingir que registra *
+Virtual address: 61006 TLB: 59 Physical address: 5966
+Deu diferente
+Virtual address: 62615 TLB: 37 Physical address: 407
+registrando
+* fingir que registra *
+Virtual address: 7591 TLB: 105 Physical address: 6311
+registrando
+* fingir que registra *
+Virtual address: 64747 TLB: 58 Physical address: 6635
+registrando
+* fingir que registra *
+Virtual address: 6727 TLB: -111 Physical address: 6727
+registrando
+* fingir que registra *
+Virtual address: 32315 TLB: -114 Physical address: 6971
+registrando
+* fingir que registra *
+Virtual address: 60645 TLB: 0 Physical address: 7397
+registrando
+* fingir que registra *
+Virtual address: 6308 TLB: 0 Physical address: 7588
+registrando
+* fingir que registra *
+Virtual address: 45688 TLB: 0 Physical address: 7800
+registrando
+* fingir que registra *
+Virtual address: 969 TLB: 0 Physical address: 8137
+registrando
+* fingir que registra *
+Virtual address: 40891 TLB: -18 Physical address: 8379
+registrando
+* fingir que registra *
+Virtual address: 49294 TLB: 48 Physical address: 8590
+registrando
+* fingir que registra *
+Virtual address: 41118 TLB: 40 Physical address: 8862
+registrando
+* fingir que registra *
+Virtual address: 21395 TLB: -28 Physical address: 9107
+registrando
+* fingir que registra *
+Virtual address: 6091 TLB: -14 Physical address: 9419
+registrando
+* fingir que registra *
+Virtual address: 32541 TLB: 0 Physical address: 9501
+registrando
+* fingir que registra *
+Virtual address: 17665 TLB: 0 Physical address: 9729
+registrando
+* fingir que registra *
+Virtual address: 3784 TLB: 0 Physical address: 10184
+Deu diferente
+Virtual address: 28718 TLB: 28 Physical address: 1326
+registrando
+* fingir que registra *
+Virtual address: 59240 TLB: 0 Physical address: 10344
+Deu diferente
+Virtual address: 40178 TLB: 39 Physical address: 1266
+registrando
+* fingir que registra *
+Virtual address: 60086 TLB: 58 Physical address: 10678
+registrando
+* fingir que registra *
+Virtual address: 42252 TLB: 0 Physical address: 10764
+registrando
+* fingir que registra *
+Virtual address: 44770 TLB: 43 Physical address: 11234
+registrando
+* fingir que registra *
+Virtual address: 22514 TLB: 21 Physical address: 11506
+registrando
+* fingir que registra *
+Virtual address: 3067 TLB: -2 Physical address: 11771
+registrando
+* fingir que registra *
+Virtual address: 15757 TLB: 0 Physical address: 11917
+registrando
+* fingir que registra *
+Virtual address: 31649 TLB: 0 Physical address: 12193
+registrando
+* fingir que registra *
+Virtual address: 10842 TLB: 10 Physical address: 12378
+registrando
+* fingir que registra *
+Virtual address: 43765 TLB: 0 Physical address: 12789
+registrando
+* fingir que registra *
+Virtual address: 33405 TLB: 0 Physical address: 12925
+registrando
+* fingir que registra *
+Virtual address: 44954 TLB: 43 Physical address: 13210
+registrando
+* fingir que registra *
+Virtual address: 56657 TLB: 0 Physical address: 13393
+registrando
+* fingir que registra *
+Virtual address: 5003 TLB: -30 Physical address: 13707
+registrando
+* fingir que registra *
+Virtual address: 50227 TLB: 12 Physical address: 13875
+registrando
+* fingir que registra *
+Virtual address: 19358 TLB: 18 Physical address: 14238
+registrando
+* fingir que registra *
+Virtual address: 36529 TLB: 0 Physical address: 14513
+registrando
+* fingir que registra *
+Virtual address: 10392 TLB: 0 Physical address: 14744
+registrando
+* fingir que registra *
+Virtual address: 58882 TLB: 57 Physical address: 14850
+registrando
+* fingir que registra *
+Virtual address: 5129 TLB: 0 Physical address: 15113
+registrando
+* fingir que registra *
+Virtual address: 58554 TLB: 57 Physical address: 15546
+Deu diferente
+Virtual address: 58584 TLB: 0 Physical address: 15576
+registrando
+* fingir que registra *
+Virtual address: 27444 TLB: 0 Physical address: 15668
+Deu diferente
+Virtual address: 58982 TLB: 57 Physical address: 14950
+registrando
+* fingir que registra *
+Virtual address: 51476 TLB: 0 Physical address: 15892
+Deu diferente
+Virtual address: 6796 TLB: 0 Physical address: 6796
+Deu diferente
+Virtual address: 21311 TLB: -49 Physical address: 9023
+registrando
+* fingir que registra *
+Virtual address: 30705 TLB: 0 Physical address: 16369
+registrando
+* fingir que registra *
+Virtual address: 28964 TLB: 0 Physical address: 16420
+Deu diferente
+Virtual address: 41003 TLB: 10 Physical address: 8747
+registrando
+* fingir que registra *
+Virtual address: 20259 TLB: -56 Physical address: 16675
+Deu diferente
+Virtual address: 57857 TLB: 0 Physical address: 3073
+registrando
+* fingir que registra *
+Virtual address: 63258 TLB: 61 Physical address: 16922
+Deu diferente
+Virtual address: 36374 TLB: 35 Physical address: 14358
+registrando
+* fingir que registra *
+Virtual address: 692 TLB: 0 Physical address: 17332
+registrando
+* fingir que registra *
+Virtual address: 43121 TLB: 0 Physical address: 17521
+registrando
+* fingir que registra *
+Virtual address: 48128 TLB: 0 Physical address: 17664
+registrando
+* fingir que registra *
+Virtual address: 34561 TLB: 0 Physical address: 17921
+Deu diferente
+Virtual address: 49213 TLB: 0 Physical address: 8509
+registrando
+* fingir que registra *
+Virtual address: 36922 TLB: 36 Physical address: 18234
+Deu diferente
+Virtual address: 59162 TLB: 57 Physical address: 10266
+registrando
+* fingir que registra *
+Virtual address: 50552 TLB: 0 Physical address: 18552
+Deu diferente
+Virtual address: 17866 TLB: 17 Physical address: 9930
+registrando
+* fingir que registra *
+Virtual address: 18145 TLB: 0 Physical address: 18913
+registrando
+* fingir que registra *
+Virtual address: 3884 TLB: 0 Physical address: 18988
+registrando
+* fingir que registra *
+Virtual address: 54388 TLB: 0 Physical address: 19316
+registrando
+* fingir que registra *
+Virtual address: 42932 TLB: 0 Physical address: 19636
+registrando
+* fingir que registra *
+Virtual address: 46919 TLB: -47 Physical address: 19783
+Deu diferente
+Virtual address: 58892 TLB: 0 Physical address: 14860
+registrando
+* fingir que registra *
+Virtual address: 8620 TLB: 0 Physical address: 20140
+registrando
+* fingir que registra *
+Virtual address: 38336 TLB: 0 Physical address: 20416
+Deu diferente
+Virtual address: 64357 TLB: 0 Physical address: 4965
+registrando
+* fingir que registra *
+Virtual address: 23387 TLB: -42 Physical address: 20571
+registrando
+* fingir que registra *
+Virtual address: 42632 TLB: 0 Physical address: 20872
+registrando
+* fingir que registra *
+Virtual address: 15913 TLB: 0 Physical address: 21033
+Deu diferente
+Virtual address: 15679 TLB: 79 Physical address: 11839
+Deu diferente
+Virtual address: 22501 TLB: 0 Physical address: 11493
+registrando
+* fingir que registra *
+Virtual address: 37540 TLB: 0 Physical address: 21412
+registrando
+* fingir que registra *
+Virtual address: 5527 TLB: 101 Physical address: 21655
+registrando
+* fingir que registra *
+Virtual address: 63921 TLB: 0 Physical address: 21937
+Deu diferente
+Virtual address: 62716 TLB: 0 Physical address: 508
+Deu diferente
+Virtual address: 32874 TLB: 32 Physical address: 4202
+Deu diferente
+Virtual address: 64390 TLB: 62 Physical address: 4998
+registrando
+* fingir que registra *
+Virtual address: 63101 TLB: 0 Physical address: 22141
+registrando
+* fingir que registra *
+Virtual address: 61802 TLB: 60 Physical address: 22378
+registrando
+* fingir que registra *
+Virtual address: 19648 TLB: 0 Physical address: 22720
+Deu diferente
+Virtual address: 29031 TLB: 89 Physical address: 16487
+Deu diferente
+Virtual address: 44981 TLB: 0 Physical address: 13237
+Deu diferente
+Virtual address: 28092 TLB: 0 Physical address: 3516
+registrando
+* fingir que registra *
+Virtual address: 9448 TLB: 0 Physical address: 23016
+Deu diferente
+Virtual address: 44744 TLB: 0 Physical address: 11208
+registrando
+* fingir que registra *
+Virtual address: 61496 TLB: 0 Physical address: 23096
+registrando
+* fingir que registra *
+Virtual address: 31453 TLB: 0 Physical address: 23517
+registrando
+* fingir que registra *
+Virtual address: 60746 TLB: 59 Physical address: 23626
+Deu diferente
+Virtual address: 12199 TLB: -23 Physical address: 2727
+registrando
+* fingir que registra *
+Virtual address: 62255 TLB: -53 Physical address: 23855
+registrando
+* fingir que registra *
+Virtual address: 21793 TLB: 0 Physical address: 24097
+registrando
+* fingir que registra *
+Virtual address: 26544 TLB: 0 Physical address: 24496
+registrando
+* fingir que registra *
+Virtual address: 14964 TLB: 0 Physical address: 24692
+registrando
+* fingir que registra *
+Virtual address: 41462 TLB: 40 Physical address: 25078
+registrando
+* fingir que registra *
+Virtual address: 56089 TLB: 0 Physical address: 25113
+registrando
+* fingir que registra *
+Virtual address: 52038 TLB: 50 Physical address: 25414
+registrando
+* fingir que registra *
+Virtual address: 47982 TLB: 46 Physical address: 25710
+registrando
+* fingir que registra *
+Virtual address: 59484 TLB: 0 Physical address: 25948
+registrando
+* fingir que registra *
+Virtual address: 50924 TLB: 0 Physical address: 26348
+registrando
+* fingir que registra *
+Virtual address: 6942 TLB: 6 Physical address: 26398
+registrando
+* fingir que registra *
+Virtual address: 34998 TLB: 34 Physical address: 26806
+registrando
+* fingir que registra *
+Virtual address: 27069 TLB: 0 Physical address: 27069
+registrando
+* fingir que registra *
+Virtual address: 51926 TLB: 50 Physical address: 27350
+Deu diferente
+Virtual address: 60645 TLB: 0 Physical address: 7397
+Deu diferente
+Virtual address: 43181 TLB: 0 Physical address: 17581
+registrando
+* fingir que registra *
+Virtual address: 10559 TLB: 79 Physical address: 27455
+registrando
+* fingir que registra *
+Virtual address: 4664 TLB: 0 Physical address: 27704
+registrando
+* fingir que registra *
+Virtual address: 28578 TLB: 27 Physical address: 28066
+Deu diferente
+Virtual address: 59516 TLB: 0 Physical address: 25980
+Deu diferente
+Virtual address: 38912 TLB: 0 Physical address: 3840
+registrando
+* fingir que registra *
+Virtual address: 63562 TLB: 62 Physical address: 28234
+Deu diferente
+Virtual address: 64846 TLB: 63 Physical address: 2126
+registrando
+* fingir que registra *
+Virtual address: 62938 TLB: 61 Physical address: 28634
+registrando
+* fingir que registra *
+Virtual address: 27194 TLB: 26 Physical address: 28730
+Deu diferente
+Virtual address: 28804 TLB: 0 Physical address: 1412
+Deu diferente
+Virtual address: 61703 TLB: 65 Physical address: 22279
+Deu diferente
+Virtual address: 10998 TLB: 10 Physical address: 12534
+registrando
+* fingir que registra *
+Virtual address: 6596 TLB: 0 Physical address: 29124
+registrando
+* fingir que registra *
+Virtual address: 37721 TLB: 0 Physical address: 29273
+registrando
+* fingir que registra *
+Virtual address: 43430 TLB: 42 Physical address: 29606
+Deu diferente
+Virtual address: 22692 TLB: 0 Physical address: 2980
+Deu diferente
+Virtual address: 62971 TLB: 126 Physical address: 28667
+registrando
+* fingir que registra *
+Virtual address: 47125 TLB: 0 Physical address: 29717
+registrando
+* fingir que registra *
+Virtual address: 52521 TLB: 0 Physical address: 29993
+Deu diferente
+Virtual address: 34646 TLB: 33 Physical address: 18006
+Deu diferente
+Virtual address: 32889 TLB: 0 Physical address: 4217
+registrando
+* fingir que registra *
+Virtual address: 13055 TLB: -65 Physical address: 30463
+registrando
+* fingir que registra *
+Virtual address: 65416 TLB: 0 Physical address: 30600
+Deu diferente
+Virtual address: 62869 TLB: 0 Physical address: 28565
+registrando
+* fingir que registra *
+Virtual address: 57314 TLB: 55 Physical address: 30946
+registrando
+* fingir que registra *
+Virtual address: 12659 TLB: 92 Physical address: 31091
+registrando
+* fingir que registra *
+Virtual address: 14052 TLB: 0 Physical address: 31460
+Deu diferente
+Virtual address: 32956 TLB: 0 Physical address: 4284
+Deu diferente
+Virtual address: 49273 TLB: 0 Physical address: 8569
+Deu diferente
+Virtual address: 50352 TLB: 0 Physical address: 14000
+registrando
+* fingir que registra *
+Virtual address: 49737 TLB: 0 Physical address: 31561
+registrando
+* fingir que registra *
+Virtual address: 15555 TLB: 48 Physical address: 31939
+registrando
+* fingir que registra *
+Virtual address: 47475 TLB: 92 Physical address: 32115
+registrando
+* fingir que registra *
+Virtual address: 15328 TLB: 0 Physical address: 32480
+Deu diferente
+Virtual address: 34621 TLB: 0 Physical address: 17981
+registrando
+* fingir que registra *
+Virtual address: 51365 TLB: 0 Physical address: 32677
+Deu diferente
+Virtual address: 32820 TLB: 0 Physical address: 4148
+registrando
+* fingir que registra *
+make: *** [makefile:6: run] Segmentation fault
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ [K]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ [K]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ [K]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ [K]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ [K]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ [K]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ [K]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ [K]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$  [Kclean
+[?2004lCommand 'clean' not found, did you mean:
+  command 'clear' from deb ncurses-bin (6.6+20251231-1)
+  command 'lean' from deb elan (4.1.2-3.1ubuntu1)
+  command 'pclean' from deb pbuilder-scripts (22build3)
+  command 'uclean' from deb svn-buildpackage (0.8.10)
+  command 'gclean' from deb python3-guidata (3.14.2-2)
+Try: sudo apt install <deb name>
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ clear
+[?2004l[H[2J[3J[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ clearn[3@make ru[C
+[?2004l./vm
+registrando
+* fingir que registra *
+Virtual address: 16916 TLB: 0 Physical address: 20
+registrando
+* fingir que registra *
+Virtual address: 62493 TLB: 0 Physical address: 285
+registrando
+* fingir que registra *
+Virtual address: 30198 TLB: 29 Physical address: 758
+registrando
+* fingir que registra *
+Virtual address: 53683 TLB: 108 Physical address: 947
+registrando
+* fingir que registra *
+Virtual address: 40185 TLB: 0 Physical address: 1273
+registrando
+* fingir que registra *
+Virtual address: 28781 TLB: 0 Physical address: 1389
+registrando
+* fingir que registra *
+Virtual address: 24462 TLB: 23 Physical address: 1678
+registrando
+* fingir que registra *
+Virtual address: 48399 TLB: 67 Physical address: 1807
+registrando
+* fingir que registra *
+Virtual address: 64815 TLB: 75 Physical address: 2095
+registrando
+* fingir que registra *
+Virtual address: 18295 TLB: -35 Physical address: 2423
+registrando
+* fingir que registra *
+Virtual address: 12218 TLB: 11 Physical address: 2746
+registrando
+* fingir que registra *
+Virtual address: 22760 TLB: 0 Physical address: 3048
+registrando
+* fingir que registra *
+Virtual address: 57982 TLB: 56 Physical address: 3198
+registrando
+* fingir que registra *
+Virtual address: 27966 TLB: 27 Physical address: 3390
+registrando
+* fingir que registra *
+Virtual address: 54894 TLB: 53 Physical address: 3694
+registrando
+* fingir que registra *
+Virtual address: 38929 TLB: 0 Physical address: 3857
+registrando
+* fingir que registra *
+Virtual address: 32865 TLB: 0 Physical address: 4193
+registrando
+* fingir que registra *
+Virtual address: 64243 TLB: -68 Physical address: 4595
+registrando
+* fingir que registra *
+Virtual address: 2315 TLB: 66 Physical address: 4619
+registrando
+* fingir que registra *
+Virtual address: 64454 TLB: 62 Physical address: 5062
+registrando
+* fingir que registra *
+Virtual address: 55041 TLB: 0 Physical address: 5121
+registrando
+* fingir que registra *
+Virtual address: 18633 TLB: 0 Physical address: 5577
+registrando
+* fingir que registra *
+Virtual address: 14557 TLB: 0 Physical address: 5853
+registrando
+* fingir que registra *
+Virtual address: 61006 TLB: 59 Physical address: 5966
+Deu diferente
+Virtual address: 62615 TLB: 37 Physical address: 407
+registrando
+* fingir que registra *
+Virtual address: 7591 TLB: 105 Physical address: 6311
+registrando
+* fingir que registra *
+Virtual address: 64747 TLB: 58 Physical address: 6635
+registrando
+* fingir que registra *
+Virtual address: 6727 TLB: -111 Physical address: 6727
+registrando
+* fingir que registra *
+Virtual address: 32315 TLB: -114 Physical address: 6971
+registrando
+* fingir que registra *
+Virtual address: 60645 TLB: 0 Physical address: 7397
+registrando
+* fingir que registra *
+Virtual address: 6308 TLB: 0 Physical address: 7588
+registrando
+* fingir que registra *
+Virtual address: 45688 TLB: 0 Physical address: 7800
+registrando
+* fingir que registra *
+Virtual address: 969 TLB: 0 Physical address: 8137
+registrando
+* fingir que registra *
+Virtual address: 40891 TLB: -18 Physical address: 8379
+registrando
+* fingir que registra *
+Virtual address: 49294 TLB: 48 Physical address: 8590
+registrando
+* fingir que registra *
+Virtual address: 41118 TLB: 40 Physical address: 8862
+registrando
+* fingir que registra *
+Virtual address: 21395 TLB: -28 Physical address: 9107
+registrando
+* fingir que registra *
+Virtual address: 6091 TLB: -14 Physical address: 9419
+registrando
+* fingir que registra *
+Virtual address: 32541 TLB: 0 Physical address: 9501
+registrando
+* fingir que registra *
+Virtual address: 17665 TLB: 0 Physical address: 9729
+registrando
+* fingir que registra *
+Virtual address: 3784 TLB: 0 Physical address: 10184
+Deu diferente
+Virtual address: 28718 TLB: 28 Physical address: 1326
+registrando
+* fingir que registra *
+Virtual address: 59240 TLB: 0 Physical address: 10344
+Deu diferente
+Virtual address: 40178 TLB: 39 Physical address: 1266
+registrando
+* fingir que registra *
+Virtual address: 60086 TLB: 58 Physical address: 10678
+registrando
+* fingir que registra *
+Virtual address: 42252 TLB: 0 Physical address: 10764
+registrando
+* fingir que registra *
+Virtual address: 44770 TLB: 43 Physical address: 11234
+registrando
+* fingir que registra *
+Virtual address: 22514 TLB: 21 Physical address: 11506
+registrando
+* fingir que registra *
+Virtual address: 3067 TLB: -2 Physical address: 11771
+registrando
+* fingir que registra *
+Virtual address: 15757 TLB: 0 Physical address: 11917
+registrando
+* fingir que registra *
+Virtual address: 31649 TLB: 0 Physical address: 12193
+registrando
+* fingir que registra *
+Virtual address: 10842 TLB: 10 Physical address: 12378
+registrando
+* fingir que registra *
+Virtual address: 43765 TLB: 0 Physical address: 12789
+registrando
+* fingir que registra *
+Virtual address: 33405 TLB: 0 Physical address: 12925
+registrando
+* fingir que registra *
+Virtual address: 44954 TLB: 43 Physical address: 13210
+registrando
+* fingir que registra *
+Virtual address: 56657 TLB: 0 Physical address: 13393
+registrando
+* fingir que registra *
+Virtual address: 5003 TLB: -30 Physical address: 13707
+registrando
+* fingir que registra *
+Virtual address: 50227 TLB: 12 Physical address: 13875
+registrando
+* fingir que registra *
+Virtual address: 19358 TLB: 18 Physical address: 14238
+registrando
+* fingir que registra *
+Virtual address: 36529 TLB: 0 Physical address: 14513
+registrando
+* fingir que registra *
+Virtual address: 10392 TLB: 0 Physical address: 14744
+registrando
+* fingir que registra *
+Virtual address: 58882 TLB: 57 Physical address: 14850
+registrando
+* fingir que registra *
+Virtual address: 5129 TLB: 0 Physical address: 15113
+registrando
+* fingir que registra *
+Virtual address: 58554 TLB: 57 Physical address: 15546
+Deu diferente
+Virtual address: 58584 TLB: 0 Physical address: 15576
+registrando
+* fingir que registra *
+Virtual address: 27444 TLB: 0 Physical address: 15668
+Deu diferente
+Virtual address: 58982 TLB: 57 Physical address: 14950
+registrando
+* fingir que registra *
+Virtual address: 51476 TLB: 0 Physical address: 15892
+Deu diferente
+Virtual address: 6796 TLB: 0 Physical address: 6796
+Deu diferente
+Virtual address: 21311 TLB: -49 Physical address: 9023
+registrando
+* fingir que registra *
+Virtual address: 30705 TLB: 0 Physical address: 16369
+registrando
+* fingir que registra *
+Virtual address: 28964 TLB: 0 Physical address: 16420
+Deu diferente
+Virtual address: 41003 TLB: 10 Physical address: 8747
+registrando
+* fingir que registra *
+Virtual address: 20259 TLB: -56 Physical address: 16675
+Deu diferente
+Virtual address: 57857 TLB: 0 Physical address: 3073
+registrando
+* fingir que registra *
+Virtual address: 63258 TLB: 61 Physical address: 16922
+Deu diferente
+Virtual address: 36374 TLB: 35 Physical address: 14358
+registrando
+* fingir que registra *
+Virtual address: 692 TLB: 0 Physical address: 17332
+registrando
+* fingir que registra *
+Virtual address: 43121 TLB: 0 Physical address: 17521
+registrando
+* fingir que registra *
+Virtual address: 48128 TLB: 0 Physical address: 17664
+registrando
+* fingir que registra *
+Virtual address: 34561 TLB: 0 Physical address: 17921
+Deu diferente
+Virtual address: 49213 TLB: 0 Physical address: 8509
+registrando
+* fingir que registra *
+Virtual address: 36922 TLB: 36 Physical address: 18234
+Deu diferente
+Virtual address: 59162 TLB: 57 Physical address: 10266
+registrando
+* fingir que registra *
+Virtual address: 50552 TLB: 0 Physical address: 18552
+Deu diferente
+Virtual address: 17866 TLB: 17 Physical address: 9930
+registrando
+* fingir que registra *
+Virtual address: 18145 TLB: 0 Physical address: 18913
+registrando
+* fingir que registra *
+Virtual address: 3884 TLB: 0 Physical address: 18988
+registrando
+* fingir que registra *
+Virtual address: 54388 TLB: 0 Physical address: 19316
+registrando
+* fingir que registra *
+Virtual address: 42932 TLB: 0 Physical address: 19636
+registrando
+* fingir que registra *
+Virtual address: 46919 TLB: -47 Physical address: 19783
+Deu diferente
+Virtual address: 58892 TLB: 0 Physical address: 14860
+registrando
+* fingir que registra *
+Virtual address: 8620 TLB: 0 Physical address: 20140
+registrando
+* fingir que registra *
+Virtual address: 38336 TLB: 0 Physical address: 20416
+Deu diferente
+Virtual address: 64357 TLB: 0 Physical address: 4965
+registrando
+* fingir que registra *
+Virtual address: 23387 TLB: -42 Physical address: 20571
+registrando
+* fingir que registra *
+Virtual address: 42632 TLB: 0 Physical address: 20872
+registrando
+* fingir que registra *
+Virtual address: 15913 TLB: 0 Physical address: 21033
+Deu diferente
+Virtual address: 15679 TLB: 79 Physical address: 11839
+Deu diferente
+Virtual address: 22501 TLB: 0 Physical address: 11493
+registrando
+* fingir que registra *
+Virtual address: 37540 TLB: 0 Physical address: 21412
+registrando
+* fingir que registra *
+Virtual address: 5527 TLB: 101 Physical address: 21655
+registrando
+* fingir que registra *
+Virtual address: 63921 TLB: 0 Physical address: 21937
+Deu diferente
+Virtual address: 62716 TLB: 0 Physical address: 508
+Deu diferente
+Virtual address: 32874 TLB: 32 Physical address: 4202
+Deu diferente
+Virtual address: 64390 TLB: 62 Physical address: 4998
+registrando
+* fingir que registra *
+Virtual address: 63101 TLB: 0 Physical address: 22141
+registrando
+* fingir que registra *
+Virtual address: 61802 TLB: 60 Physical address: 22378
+registrando
+* fingir que registra *
+Virtual address: 19648 TLB: 0 Physical address: 22720
+Deu diferente
+Virtual address: 29031 TLB: 89 Physical address: 16487
+Deu diferente
+Virtual address: 44981 TLB: 0 Physical address: 13237
+Deu diferente
+Virtual address: 28092 TLB: 0 Physical address: 3516
+registrando
+* fingir que registra *
+Virtual address: 9448 TLB: 0 Physical address: 23016
+Deu diferente
+Virtual address: 44744 TLB: 0 Physical address: 11208
+registrando
+* fingir que registra *
+Virtual address: 61496 TLB: 0 Physical address: 23096
+registrando
+* fingir que registra *
+Virtual address: 31453 TLB: 0 Physical address: 23517
+registrando
+* fingir que registra *
+Virtual address: 60746 TLB: 59 Physical address: 23626
+Deu diferente
+Virtual address: 12199 TLB: -23 Physical address: 2727
+registrando
+* fingir que registra *
+Virtual address: 62255 TLB: -53 Physical address: 23855
+registrando
+* fingir que registra *
+Virtual address: 21793 TLB: 0 Physical address: 24097
+registrando
+* fingir que registra *
+Virtual address: 26544 TLB: 0 Physical address: 24496
+registrando
+* fingir que registra *
+Virtual address: 14964 TLB: 0 Physical address: 24692
+registrando
+* fingir que registra *
+Virtual address: 41462 TLB: 40 Physical address: 25078
+registrando
+* fingir que registra *
+Virtual address: 56089 TLB: 0 Physical address: 25113
+registrando
+* fingir que registra *
+Virtual address: 52038 TLB: 50 Physical address: 25414
+registrando
+* fingir que registra *
+Virtual address: 47982 TLB: 46 Physical address: 25710
+registrando
+* fingir que registra *
+Virtual address: 59484 TLB: 0 Physical address: 25948
+registrando
+* fingir que registra *
+Virtual address: 50924 TLB: 0 Physical address: 26348
+registrando
+* fingir que registra *
+Virtual address: 6942 TLB: 6 Physical address: 26398
+registrando
+* fingir que registra *
+Virtual address: 34998 TLB: 34 Physical address: 26806
+registrando
+* fingir que registra *
+Virtual address: 27069 TLB: 0 Physical address: 27069
+registrando
+* fingir que registra *
+Virtual address: 51926 TLB: 50 Physical address: 27350
+Deu diferente
+Virtual address: 60645 TLB: 0 Physical address: 7397
+Deu diferente
+Virtual address: 43181 TLB: 0 Physical address: 17581
+registrando
+* fingir que registra *
+Virtual address: 10559 TLB: 79 Physical address: 27455
+registrando
+* fingir que registra *
+Virtual address: 4664 TLB: 0 Physical address: 27704
+registrando
+* fingir que registra *
+Virtual address: 28578 TLB: 27 Physical address: 28066
+Deu diferente
+Virtual address: 59516 TLB: 0 Physical address: 25980
+Deu diferente
+Virtual address: 38912 TLB: 0 Physical address: 3840
+registrando
+* fingir que registra *
+Virtual address: 63562 TLB: 62 Physical address: 28234
+Deu diferente
+Virtual address: 64846 TLB: 63 Physical address: 2126
+registrando
+* fingir que registra *
+Virtual address: 62938 TLB: 61 Physical address: 28634
+registrando
+* fingir que registra *
+Virtual address: 27194 TLB: 26 Physical address: 28730
+Deu diferente
+Virtual address: 28804 TLB: 0 Physical address: 1412
+Deu diferente
+Virtual address: 61703 TLB: 65 Physical address: 22279
+Deu diferente
+Virtual address: 10998 TLB: 10 Physical address: 12534
+registrando
+* fingir que registra *
+Virtual address: 6596 TLB: 0 Physical address: 29124
+registrando
+* fingir que registra *
+Virtual address: 37721 TLB: 0 Physical address: 29273
+registrando
+* fingir que registra *
+Virtual address: 43430 TLB: 42 Physical address: 29606
+Deu diferente
+Virtual address: 22692 TLB: 0 Physical address: 2980
+Deu diferente
+Virtual address: 62971 TLB: 126 Physical address: 28667
+registrando
+* fingir que registra *
+Virtual address: 47125 TLB: 0 Physical address: 29717
+registrando
+* fingir que registra *
+Virtual address: 52521 TLB: 0 Physical address: 29993
+Deu diferente
+Virtual address: 34646 TLB: 33 Physical address: 18006
+Deu diferente
+Virtual address: 32889 TLB: 0 Physical address: 4217
+registrando
+* fingir que registra *
+Virtual address: 13055 TLB: -65 Physical address: 30463
+registrando
+* fingir que registra *
+Virtual address: 65416 TLB: 0 Physical address: 30600
+Deu diferente
+Virtual address: 62869 TLB: 0 Physical address: 28565
+registrando
+* fingir que registra *
+Virtual address: 57314 TLB: 55 Physical address: 30946
+registrando
+* fingir que registra *
+Virtual address: 12659 TLB: 92 Physical address: 31091
+registrando
+* fingir que registra *
+Virtual address: 14052 TLB: 0 Physical address: 31460
+Deu diferente
+Virtual address: 32956 TLB: 0 Physical address: 4284
+Deu diferente
+Virtual address: 49273 TLB: 0 Physical address: 8569
+Deu diferente
+Virtual address: 50352 TLB: 0 Physical address: 14000
+registrando
+* fingir que registra *
+Virtual address: 49737 TLB: 0 Physical address: 31561
+registrando
+* fingir que registra *
+Virtual address: 15555 TLB: 48 Physical address: 31939
+registrando
+* fingir que registra *
+Virtual address: 47475 TLB: 92 Physical address: 32115
+registrando
+* fingir que registra *
+Virtual address: 15328 TLB: 0 Physical address: 32480
+Deu diferente
+Virtual address: 34621 TLB: 0 Physical address: 17981
+registrando
+* fingir que registra *
+Virtual address: 51365 TLB: 0 Physical address: 32677
+Deu diferente
+Virtual address: 32820 TLB: 0 Physical address: 4148
+registrando
+* fingir que registra *
+make: *** [makefile:6: run] Segmentation fault
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ [K]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ [K]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ [K]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ [K]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ [K]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ [K]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ [K]0;devcont

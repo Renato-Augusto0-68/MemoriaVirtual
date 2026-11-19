@@ -21,6 +21,7 @@ void localizarEnderecos(FILE *arquivo, dados *acessoAtual, pagina *tabela, ram *
         usada->proxFrame++;
     }
     int sep=resultado*(256)+acessoAtual->offset;
-    printf("%d %d\n",usada->RAM[resultado][acessoAtual->offset],sep);
+    
+    printf("Virtual address: %d TLB: %d Physical address: %d\n",acessoAtual->enderecoBruto,usada->RAM[resultado][acessoAtual->offset],sep);
 }
 
