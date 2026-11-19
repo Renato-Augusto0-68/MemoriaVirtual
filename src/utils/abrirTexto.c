@@ -18,7 +18,9 @@ void localizarEnderecos(FILE *arquivo, dados *acessoAtual, pagina *tabela, ram *
             printf("deu falha de leitura\n");
         }
         tabela[acessoAtual->pagina].informacao=resultado;
+        usada->reverse[resultado] = usada->proxFrame; 
         usada->proxFrame++;
+
     }
     int sep=resultado*(256)+acessoAtual->offset;
     
