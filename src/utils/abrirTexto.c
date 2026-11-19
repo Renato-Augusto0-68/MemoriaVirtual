@@ -13,7 +13,7 @@ void localizarEnderecos(FILE *arquivo, dados *acessoAtual, pagina *tabela){
        printf("* fingir que registra *\n");
 
        fseek(arquivo,(acessoAtual->offset)*256L,SEEK_SET);
-       
+       fread(arquivo,sizeof(tabela->informacao),(acessoAtual->pagina*256));
     }
 
 }

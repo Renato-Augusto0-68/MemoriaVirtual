@@ -20,8 +20,6 @@ int main(){
     
     arq=fopen("addresses.txt","r");
     arq2 = fopen("BACKING_STORE.bin","rb");
-    int i=0;
-    int g=-1;
     if(arq2!=NULL && arq!=NULL){
         while(fscanf(arq,"%d",&x.enderecoBruto)!=EOF){
             x.enderecoBruto=x.enderecoBruto & 0xFFFF;
