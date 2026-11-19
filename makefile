@@ -5,6 +5,6 @@ vm: src/main.c src/utils/abrirTexto.c src/utils/abrirTexto.h src/utils/dados.h s
 run: vm
 	./vm
 clean: 
-	rm -f vm
+	rm -f vm teste.txt
 
 .PHONY: clean run

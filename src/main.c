@@ -8,6 +8,8 @@
 
 
 int main(){
+    FILE *arqt;
+    arqt=fopen("teste.txt","w");
     
     dados x;
     pagina *atual=NULL;
@@ -30,16 +32,17 @@ int main(){
         exit(1);
     }
 
-    if(arq2!=NULL && arq!=NULL){
+    if(arq2!=NULL && arq!=NULL && arqt){
         while(fscanf(arq,"%d",&x.enderecoBruto)!=EOF){
             x.enderecoBruto=x.enderecoBruto & 0xFFFF;
             x.pagina= (x.enderecoBruto>>8) & 0xFF;
             x.offset = x.enderecoBruto & 0xFF;     
-            localizarEnderecos(arq2,&x,atual,usada);
+            localizarEnderecos(arq2,&x,atual,usada, arqt);
         }
     }
     fclose(arq);
     fclose(arq2);
+    fclose(arqt);
     for(int i=0;i<128;i++){
         free(usada->RAM[i]);
     }
