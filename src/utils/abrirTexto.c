@@ -15,7 +15,7 @@ void localizarEnderecos(FILE *arquivo, dados *acessoAtual, pagina *tabela, ram *
         resultado=(usada->proxFrame);
         fseek(arquivo,(acessoAtual->pagina)*256L,SEEK_SET);
         if (fread(usada->RAM[resultado],sizeof(signed char),256,arquivo)!=256){
-            printf("deu falha de letiura\n");
+            printf("deu falha de leitura\n");
         }
         tabela[acessoAtual->pagina].informacao=resultado;
         usada->proxFrame++;
