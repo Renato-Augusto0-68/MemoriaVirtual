@@ -12,13 +12,15 @@ void localizarEnderecos(FILE *arquivo, dados *acessoAtual, pagina *tabela, ram *
     }else{
         printf("registrando\n");
         printf("* fingir que registra *\n");
-
+        resultado=(usada->proxFrame);
+        printf("%d",resultado);
         fseek(arquivo,(acessoAtual->pagina)*256L,SEEK_SET);
-        int result=fread(usada->RAM[acessoAtual->pagina][acessoAtual->offset],sizeof(signed char),(acessoAtual->pagina*256+acessoAtual->offset),arquivo);
-        if (result!=256){
+        if (fread(usada->RAM[resultado],sizeof(signed char),256,arquivo)!=256){
             printf("deu falha de letiura");
         }
-        
+        tabela[acessoAtual->pagina].informacao=resultado;
+        usada->proxFrame++;
+        printf("A");
     }
 }
 

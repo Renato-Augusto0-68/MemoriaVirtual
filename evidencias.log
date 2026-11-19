@@ -11130,4 +11130,40 @@ make: *** [makefile:2: vm] Error 1
 [?2004lgcc src/utils/abrirTexto.c src/main.c -o vm
 [01m[Ksrc/utils/abrirTexto.c:[m[K In function ‘[01m[KlocalizarEnderecos[m[K’:
 [01m[Ksrc/utils/abrirTexto.c:16:32:[m[K [01;31m[Kerror: [m[Kpassing argument 1 of ‘[01m[Kfread[m[K’ makes pointer from integer without a cast [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wint-conversion-Wint-conversion]8;;[m[K]
-   16 |         int result=fread([01;34m[Kt[m[K[01;34m[Ka[m[K[01;34m[Kb[m[K[01;34m[Ke[m[K[01;34m[Kl[m[K[01;34m[Ka[m[K[01;34m[K-[m[K[01;34m[K>[m[K[01;34m[Ki[m[K[01;34m[Kn[m[K[01;34m[Kf[m[K[01;34m[Ko[m[K[01;34m[Kr[m[K[01;34m[Km[m[K[01;34m[Ka[m[K[01;34m[Kc[m[K[01;34m[Ka[m[K[01;34m[Ko[m[K,sizeof(signed char),(aces
+   16 |         int result=fread([01;34m[Kt[m[K[01;34m[Ka[m[K[01;34m[Kb[m[K[01;34m[Ke[m[K[01;34m[Kl[m[K[01;34m[Ka[m[K[01;34m[K-[m[K[01;34m[K>[m[K[01;34m[Ki[m[K[01;34m[Kn[m[K[01;34m[Kf[m[K[01;34m[Ko[m[K[01;34m[Kr[m[K[01;34m[Km[m[K[01;34m[Ka[m[K[01;34m[Kc[m[K[01;34m[Ka[m[K[01;34m[Ko[m[K,sizeof(signed char),(acessoAtual->pagina*256+acessoAtual->offset),arquivo);
+      |                          [01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K^[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K
+      |                                [01;34m[K|[m[K
+      |                                [01;34m[Ksigned char[m[K
+In file included from [01m[Ksrc/utils/abrirTexto.c:1[m[K:
+[01m[K/usr/include/stdio.h:732:39:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[K[01;32m[Kvoid * restrict[m[K[m[K’ but argument is of type ‘[01m[K[01;34m[Ksigned char[m[K[m[K’
+  732 | extern size_t fread ([01;32m[Kv[m[K[01;32m[Ko[m[K[01;32m[Ki[m[K[01;32m[Kd[m[K[01;32m[K [m[K[01;32m[K*[m[K[01;32m[K_[m[K[01;32m[K_[m[K[01;32m[Kr[m[K[01;32m[Ke[m[K[01;32m[Ks[m[K[01;32m[Kt[m[K[01;32m[Kr[m[K[01;32m[Ki[m[K[01;32m[Kc[m[K[01;32m[Kt[m[K[01;32m[K [m[K[01;32m[K_[m[K[01;32m[K_[m[K[01;32m[Kp[m[K[01;32m[Kt[m[K[01;32m[Kr[m[K, size_t __size,
+      |                      [01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K^[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K
+make: *** [makefile:2: vm] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make run[2@clea[C[2Pru[C[4Pexitlsb_release -aexit[Kmake run[2@clea[C
+[?2004lrm -f vm
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make clean
+[?2004lrm -f vm
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make clean[2Pru[C
+[?2004lgcc src/utils/abrirTexto.c src/main.c -o vm
+[01m[Ksrc/utils/abrirTexto.c:[m[K In function ‘[01m[KlocalizarEnderecos[m[K’:
+[01m[Ksrc/utils/abrirTexto.c:15:18:[m[K [01;31m[Kerror: [m[Kassignment to ‘[01m[Kint[m[K’ from ‘[01m[Kint *[m[K’ makes integer from pointer without a cast [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wint-conversion-Wint-conversion]8;;[m[K]
+   15 |         resultado[01;31m[K=[m[Kusada->proxFrame;
+      |                  [01;31m[K^[m[K
+make: *** [makefile:2: vm] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make run
+[?2004lgcc src/utils/abrirTexto.c src/main.c -o vm
+./vm
+make: *** [makefile:6: run] Segmentation fault
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make run[2@clea[C
+[?2004lrm -f vm
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make clean[2Pru[C
+[?2004lgcc src/utils/abrirTexto.c src/main.c -o vm
+./vm
+make: *** [makefile:6: run] Segmentation fault
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make run[2@clea[C
+[?2004lrm -f vm
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make clean[2Pru[C
+[?2004lgcc src/utils/abrirTexto.c src/main.c -o vm
+./vm
+make: *** [makefile:6: run] Segmentation fault
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00
