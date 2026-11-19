@@ -16,14 +16,7 @@ void localizarEnderecos(FILE *arquivo, dados *acessoAtual, pagina *tabela, ram *
         printf("* fingir que registra *\n");
         resultado=(usada->proxFrame);
         
-        if(usada->reverse[resultado]!=-1){
-            tabela[usada->reverse[resultado]].informacao=-1;
-        }
-        fseek(arquivo,(acessoAtual->pagina)*256L,SEEK_SET);
         
-
-        if (fread(usada->RAM[resultado],sizeof(signed char),256,arquivo)!=256){
-        }
         tabela[acessoAtual->pagina].informacao=resultado;
         if(tabela->modo==1){
             usada->reverse[resultado] = acessoAtual->pagina;
@@ -40,7 +33,14 @@ void localizarEnderecos(FILE *arquivo, dados *acessoAtual, pagina *tabela, ram *
                 }
             }
         } 
+        if(usada->reverse[resultado]!=-1){
+            tabela[usada->reverse[resultado]].informacao=-1;
+        }
+        fseek(arquivo,(acessoAtual->pagina)*256L,SEEK_SET);
+        
 
+        if (fread(usada->RAM[resultado],sizeof(signed char),256,arquivo)!=256){
+        }
         usada->pageFault++;
     }
     
