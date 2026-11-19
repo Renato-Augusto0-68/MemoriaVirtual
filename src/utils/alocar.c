@@ -3,7 +3,8 @@
 #include "ram.h"
 #include "pagina.h"
 
-void alocarMemoria(ram *usada){
+ram *alocarMemoria(){
+    ram *usada=NULL;
     usada->RAM=malloc(sizeof(signed char*)*256);
     if(usada->RAM==NULL){
         printf("RAM é nulo");
@@ -12,9 +13,11 @@ void alocarMemoria(ram *usada){
         usada->RAM[i]=malloc(sizeof(signed char)*256);
     }
     usada->proxFrame=0;
+    return usada;
 }
 
-void alocarPaginas(pagina *atual){
+pagina *alocarPaginas(){
+    pagina *atual=NULL;
     atual=malloc(sizeof(pagina)*256);
     if(atual==NULL){
         printf("aqui");
@@ -23,4 +26,5 @@ void alocarPaginas(pagina *atual){
     for(int i=0;i<256;i++){   
             atual[i].informacao=-1;
     }
+    return atual;
 }

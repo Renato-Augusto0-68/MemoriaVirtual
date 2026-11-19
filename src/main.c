@@ -10,11 +10,9 @@
 int main(){
     
     dados x;
-    pagina *atual;
-    alocarPaginas(atual);
+    pagina *atual = alocarPaginas();
     
-    ram *usada;
-    alocarMemoria(usada);
+    ram *usada = alocarMemoria();
 
     FILE *arq,*arq2;
     
