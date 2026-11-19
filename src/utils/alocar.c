@@ -3,17 +3,16 @@
 #include "ram.h"
 #include "pagina.h"
 
-ram *alocarMemoria(){
-    ram *usada=NULL;
-    usada->RAM=malloc(sizeof(signed char*)*256);
-    if(usada->RAM==NULL){
+void alocarMemoria(ram **usada){
+    (*usada)->RAM=malloc(sizeof(signed char*)*256);
+    if((*usada)->RAM==NULL){
         printf("RAM é nulo");
     }
     for(int i=0;i<256;i++){
-        usada->RAM[i]=malloc(sizeof(signed char)*256);
+        (*usada)->RAM[i]=malloc(sizeof(signed char)*256);
     }
-    usada->proxFrame=0;
-    return usada;
+    (*usada)->proxFrame=0;
+    
 }
 
 pagina *alocarPaginas(){

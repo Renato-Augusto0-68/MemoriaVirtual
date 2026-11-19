@@ -4,7 +4,7 @@
 #include "ram.h"
 #include "pagina.h"
 
-ram *alocarMemoria();
+void alocarMemoria(ram **usada);
 
 pagina *alocarPaginas();
 
