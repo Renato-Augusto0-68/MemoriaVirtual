@@ -5,7 +5,7 @@
 
 void alocarMemoria(ram **usada){
     
-    (*usada)->RAM=malloc(sizeof(signed char*)*256);
+    (*usada)->RAM=malloc(sizeof(signed char*)*128);
     if((*usada)->RAM==NULL){
         printf("RAM é nulo");
     }
@@ -13,6 +13,7 @@ void alocarMemoria(ram **usada){
         (*usada)->RAM[i]=malloc(sizeof(signed char)*256);
     }
     (*usada)->proxFrame=0;
+    (*usada)->pageFault=0;
     
 }
 

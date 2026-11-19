@@ -40,7 +40,7 @@ int main(){
     }
     fclose(arq);
     fclose(arq2);
-    for(int i=0;i<256;i++){
+    for(int i=0;i<128;i++){
         free(usada->RAM[i]);
     }
     free(usada->RAM);
