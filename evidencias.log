@@ -11322,4 +11322,637 @@ In file included from [01m[Ksrc/main.c:7[m[K:
     9 | pagina *[01;36m[KalocarPaginas[m[K();
       |         [01;36m[K^~~~~~~~~~~~~[m[K
 make: *** [makefile:2: vm] Error 1
-[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/Mem
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make run
+[?2004lgcc src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+[01m[Ksrc/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Ksrc/main.c:14:5:[m[K [01;31m[Kerror: [m[Ktoo many arguments to function ‘[01m[KalocarPaginas[m[K’; expected 0, have 1
+   14 |     [01;31m[KalocarPaginas[m[K([32m[K&atual[m[K);
+      |     [01;31m[K^~~~~~~~~~~~~[m[K [32m[K~~~~~~[m[K
+In file included from [01m[Ksrc/main.c:7[m[K:
+[01m[Ksrc/utils/alocar.h:9:9:[m[K [01;36m[Knote: [m[Kdeclared here
+    9 | pagina *[01;36m[KalocarPaginas[m[K();
+      |         [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[Ksrc/main.c:16:18:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[KalocarMemoria[m[K’; expected 1, have 0
+   16 |     ram *usada = [01;31m[KalocarMemoria[m[K();
+      |                  [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[Ksrc/utils/alocar.h:7:6:[m[K [01;36m[Knote: [m[Kdeclared here
+    7 | void [01;36m[KalocarMemoria[m[K(ram **usada);
+      |      [01;36m[K^~~~~~~~~~~~~[m[K
+make: *** [makefile:2: vm] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make run
+[?2004lgcc src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+./vm
+make: *** [makefile:6: run] Segmentation fault
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make run[2@clea[C
+[?2004lrm -f vm
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make clean
+[?2004lrm -f vm
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make clean[2Pru[C
+[?2004lgcc src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+./vm
+make: *** [makefile:6: run] Segmentation fault
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make run[2@clea[C
+[?2004lrm -f vm
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make clean[2Pru[C
+[?2004lgcc src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+./vm
+make: *** [makefile:6: run] Segmentation fault
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make run[2@clea[C
+[?2004lrm -f vm
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make clean
+[?2004lrm -f vm
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make clean[2Pru[C
+[?2004lgcc src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+./vm
+make: *** [makefile:6: run] Segmentation fault
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make run
+[?2004lgcc src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+./vm
+make: *** [makefile:6: run] Segmentation fault
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make run[2@clea[C
+[?2004lrm -f vm
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make clean[2Pru[C
+[?2004lgcc src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+./vm
+make: *** [makefile:6: run] Segmentation fault
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make run
+[?2004lgcc src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+./vm
+-1registrando
+* fingir que registra *
+0A0 20-1registrando
+* fingir que registra *
+1A0 285-1registrando
+* fingir que registra *
+2A29 758-1registrando
+* fingir que registra *
+3A108 947-1registrando
+* fingir que registra *
+4A0 1273-1registrando
+* fingir que registra *
+5A0 1389-1registrando
+* fingir que registra *
+6A23 1678-1registrando
+* fingir que registra *
+7A67 1807-1registrando
+* fingir que registra *
+8A75 2095-1registrando
+* fingir que registra *
+9A-35 2423-1registrando
+* fingir que registra *
+10A11 2746-1registrando
+* fingir que registra *
+11A0 3048-1registrando
+* fingir que registra *
+12A56 3198-1registrando
+* fingir que registra *
+13A27 3390-1registrando
+* fingir que registra *
+14A53 3694-1registrando
+* fingir que registra *
+15A0 3857-1registrando
+* fingir que registra *
+16A0 4193-1registrando
+* fingir que registra *
+17A-68 4595-1registrando
+* fingir que registra *
+18A66 4619-1registrando
+* fingir que registra *
+19A62 5062-1registrando
+* fingir que registra *
+20A0 5121-1registrando
+* fingir que registra *
+21A0 5577-1registrando
+* fingir que registra *
+22A0 5853-1registrando
+* fingir que registra *
+23A59 59661Deu diferente
+37 407-1registrando
+* fingir que registra *
+24A105 6311-1registrando
+* fingir que registra *
+25A58 6635-1registrando
+* fingir que registra *
+26A-111 6727-1registrando
+* fingir que registra *
+27A-114 6971-1registrando
+* fingir que registra *
+28A0 7397-1registrando
+* fingir que registra *
+29A0 7588-1registrando
+* fingir que registra *
+30A0 7800-1registrando
+* fingir que registra *
+31A0 8137-1registrando
+* fingir que registra *
+32A-18 8379-1registrando
+* fingir que registra *
+33A48 8590-1registrando
+* fingir que registra *
+34A40 8862-1registrando
+* fingir que registra *
+35A-28 9107-1registrando
+* fingir que registra *
+36A-14 9419-1registrando
+* fingir que registra *
+37A0 9501-1registrando
+* fingir que registra *
+38A0 9729-1registrando
+* fingir que registra *
+39A0 101845Deu diferente
+28 1326-1registrando
+* fingir que registra *
+40A0 103444Deu diferente
+39 1266-1registrando
+* fingir que registra *
+41A58 10678-1registrando
+* fingir que registra *
+42A0 10764-1registrando
+* fingir que registra *
+43A43 11234-1registrando
+* fingir que registra *
+44A21 11506-1registrando
+* fingir que registra *
+45A-2 11771-1registrando
+* fingir que registra *
+46A0 11917-1registrando
+* fingir que registra *
+47A0 12193-1registrando
+* fingir que registra *
+48A10 12378-1registrando
+* fingir que registra *
+49A0 12789-1registrando
+* fingir que registra *
+50A0 12925-1registrando
+* fingir que registra *
+51A43 13210-1registrando
+* fingir que registra *
+52A0 13393-1registrando
+* fingir que registra *
+53A-30 13707-1registrando
+* fingir que registra *
+54A12 13875-1registrando
+* fingir que registra *
+55A18 14238-1registrando
+* fingir que registra *
+56A0 14513-1registrando
+* fingir que registra *
+57A0 14744-1registrando
+* fingir que registra *
+58A57 14850-1registrando
+* fingir que registra *
+59A0 15113-1registrando
+* fingir que registra *
+60A57 1554660Deu diferente
+0 15576-1registrando
+* fingir que registra *
+61A0 1566858Deu diferente
+57 14950-1registrando
+* fingir que registra *
+62A0 1589226Deu diferente
+0 679635Deu diferente
+-49 9023-1registrando
+* fingir que registra *
+63A0 16369-1registrando
+* fingir que registra *
+64A0 1642034Deu diferente
+10 8747-1registrando
+* fingir que registra *
+65A-56 1667512Deu diferente
+0 3073-1registrando
+* fingir que registra *
+66A61 1692256Deu diferente
+35 14358-1registrando
+* fingir que registra *
+67A0 17332-1registrando
+* fingir que registra *
+68A0 17521-1registrando
+* fingir que registra *
+69A0 17664-1registrando
+* fingir que registra *
+70A0 1792133Deu diferente
+0 8509-1registrando
+* fingir que registra *
+71A36 1823440Deu diferente
+57 10266-1registrando
+* fingir que registra *
+72A0 1855238Deu diferente
+17 9930-1registrando
+* fingir que registra *
+73A0 18913-1registrando
+* fingir que registra *
+74A0 18988-1registrando
+* fingir que registra *
+75A0 19316-1registrando
+* fingir que registra *
+76A0 19636-1registrando
+* fingir que registra *
+77A-47 1978358Deu diferente
+0 14860-1registrando
+* fingir que registra *
+78A0 20140-1registrando
+* fingir que registra *
+79A0 2041619Deu diferente
+0 4965-1registrando
+* fingir que registra *
+80A-42 20571-1registrando
+* fingir que registra *
+81A0 20872-1registrando
+* fingir que registra *
+82A0 2103346Deu diferente
+79 1183944Deu diferente
+0 11493-1registrando
+* fingir que registra *
+83A0 21412-1registrando
+* fingir que registra *
+84A101 21655-1registrando
+* fingir que registra *
+85A0 219371Deu diferente
+0 50816Deu diferente
+32 420219Deu diferente
+62 4998-1registrando
+* fingir que registra *
+86A0 22141-1registrando
+* fingir que registra *
+87A60 22378-1registrando
+* fingir que registra *
+88A0 2272064Deu diferente
+89 1648751Deu diferente
+0 1323713Deu diferente
+0 3516-1registrando
+* fingir que registra *
+89A0 2301643Deu diferente
+0 11208-1registrando
+* fingir que registra *
+90A0 23096-1registrando
+* fingir que registra *
+91A0 23517-1registrando
+* fingir que registra *
+92A59 2362610Deu diferente
+-23 2727-1registrando
+* fingir que registra *
+93A-53 23855-1registrando
+* fingir que registra *
+94A0 24097-1registrando
+* fingir que registra *
+95A0 24496-1registrando
+* fingir que registra *
+96A0 24692-1registrando
+* fingir que registra *
+97A40 25078-1registrando
+* fingir que registra *
+98A0 25113-1registrando
+* fingir que registra *
+99A50 25414-1registrando
+* fingir que registra *
+100A46 25710-1registrando
+* fingir que registra *
+101A0 25948-1registrando
+* fingir que registra *
+102A0 26348-1registrando
+* fingir que registra *
+103A6 26398-1registrando
+* fingir que registra *
+104A34 26806-1registrando
+* fingir que registra *
+105A0 27069-1registrando
+* fingir que registra *
+106A50 2735028Deu diferente
+0 739768Deu diferente
+0 17581-1registrando
+* fingir que registra *
+107A79 27455-1registrando
+* fingir que registra *
+108A0 27704-1registrando
+* fingir que registra *
+109A27 28066101Deu diferente
+0 2598015Deu diferente
+0 3840-1registrando
+* fingir que registra *
+110A62 282348Deu diferente
+63 2126-1registrando
+* fingir que registra *
+111A61 28634-1registrando
+* fingir que registra *
+112A26 287305Deu diferente
+0 141287Deu diferente
+65 2227948Deu diferente
+10 12534-1registrando
+* fingir que registra *
+113A0 29124-1registrando
+* fingir que registra *
+114A0 29273-1registrando
+* fingir que registra *
+115A42 2960611Deu diferente
+0 2980111Deu diferente
+126 28667-1registrando
+* fingir que registra *
+116A0 29717-1registrando
+* fingir que registra *
+117A0 2999370Deu diferente
+33 1800616Deu diferente
+0 4217-1registrando
+* fingir que registra *
+118A-65 30463-1registrando
+* fingir que registra *
+119A0 30600111Deu diferente
+0 28565-1registrando
+* fingir que registra *
+120A55 30946-1registrando
+* fingir que registra *
+121A92 31091-1registrando
+* fingir que registra *
+122A0 3146016Deu diferente
+0 428433Deu diferente
+0 856954Deu diferente
+0 14000-1registrando
+* fingir que registra *
+123A0 31561-1registrando
+* fingir que registra *
+124A48 31939-1registrando
+* fingir que registra *
+125A92 32115-1registrando
+* fingir que registra *
+126A0 3248070Deu diferente
+0 17981-1registrando
+* fingir que registra *
+127A0 3267716Deu diferente
+0 4148-1registrando
+* fingir que registra *
+make: *** [makefile:6: run] Segmentation fault
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make run
+[?2004lgcc src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+./vm
+-1registrando
+* fingir que registra *
+0A0 20
+-1registrando
+* fingir que registra *
+1A0 285
+-1registrando
+* fingir que registra *
+2A29 758
+-1registrando
+* fingir que registra *
+3A108 947
+-1registrando
+* fingir que registra *
+4A0 1273
+-1registrando
+* fingir que registra *
+5A0 1389
+-1registrando
+* fingir que registra *
+6A23 1678
+-1registrando
+* fingir que registra *
+7A67 1807
+-1registrando
+* fingir que registra *
+8A75 2095
+-1registrando
+* fingir que registra *
+9A-35 2423
+-1registrando
+* fingir que registra *
+10A11 2746
+-1registrando
+* fingir que registra *
+11A0 3048
+-1registrando
+* fingir que registra *
+12A56 3198
+-1registrando
+* fingir que registra *
+13A27 3390
+-1registrando
+* fingir que registra *
+14A53 3694
+-1registrando
+* fingir que registra *
+15A0 3857
+-1registrando
+* fingir que registra *
+16A0 4193
+-1registrando
+* fingir que registra *
+17A-68 4595
+-1registrando
+* fingir que registra *
+18A66 4619
+-1registrando
+* fingir que registra *
+19A62 5062
+-1registrando
+* fingir que registra *
+20A0 5121
+-1registrando
+* fingir que registra *
+21A0 5577
+-1registrando
+* fingir que registra *
+22A0 5853
+-1registrando
+* fingir que registra *
+23A59 5966
+1Deu diferente
+37 407
+-1registrando
+* fingir que registra *
+24A105 6311
+-1registrando
+* fingir que registra *
+25A58 6635
+-1registrando
+* fingir que registra *
+26A-111 6727
+-1registrando
+* fingir que registra *
+27A-114 6971
+-1registrando
+* fingir que registra *
+28A0 7397
+-1registrando
+* fingir que registra *
+29A0 7588
+-1registrando
+* fingir que registra *
+30A0 7800
+-1registrando
+* fingir que registra *
+31A0 8137
+-1registrando
+* fingir que registra *
+32A-18 8379
+-1registrando
+* fingir que registra *
+33A48 8590
+-1registrando
+* fingir que registra *
+34A40 8862
+-1registrando
+* fingir que registra *
+35A-28 9107
+-1registrando
+* fingir que registra *
+36A-14 9419
+-1registrando
+* fingir que registra *
+37A0 9501
+-1registrando
+* fingir que registra *
+38A0 9729
+-1registrando
+* fingir que registra *
+39A0 10184
+5Deu diferente
+28 1326
+-1registrando
+* fingir que registra *
+40A0 10344
+4Deu diferente
+39 1266
+-1registrando
+* fingir que registra *
+41A58 10678
+-1registrando
+* fingir que registra *
+42A0 10764
+-1registrando
+* fingir que registra *
+43A43 11234
+-1registrando
+* fingir que registra *
+44A21 11506
+-1registrando
+* fingir que registra *
+45A-2 11771
+-1registrando
+* fingir que registra *
+46A0 11917
+-1registrando
+* fingir que registra *
+47A0 12193
+-1registrando
+* fingir que registra *
+48A10 12378
+-1registrando
+* fingir que registra *
+49A0 12789
+-1registrando
+* fingir que registra *
+50A0 12925
+-1registrando
+* fingir que registra *
+51A43 13210
+-1registrando
+* fingir que registra *
+52A0 13393
+-1registrando
+* fingir que registra *
+53A-30 13707
+-1registrando
+* fingir que registra *
+54A12 13875
+-1registrando
+* fingir que registra *
+55A18 14238
+-1registrando
+* fingir que registra *
+56A0 14513
+-1registrando
+* fingir que registra *
+57A0 14744
+-1registrando
+* fingir que registra *
+58A57 14850
+-1registrando
+* fingir que registra *
+59A0 15113
+-1registrando
+* fingir que registra *
+60A57 15546
+60Deu diferente
+0 15576
+-1registrando
+* fingir que registra *
+61A0 15668
+58Deu diferente
+57 14950
+-1registrando
+* fingir que registra *
+62A0 15892
+26Deu diferente
+0 6796
+35Deu diferente
+-49 9023
+-1registrando
+* fingir que registra *
+63A0 16369
+-1registrando
+* fingir que registra *
+64A0 16420
+34Deu diferente
+10 8747
+-1registrando
+* fingir que registra *
+65A-56 16675
+12Deu diferente
+0 3073
+-1registrando
+* fingir que registra *
+66A61 16922
+56Deu diferente
+35 14358
+-1registrando
+* fingir que registra *
+67A0 17332
+-1registrando
+* fingir que registra *
+68A0 17521
+-1registrando
+* fingir que registra *
+69A0 17664
+-1registrando
+* fingir que registra *
+70A0 17921
+33Deu diferente
+0 8509
+-1registrando
+* fingir que registra *
+71A36 18234
+40Deu diferente
+57 10266
+-1registrando
+* fingir que registra *
+72A0 18552
+38Deu diferente
+17 9930
+-1registrando
+* fingir que registra *
+73A0 18913
+-1registrando
+* fingir que registra *
+74A0 18988
+-1registrando
+* fingir que registra *
+75A0 19316
+-1registrando
+* fingir que registra *
+76A0 19636
+-1registrando
+* fingir que registra *
+77A-47 19783
+58Deu diferente
+0 14860
+-1registrando
+* fingir que registra *
+78A0 20140
+-1registrando
+* fingir que registra *
+79A0 20416
+19Deu diferente
+0 4965
+-1registrando
+* fingir que registra *
+80A-42 

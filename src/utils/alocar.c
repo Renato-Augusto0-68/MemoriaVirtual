@@ -15,15 +15,14 @@ void alocarMemoria(ram **usada){
     
 }
 
-pagina *alocarPaginas(){
-    pagina *atual=NULL;
-    atual=malloc(sizeof(pagina)*256);
-    if(atual==NULL){
+void alocarPaginas(pagina **atual){
+    
+    (*atual)=malloc(sizeof(pagina)*256);
+    if(*atual==NULL){
         printf("aqui");
         exit(1);
     }
     for(int i=0;i<256;i++){   
-            atual[i].informacao=-1;
+            (*atual)[i].informacao=-1;
     }
-    return atual;
 }
