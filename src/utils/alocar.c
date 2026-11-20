@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include "ram.h"
 #include "pagina.h"
+#include "tlb.h"
 
 void alocarMemoria(ram **usada){
     
@@ -31,4 +32,17 @@ void alocarPaginas(pagina **atual, int modo){
             (*atual)[i].informacao=-1;
     }
     
+}
+
+void alocarTLB(tlb *emUso, int modo){
+    for(int i=0;i<16;i++){
+        emUso->informacao[i].informacao=-1;
+        emUso->frame[i]=-1;
+        emUso->lastUsed[i]=0;
+    }
+    emUso->modo=modo;
+    emUso->proxEnt=0;
+    emUso->timeGoing=0;
+    emUso->tlbMiss=0;
+
 }
