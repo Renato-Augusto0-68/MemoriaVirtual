@@ -6,6 +6,7 @@
 #include "tlb.h"
 #include "abrirTexto.h"
 
+
 int verificarTLB(tlb *emUso, dados *acessoAtual){
     int indiceTLB=-1;
     int resultado=0;
@@ -27,6 +28,10 @@ int verificarTLB(tlb *emUso, dados *acessoAtual){
     
     return indiceTLB;
 }
+
+
+
+
 
 void localizarEnderecos(FILE *arquivo, dados *acessoAtual, pagina *tabela, ram *usada, FILE *arqt, tlb *emUso){
     int resultTLB = verificarTLB(emUso,acessoAtual);
