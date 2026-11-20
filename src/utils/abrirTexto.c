@@ -3,8 +3,12 @@
 #include "dados.h"
 #include "pagina.h"
 #include "ram.h"
+#include "tlb.h"
 #include "abrirTexto.h"
 
+void verificarTLB(){
+
+}
 
 void localizarEnderecos(FILE *arquivo, dados *acessoAtual, pagina *tabela, ram *usada, FILE *arqt){
     int resultado = tabela[acessoAtual->pagina].informacao;

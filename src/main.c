@@ -4,17 +4,21 @@
 #include "utils/pagina.h"
 #include "utils/abrirTexto.h"
 #include "utils/ram.h"
+#include "utils/tlb.h"
 #include "utils/alocar.h"
 
 
 int main(){
     FILE *arqt;
     arqt=fopen("teste.txt","w");
-    int modo=1; //página, 1= fifo, 2 = lru
+    int modo=2; //página, 1= fifo, 2 = lru
+    int modoTLB=1; //TLB 1=fifo, 2= lru
     dados x;
     pagina *atual=NULL;
     alocarPaginas(&atual, modo);
     
+    tlb emUso;
+    alocarTLB(&emUso, modoTLB);
 
     ram *usada;
     usada = malloc(sizeof(ram));
