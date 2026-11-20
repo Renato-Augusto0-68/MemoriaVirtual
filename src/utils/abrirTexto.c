@@ -10,9 +10,9 @@
 
 void *buscaTLB(void *ptr){
     tlbThread * recebido = (tlbThread*)ptr;
-
-
-
+    if(recebido->acess== recebido->ptr)    
+        recebido->achou=1;
+    return NULL;
 }
 
 
@@ -27,10 +27,10 @@ int verificarTLB(tlb *emUso, dados *acessoAtual){
     }
     void *aux[16];
     pthread_t valor[16];
-
+    int resp[16];
     for(int i=0;i<16;i++){
         aux[i]=&divisao[i];
-        pthread_create(&valor[i],NULL,buscaTLB,&divisao[i]);
+        resp[i]=pthread_create(&valor[i],NULL,buscaTLB,&divisao[i]);
     }
     for(int i=0;i<16;i++){
         pthread_join(&valor[i],NULL);
