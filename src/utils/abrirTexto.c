@@ -27,10 +27,12 @@ int verificarTLB(tlb *emUso, dados *acessoAtual){
     }
     void *aux[16];
     pthread_t valor[16];
-    int resp[16];
     for(int i=0;i<16;i++){
         aux[i]=&divisao[i];
-        resp[i]=pthread_create(&valor[i],NULL,buscaTLB,&divisao[i]);
+        if(pthread_create(&valor[i],NULL,buscaTLB,&divisao[i])!=0){
+            fprintf(stderr,"Falha de preparação das threads");
+            exit(EXIT_FAILURE);
+        }
     }
     for(int i=0;i<16;i++){
         pthread_join(&valor[i],NULL);
