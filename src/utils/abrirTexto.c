@@ -4,14 +4,15 @@
 #include "pagina.h"
 #include "ram.h"
 #include "tlb.h"
+#include "pthread.h"
 #include "abrirTexto.h"
 #include "tlbThread.h"
 
 
 void *buscaTLB(void *ptr){
     tlbThread * recebido = (tlbThread*)ptr;
-    if(recebido->acess== recebido->ptr)    
-        recebido->achou=1;
+    if(((*recebido).acess) == ((*recebido).ptr->pagina[recebido->indicador]))    
+        (*recebido).achou=1;
     return NULL;
 }
 
@@ -21,33 +22,29 @@ int verificarTLB(tlb *emUso, dados *acessoAtual){
     tlbThread divisao[16];
     for(int i=0;i<16;i++){
         divisao[i].acess=acessoAtual->pagina;
-        divisao[i].ptr=emUso->pagina[i];
+        divisao[i].ptr=emUso;
         divisao[i].indicador=i;
         divisao[i].achou=0;
     }
-    void *aux[16];
     pthread_t valor[16];
     for(int i=0;i<16;i++){
-        aux[i]=&divisao[i];
         if(pthread_create(&valor[i],NULL,buscaTLB,&divisao[i])!=0){
             fprintf(stderr,"Falha de preparação das threads");
             exit(EXIT_FAILURE);
         }
     }
     for(int i=0;i<16;i++){
-        pthread_join(&valor[i],NULL);
+        pthread_join(valor[i],NULL);
     }
-
     int indiceTLB=-1;
     int resultado=0;
-
     for (int i=0;i<16;i++){
-       if(acessoAtual->pagina == emUso->pagina[i]){
-            indiceTLB=i;
-            resultado=emUso->frame[i];
+        if(divisao[i].achou==1){
+            indiceTLB=divisao[i].indicador;
+            
             emUso->tlbHit++;
             break;
-       }
+        }    
     }    
     if(indiceTLB!=-1){
         if(emUso->modo==2){

@@ -42940,4 +42940,44 @@ make: *** [makefile:2: vm] Error 1
 [?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make clean
 [?2004lrm -f vm teste.txt
 [?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make clean[2Pru[C
-[?2004l
+[?2004lScript started on 2026-11-20 20:06:28-03:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="177" LINES="13"]
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make clean[2Pru[C
+[?2004lgcc -pthread src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+[01m[Ksrc/utils/abrirTexto.c:[m[K In function ‘[01m[KbuscaTLB[m[K’:
+[01m[Ksrc/utils/abrirTexto.c:14:23:[m[K [01;35m[Kwarning: [m[Kcomparison between pointer and integer
+   14 |     if(recebido->acess[01;35m[K==[m[K recebido->ptr)
+      |                       [01;35m[K^~[m[K
+[01m[Ksrc/utils/abrirTexto.c:[m[K In function ‘[01m[KverificarTLB[m[K’:
+[01m[Ksrc/utils/abrirTexto.c:25:23:[m[K [01;31m[Kerror: [m[Kassignment to ‘[01m[Ktlb *[m[K’ from ‘[01m[Kint[m[K’ makes pointer from integer without a cast [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wint-conversion-Wint-conversion]8;;[m[K]
+   25 |         divisao[i].ptr[01;31m[K=[m[KemUso->pagina[i];
+      |                       [01;31m[K^[m[K
+make: *** [makefile:2: vm] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make run
+[?2004lgcc -pthread src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+[01m[Ksrc/utils/abrirTexto.c:[m[K In function ‘[01m[KbuscaTLB[m[K’:
+[01m[Ksrc/utils/abrirTexto.c:14:9:[m[K [01;31m[Kerror: [m[Kinvalid type argument of unary ‘[01m[K*[m[K’ (have ‘[01m[Kint[m[K’)
+   14 |     if(([01;31m[K*recebido->acess[m[K)== (*recebido->ptr))
+      |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[Ksrc/utils/abrirTexto.c:15:9:[m[K [01;31m[Kerror: [m[Kinvalid type argument of unary ‘[01m[K*[m[K’ (have ‘[01m[Kint[m[K’)
+   15 |         [01;31m[K*recebido->achou[m[K=1;
+      |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[Ksrc/utils/abrirTexto.c:[m[K In function ‘[01m[KverificarTLB[m[K’:
+[01m[Ksrc/utils/abrirTexto.c:25:23:[m[K [01;31m[Kerror: [m[Kassignment to ‘[01m[Ktlb *[m[K’ from ‘[01m[Kint[m[K’ makes pointer from integer without a cast [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wint-conversion-Wint-conversion]8;;[m[K]
+   25 |         divisao[i].ptr[01;31m[K=[m[KemUso->pagina[i];
+      |                       [01;31m[K^[m[K
+make: *** [makefile:2: vm] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make run
+[?2004lgcc -pthread src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+[01m[Ksrc/utils/abrirTexto.c:[m[K In function ‘[01m[KbuscaTLB[m[K’:
+[01m[Ksrc/utils/abrirTexto.c:14:25:[m[K [01;35m[Kwarning: [m[Kcomparison between pointer and integer
+   14 |     if((recebido->acess)[01;35m[K==[m[K (recebido->ptr))
+      |                         [01;35m[K^~[m[K
+[01m[Ksrc/utils/abrirTexto.c:[m[K In function ‘[01m[KverificarTLB[m[K’:
+[01m[Ksrc/utils/abrirTexto.c:25:23:[m[K [01;31m[Kerror: [m[Kassignment to ‘[01m[Ktlb *[m[K’ from ‘[01m[Kint[m[K’ makes pointer from integer without a cast [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wint-conversion-Wint-conversion]8;;[m[K]
+   25 |         divisao[i].ptr[01;31m[K=[m[KemUso->pagina[i];
+      |                       [01;31m[K^[m[K
+make: *** [makefile:2: vm] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make run[2@clea[C
+[?2004lrm -f vm teste.txt
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make clean[2Pru[C
+[?2004lgcc -pthread src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o 
