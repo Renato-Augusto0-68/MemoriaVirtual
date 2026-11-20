@@ -68,7 +68,7 @@ void localizarEnderecos(FILE *arquivo, dados *acessoAtual, pagina *tabela, ram *
         
         usada->pageFault++;
     }
-    
+    int paginaTLB=0;
     for(int i=0;i<16;i++){
         if(emUso->pagina[i]==-1){
             if(emUso->modo==1){
@@ -79,11 +79,31 @@ void localizarEnderecos(FILE *arquivo, dados *acessoAtual, pagina *tabela, ram *
                 emUso->lastUsed[i]=emUso->timeGoing;
             }
 
+        }else{
+            paginaTLB++;
         }
-
+       
     }
+    if(paginaTLB==16){
+        if(emUso->modo==1){
+            emUso->proxEnt=((emUso->proxEnt+1)%16);
+        }
+        if(emUso->modo==2){
+            int menor= emUso->pagina[0];
+            for(int i=1;i<16;i++){
+                if(menor>emUso->lastUsed[i]){
+                    menor=emUso->lastUsed[i];
+                    emUso->timeGoing++;
+                    emUso->lastUsed[i]=emUso->timeGoing;
+                }
+            }
 
 
+        }
+    }
+ 
+    emUso->pagina[resultTLB]=acessoAtual->pagina;
+    emUso->frame[resultTLB]=resultado;
     usada->lastUsed[resultado]=usada->timeGoing;
     }
     
