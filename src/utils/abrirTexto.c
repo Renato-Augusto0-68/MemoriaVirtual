@@ -103,11 +103,9 @@ void localizarEnderecos(FILE *arquivo, dados *acessoAtual, pagina *tabela, ram *
             emUso->lastUsed[resultTLB]=emUso->timeGoing;
         }
     }
- 
-   
-    }
     emUso->pagina[resultTLB]=acessoAtual->pagina;
     emUso->frame[resultTLB]=resultado;
+    }
     usada->timeGoing++;
     usada->lastUsed[resultado]=usada->timeGoing;
     int sep=resultado*(256)+acessoAtual->offset;
