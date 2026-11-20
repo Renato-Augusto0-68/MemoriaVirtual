@@ -10,13 +10,17 @@
 int verificarTLB(tlb *emUso, dados *acessoAtual){
     tlbThread *divisao[16];
     for(int i=0;i<16;i++){
+        divisao[i]->acess=acessoAtual->pagina;
         divisao[i]->ptr=emUso->pagina[i];
     }
     void *aux[16];
 
     pthread_t valor[16];
+
+    
     int indiceTLB=-1;
     int resultado=0;
+
     for (int i=0;i<16;i++){
        if(acessoAtual->pagina == emUso->pagina[i]){
             indiceTLB=i;

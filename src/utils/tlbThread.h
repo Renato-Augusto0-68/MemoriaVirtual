@@ -4,6 +4,7 @@
 
 typedef struct tlbThread{
     tlb *ptr;
+    int acess;
     int indicador;
     int pagBusc;
     int achou;
