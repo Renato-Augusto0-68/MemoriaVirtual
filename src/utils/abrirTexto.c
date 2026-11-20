@@ -74,15 +74,16 @@ void localizarEnderecos(FILE *arquivo, dados *acessoAtual, pagina *tabela, ram *
     for(int i=0;i<16;i++){
         if(emUso->pagina[i]==-1){
             resultTLB=i;
-            if(emUso->modo==1){
+            if(emUso->modo==1 && i==emUso->proxEnt){
                 emUso->proxEnt=( (emUso->proxEnt+1)%16);
             }
             if(emUso->modo==2){
                 emUso->timeGoing++;
                 emUso->lastUsed[i]=emUso->timeGoing;
             }
+            break;
         }
-        break;
+        
     }
     if(resultTLB==-1){
         resultTLB=0;
