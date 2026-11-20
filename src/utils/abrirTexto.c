@@ -7,6 +7,16 @@
 #include "abrirTexto.h"
 #include "tlbThread.h"
 
+
+void *buscaTLB(void *ptr){
+    tlbThread * recebido = (tlbThread*)ptr;
+
+
+
+}
+
+
+
 int verificarTLB(tlb *emUso, dados *acessoAtual){
     tlbThread *divisao[16];
     for(int i=0;i<16;i++){
@@ -17,7 +27,10 @@ int verificarTLB(tlb *emUso, dados *acessoAtual){
 
     pthread_t valor[16];
 
-    
+    for(int i=0;i<16;i++){
+
+    }
+
     int indiceTLB=-1;
     int resultado=0;
 

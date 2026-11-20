@@ -7,6 +7,8 @@
 #include "ram.h"
 #include "tlb.h"
 
+void *buscaTLB(void *ptr);
+
 int verificarTLB(tlb *emUso, dados *acessoAtual);
 
 void localizarEnderecos(FILE *arquivo, dados *acessoAtual, pagina *tabela, ram *usada, FILE *arqt, tlb *emUso);
