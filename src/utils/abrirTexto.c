@@ -109,6 +109,6 @@ void localizarEnderecos(FILE *arquivo, dados *acessoAtual, pagina *tabela, ram *
     usada->timeGoing++;
     usada->lastUsed[resultado]=usada->timeGoing;
     int sep=resultado*(256)+acessoAtual->offset;
-    fprintf(arqt,"Virtual address: %d TLB: %d Physical address: %d\n",acessoAtual->enderecoBruto,sep,usada->RAM[resultado][acessoAtual->offset]);
+    fprintf(arqt,"Virtual address: %d TLB: %d Physical address: %d Value: %d\n",acessoAtual->enderecoBruto,resultTLB,sep,usada->RAM[resultado][acessoAtual->offset]);
 }
 
