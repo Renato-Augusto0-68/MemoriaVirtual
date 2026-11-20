@@ -33,9 +33,8 @@ void localizarEnderecos(FILE *arquivo, dados *acessoAtual, pagina *tabela, ram *
     int resultado;
     if(resultTLB!=-1){
         resultado=emUso->frame[resultTLB];
-    }
-    else{
-
+    }else{
+        
     resultado = tabela[acessoAtual->pagina].informacao;
     usada->timeGoing++;
     if(resultado==-1){
@@ -57,6 +56,10 @@ void localizarEnderecos(FILE *arquivo, dados *acessoAtual, pagina *tabela, ram *
 
         if(usada->reverse[resultado]!=-1){
             tabela[usada->reverse[resultado]].informacao=-1;
+            for(int i=0;i<16;i++){
+               (emUso->pagina[i]==usada->reverse[resultado]) ? emUso->lastUsed[i] = 0 : 0; 
+               (emUso->pagina[i]==usada->reverse[resultado]) ? emUso->pagina[i] = -1 : 0;
+            }
         }
         usada->reverse[resultado] = acessoAtual->pagina;
 
@@ -68,9 +71,9 @@ void localizarEnderecos(FILE *arquivo, dados *acessoAtual, pagina *tabela, ram *
         
         usada->pageFault++;
     }
-    int paginaTLB=0;
     for(int i=0;i<16;i++){
         if(emUso->pagina[i]==-1){
+            resultTLB=i;
             if(emUso->modo==1){
                 emUso->proxEnt=( (emUso->proxEnt+1)%16);
             }
@@ -78,35 +81,34 @@ void localizarEnderecos(FILE *arquivo, dados *acessoAtual, pagina *tabela, ram *
                 emUso->timeGoing++;
                 emUso->lastUsed[i]=emUso->timeGoing;
             }
-
-        }else{
-            paginaTLB++;
         }
-       
+        break;
     }
-    if(paginaTLB==16){
+    if(resultTLB==-1){
+        resultTLB=0;
         if(emUso->modo==1){
+            resultTLB=emUso->proxEnt;
             emUso->proxEnt=((emUso->proxEnt+1)%16);
         }
         if(emUso->modo==2){
-            int menor= emUso->pagina[0];
+            int menor= emUso->lastUsed[0];
             for(int i=1;i<16;i++){
                 if(menor>emUso->lastUsed[i]){
                     menor=emUso->lastUsed[i];
-                    emUso->timeGoing++;
-                    emUso->lastUsed[i]=emUso->timeGoing;
+                    resultTLB=i;
+                    break;
                 }
             }
-
-
+            emUso->timeGoing++;
+            emUso->lastUsed[resultTLB]=emUso->timeGoing;
         }
     }
  
+   
+    }
     emUso->pagina[resultTLB]=acessoAtual->pagina;
     emUso->frame[resultTLB]=resultado;
     usada->lastUsed[resultado]=usada->timeGoing;
-    }
-    
     int sep=resultado*(256)+acessoAtual->offset;
     fprintf(arqt,"Virtual address: %d TLB: %d Physical address: %d\n",acessoAtual->enderecoBruto,sep,usada->RAM[resultado][acessoAtual->offset]);
 }
