@@ -29,8 +29,14 @@ int verificarTLB(tlb *emUso, dados *acessoAtual){
 }
 
 void localizarEnderecos(FILE *arquivo, dados *acessoAtual, pagina *tabela, ram *usada, FILE *arqt, tlb *emUso){
-    
-    int resultado = tabela[acessoAtual->pagina].informacao;
+    int resultTLB = verificarTLB(emUso,acessoAtual);
+    int resultado;
+    if(resultTLB!=-1){
+        resultado=emUso->frame[resultTLB];
+    }
+    else{
+
+    resultado = tabela[acessoAtual->pagina].informacao;
     usada->timeGoing++;
     if(resultado==-1){
         if(tabela->modo==1){
@@ -52,7 +58,8 @@ void localizarEnderecos(FILE *arquivo, dados *acessoAtual, pagina *tabela, ram *
         if(usada->reverse[resultado]!=-1){
             tabela[usada->reverse[resultado]].informacao=-1;
         }
-        usada->reverse[resultado] = acessoAtual->pagina;      
+        usada->reverse[resultado] = acessoAtual->pagina;
+
         fseek(arquivo,(acessoAtual->pagina)*256L,SEEK_SET);
         if (fread(usada->RAM[resultado],sizeof(signed char),256,arquivo)!=256){
         } 
@@ -61,7 +68,25 @@ void localizarEnderecos(FILE *arquivo, dados *acessoAtual, pagina *tabela, ram *
         
         usada->pageFault++;
     }
+    
+    for(int i=0;i<16;i++){
+        if(emUso->pagina[i]==-1){
+            if(emUso->modo==1){
+                emUso->proxEnt=( (emUso->proxEnt+1)%16);
+            }
+            if(emUso->modo==2){
+                emUso->timeGoing++;
+                emUso->lastUsed[i]=emUso->timeGoing;
+            }
+
+        }
+
+    }
+
+
     usada->lastUsed[resultado]=usada->timeGoing;
+    }
+    
     int sep=resultado*(256)+acessoAtual->offset;
     fprintf(arqt,"Virtual address: %d TLB: %d Physical address: %d\n",acessoAtual->enderecoBruto,sep,usada->RAM[resultado][acessoAtual->offset]);
 }
