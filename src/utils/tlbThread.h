@@ -1,15 +1,12 @@
 #ifndef TLBTHREAD_H
 #define TLBTHREAD_H
+#include "tlb.h"
 
 typedef struct tlbThread{
-    int pagina;
-    int frame;
-    int proxEnt;
-    int tlbMiss;
-    int lastUsed;
-    int timeGoing;
-    int modo;
-    int tlbHit;
+    tlb *ptr;
+    int indicador;
+    int pagBusc;
+    int achou;
 }tlbThread;
 
 #endif
