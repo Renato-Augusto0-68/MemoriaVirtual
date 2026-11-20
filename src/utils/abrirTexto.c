@@ -6,7 +6,15 @@
 #include "tlb.h"
 #include "abrirTexto.h"
 
-void verificarTLB(){
+void verificarTLB(tlb *emUso, dados *acessoAtual, pagina *tabela){
+    for (int i=0;i<16;i++){
+
+        acessoAtual->pagina
+        
+        emUso->informacao[i]
+
+
+    }    
 
 }
 
