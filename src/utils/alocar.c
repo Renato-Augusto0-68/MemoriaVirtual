@@ -36,7 +36,7 @@ void alocarPaginas(pagina **atual, int modo){
 
 void alocarTLB(tlb *emUso, int modo){
     for(int i=0;i<16;i++){
-        emUso->informacao[i].informacao=-1;
+        emUso->informacao[i]=-1;
         emUso->frame[i]=-1;
         emUso->lastUsed[i]=0;
     }

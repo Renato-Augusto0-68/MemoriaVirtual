@@ -4,7 +4,7 @@
 #include "pagina.h"
 
 typedef struct tlb{
-    pagina informacao[TLBSIZE];
+    int informacao[TLBSIZE];
     int frame[TLBSIZE];
     int proxEnt;
     int tlbMiss;
