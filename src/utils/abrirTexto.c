@@ -22,17 +22,14 @@ int verificarTLB(tlb *emUso, dados *acessoAtual){
             emUso->timeGoing++;
             emUso->lastUsed[indiceTLB]=emUso->timeGoing;
         }
-        if(emUso->modo==1){
         
-        }
     }
-    if(indiceTLB==-1){
-
-    }
+    
     return indiceTLB;
 }
 
-void localizarEnderecos(FILE *arquivo, dados *acessoAtual, pagina *tabela, ram *usada, FILE *arqt){
+void localizarEnderecos(FILE *arquivo, dados *acessoAtual, pagina *tabela, ram *usada, FILE *arqt, tlb *emUso){
+    
     int resultado = tabela[acessoAtual->pagina].informacao;
     usada->timeGoing++;
     if(resultado==-1){

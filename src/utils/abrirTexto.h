@@ -9,6 +9,6 @@
 
 int verificarTLB(tlb *emUso, dados *acessoAtual);
 
-void localizarEnderecos(FILE *arquivo, dados *acessoAtual, pagina *tabela, ram *usada, FILE *arqt);
+void localizarEnderecos(FILE *arquivo, dados *acessoAtual, pagina *tabela, ram *usada, FILE *arqt, tlb *emUso);
 
 #endif

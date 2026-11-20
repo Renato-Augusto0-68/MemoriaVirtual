@@ -42,7 +42,7 @@ int main(){
             x.enderecoBruto=x.enderecoBruto & 0xFFFF;
             x.pagina= (x.enderecoBruto>>8) & 0xFF;
             x.offset = x.enderecoBruto & 0xFF;     
-            localizarEnderecos(arq2,&x,atual,usada, arqt);
+            localizarEnderecos(arq2,&x,atual,usada, arqt, &emUso);
         }
     }
     fclose(arq);
