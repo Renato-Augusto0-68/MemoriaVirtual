@@ -7,14 +7,29 @@
 #include "abrirTexto.h"
 
 void verificarTLB(tlb *emUso, dados *acessoAtual, pagina *tabela){
+    int indiceTLB=-1;
+    int resultado=0;
     for (int i=0;i<16;i++){
-
-        acessoAtual->pagina
-        
-        emUso->informacao[i]
-
-
+       if(acessoAtual->pagina == emUso->pagina[i]){
+            indiceTLB=i;
+            resultado=emUso->frame[i];
+            emUso->tlbHit++;
+            break;
+       }
     }    
+    if(indiceTLB!=-1){
+        if(emUso->modo==2){
+
+            emUso->timeGoing++;
+            
+        }
+        if(emUso->modo==1){
+
+        }
+    }
+    if(indiceTLB==-1){
+
+    }
 
 }
 
