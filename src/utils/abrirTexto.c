@@ -33,11 +33,12 @@ void localizarEnderecos(FILE *arquivo, dados *acessoAtual, pagina *tabela, ram *
         fseek(arquivo,(acessoAtual->pagina)*256L,SEEK_SET);
         if (fread(usada->RAM[resultado],sizeof(signed char),256,arquivo)!=256){
         } 
-        usada->lastUsed[resultado]=usada->timeGoing;
+        
         tabela[acessoAtual->pagina].informacao=resultado;
         
         usada->pageFault++;
     }
+    usada->lastUsed[resultado]=usada->timeGoing;
     int sep=resultado*(256)+acessoAtual->offset;
     fprintf(arqt,"Virtual address: %d TLB: %d Physical address: %d\n",acessoAtual->enderecoBruto,sep,usada->RAM[resultado][acessoAtual->offset]);
 }
