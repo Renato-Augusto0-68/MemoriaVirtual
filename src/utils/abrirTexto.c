@@ -9,15 +9,10 @@
 
 void localizarEnderecos(FILE *arquivo, dados *acessoAtual, pagina *tabela, ram *usada, FILE *arqt){
     int resultado = tabela[acessoAtual->pagina].informacao;
-    if(resultado!=-1){
-        printf("Deu diferente\n");
-    }else{
+    if(resultado==-1){
         printf("registrando\n");
         printf("* fingir que registra *\n");
-        resultado=(usada->proxFrame);
-        
-        
-        tabela[acessoAtual->pagina].informacao=resultado;
+       
         if(tabela->modo==1){
             usada->reverse[resultado] = acessoAtual->pagina;
             usada->proxFrame=((usada->proxFrame+1)%128);
@@ -33,6 +28,10 @@ void localizarEnderecos(FILE *arquivo, dados *acessoAtual, pagina *tabela, ram *
                 }
             }
         } 
+         
+        
+        resultado=(usada->proxFrame);
+        
         if(usada->reverse[resultado]!=-1){
             tabela[usada->reverse[resultado]].informacao=-1;
         }
@@ -40,7 +39,9 @@ void localizarEnderecos(FILE *arquivo, dados *acessoAtual, pagina *tabela, ram *
         
 
         if (fread(usada->RAM[resultado],sizeof(signed char),256,arquivo)!=256){
-        }
+        } 
+        tabela[acessoAtual->pagina].informacao=resultado;
+      
         usada->pageFault++;
     }
     
