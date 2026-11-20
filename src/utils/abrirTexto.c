@@ -22,13 +22,15 @@ int verificarTLB(tlb *emUso, dados *acessoAtual){
     for(int i=0;i<16;i++){
         divisao[i]->acess=acessoAtual->pagina;
         divisao[i]->ptr=emUso->pagina[i];
+        divisao[i]->indicador=i;
+        divisao[i]->achou=0;
     }
     void *aux[16];
-
     pthread_t valor[16];
 
     for(int i=0;i<16;i++){
-
+        aux[i]=&divisao[i];
+        pthread_create(&valor[i],NULL,buscaTLB,&aux[i]);
     }
 
     int indiceTLB=-1;
