@@ -32,6 +32,9 @@ int verificarTLB(tlb *emUso, dados *acessoAtual){
         aux[i]=&divisao[i];
         pthread_create(&valor[i],NULL,buscaTLB,&aux[i]);
     }
+    for(int i=0;i<16;i++){
+        pthread_join(&valor[i],NULL);
+    }
 
     int indiceTLB=-1;
     int resultado=0;
