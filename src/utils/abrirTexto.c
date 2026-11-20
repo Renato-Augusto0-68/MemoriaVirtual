@@ -36,7 +36,7 @@ void localizarEnderecos(FILE *arquivo, dados *acessoAtual, pagina *tabela, ram *
     }else{
         
     resultado = tabela[acessoAtual->pagina].informacao;
-    usada->timeGoing++;
+    
     if(resultado==-1){
         if(tabela->modo==1){
             resultado=(usada->proxFrame);
@@ -96,7 +96,6 @@ void localizarEnderecos(FILE *arquivo, dados *acessoAtual, pagina *tabela, ram *
                 if(menor>emUso->lastUsed[i]){
                     menor=emUso->lastUsed[i];
                     resultTLB=i;
-                    break;
                 }
             }
             emUso->timeGoing++;
@@ -108,6 +107,7 @@ void localizarEnderecos(FILE *arquivo, dados *acessoAtual, pagina *tabela, ram *
     }
     emUso->pagina[resultTLB]=acessoAtual->pagina;
     emUso->frame[resultTLB]=resultado;
+    usada->timeGoing++;
     usada->lastUsed[resultado]=usada->timeGoing;
     int sep=resultado*(256)+acessoAtual->offset;
     fprintf(arqt,"Virtual address: %d TLB: %d Physical address: %d\n",acessoAtual->enderecoBruto,sep,usada->RAM[resultado][acessoAtual->offset]);
