@@ -5,9 +5,9 @@
 #include "pagina.h"
 #include "tlb.h"
 
-void alocarMemoria(ram **usada);
+int alocarMemoria(ram **usada);
 
-void alocarPaginas(pagina **atual, int modo);
+int alocarPaginas(pagina **atual, int modo);
 
 void alocarTLB(tlb *emUso, int modo);
 

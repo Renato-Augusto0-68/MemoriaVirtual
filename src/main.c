@@ -17,14 +17,14 @@ int main(){
     dados x;
     x.totalEnderecos=0;
     pagina *atual=NULL;
-    alocarPaginas(&atual, modo);
+    erro=alocarPaginas(&atual, modo);
     
     tlb emUso;
     alocarTLB(&emUso, modoTLB);
 
     ram *usada=NULL;
     usada = malloc(sizeof(ram));
-    alocarMemoria(&usada);
+    erro=alocarMemoria(&usada);
 
     FILE *arq,*arq2;
     
