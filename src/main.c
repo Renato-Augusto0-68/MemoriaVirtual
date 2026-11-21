@@ -9,6 +9,7 @@
 
 
 int main(){
+    int erro=0;
     FILE *arqt;
     arqt=fopen("correct.txt","w");
     int modo=2; //página, 1= fifo, 2 = lru
@@ -21,23 +22,26 @@ int main(){
     tlb emUso;
     alocarTLB(&emUso, modoTLB);
 
-    ram *usada;
+    ram *usada=NULL;
     usada = malloc(sizeof(ram));
     alocarMemoria(&usada);
 
     FILE *arq,*arq2;
     
     arq=fopen("addresses.txt","r");
-    arq2 = fopen("BACKING_STORE.bin","rb");
+    arq2=fopen("BACKING_STORE.bin","rb");
     
     if(arq==NULL){
         fprintf(stderr, "Não foi possível abrir adresses.txt\n");
+        erro=1;
     }
     if(arq2==NULL){
         fprintf(stderr,"Não foi possível abrir BACKING_STORE.bin\n");
+        erro=1;
     }
     if(arqt==NULL){
         fprintf(stderr,"Não foi possível abrir correct.txt\n");
+        erro=1;
     }
 
     if(arq2!=NULL && arq!=NULL && arqt!=NULL){
@@ -56,14 +60,14 @@ int main(){
         fclose(arq2);
     if(arqt!=NULL)
         fclose(arqt);
-
+    
     for(int i=0;i<128;i++){
         free(usada->RAM[i]);
     }
+    
     free(usada->RAM);
     free(usada);
-    free(atual);
-
-
-    return 0;
+    if(atual!=NULL)
+        free(atual);
+    return erro;
 }
