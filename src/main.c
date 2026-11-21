@@ -17,6 +17,14 @@ int main(int argc, char *argv[]){
         fpritnf(stderr,"Erro, arquivo address.txt passado incorretamente ou ausente\n");
         exit(1);
     }    
+    if(strcmp(argv[2],"lru")!=0 && strcmp(argv[2],"fifo")!=0){
+        fpritnf(stderr,"Erro, modo de substituição da página inexistente\n");
+        exit(1);
+    } 
+    if(strcmp(argv[3],"lru")!=0 && strcmp(argv[3],"fifo")!=0){
+        fpritnf(stderr,"Erro, modo de substituição do TLB inexistente\n");
+        exit(1);
+    } 
     int erro=0;
     
     
