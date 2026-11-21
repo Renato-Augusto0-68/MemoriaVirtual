@@ -5,6 +5,7 @@
         int pagina;
         int offset;
         int enderecoBruto;
+        int totalEnderecos;
     }dados;
 
 #endif

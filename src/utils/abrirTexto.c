@@ -8,7 +8,10 @@
 #include "abrirTexto.h"
 #include "tlbThread.h"
 
-void guardar (FILE *arq, )
+void guardar(FILE *arq,  dados *acessoAtual,tlb *emUso){
+    fprintf(arqt, "Number of Translated Addresses = %d\n",);
+
+}
 
 
 void *buscaTLB(void *ptr){
