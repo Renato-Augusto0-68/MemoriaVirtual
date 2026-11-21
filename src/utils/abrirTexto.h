@@ -7,6 +7,8 @@
 #include "ram.h"
 #include "tlb.h"
 
+void guardar(FILE *arq);
+
 void *buscaTLB(void *ptr);
 
 int verificarTLB(tlb *emUso, dados *acessoAtual);

@@ -44,7 +44,7 @@ int main(){
             x.offset = x.enderecoBruto & 0xFF;     
             localizarEnderecos(arq2,&x,atual,usada, arqt, &emUso);
         }
-        guardar(arqt);
+        guardar(arqt,emUso,);
     }
     fclose(arq);
     fclose(arq2);

@@ -8,6 +8,8 @@
 #include "abrirTexto.h"
 #include "tlbThread.h"
 
+void guardar (FILE *arq, )
+
 
 void *buscaTLB(void *ptr){
     tlbThread * recebido = (tlbThread*)ptr;
