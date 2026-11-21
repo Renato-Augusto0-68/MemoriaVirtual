@@ -66,14 +66,22 @@ int main(int argc, char *argv[]){
         erro=1;
     }
 
-    if(arq2!=NULL && arq!=NULL && arqt!=NULL){
+    if(arq2!=NULL && arq!=NULL && arqt!=NULL && erro==0){
+        int dados;
         while(fscanf(arq,"%d",&x.enderecoBruto)!=EOF){
+            if(x.enderecoBruto<0){
+                fprintf(stderr,"Endereço inválido!\n");
+                erro=1;
+                break;
+            }       
             x.enderecoBruto=x.enderecoBruto & 0xFFFF;
             x.pagina= (x.enderecoBruto>>8) & 0xFF;
             x.offset = x.enderecoBruto & 0xFF;   
             x.totalEnderecos++;  
             localizarEnderecos(arq2,&x,atual,usada, arqt, &emUso);
         }
+    }
+    if(erro==0){
         guardar(arqt,&x,&emUso,usada);
     }
     if(arq!=NULL)
