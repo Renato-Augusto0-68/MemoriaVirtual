@@ -10,7 +10,7 @@
 
 int main(){
     FILE *arqt;
-    arqt=fopen("teste.txt","w");
+    arqt=fopen("correct.txt","w");
     int modo=2; //página, 1= fifo, 2 = lru
     int modoTLB=1; //TLB 1=fifo, 2= lru
     dados x;
@@ -37,13 +37,14 @@ int main(){
         exit(1);
     }
 
-    if(arq2!=NULL && arq!=NULL && arqt){
+    if(arq2!=NULL && arq!=NULL && arqt!=NULL){
         while(fscanf(arq,"%d",&x.enderecoBruto)!=EOF){
             x.enderecoBruto=x.enderecoBruto & 0xFFFF;
             x.pagina= (x.enderecoBruto>>8) & 0xFF;
             x.offset = x.enderecoBruto & 0xFF;     
             localizarEnderecos(arq2,&x,atual,usada, arqt, &emUso);
         }
+        guardar(arqt);
     }
     fclose(arq);
     fclose(arq2);
