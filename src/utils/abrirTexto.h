@@ -7,7 +7,7 @@
 #include "ram.h"
 #include "tlb.h"
 
-void guardar(FILE *arq, dados *acessoAtual,tlb *emUso);
+void guardar(FILE *arq, dados *acessoAtual,tlb *emUso, ram *usada);
 
 void *buscaTLB(void *ptr);
 
