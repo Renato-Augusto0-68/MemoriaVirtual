@@ -13,7 +13,7 @@ void guardar(FILE *arq,  dados *acessoAtual,tlb *emUso, ram *usada){
     fprintf(arq,"Page Faults = %d\n",usada->pageFault);
     fprintf(arq,"Page Fault Rate = %.3f\n", (double) usada->pageFault/acessoAtual->totalEnderecos);
     fprintf(arq,"TLB Hits = %d\n",emUso->tlbHit);
-    fprintf(arq,"TLB Hit Rate = %.3f\n",(double)emUso->tlbHit/acessoAtual->totalEnderecos);
+    fprintf(arq,"TLB Hit Rate = %.3f",(double)emUso->tlbHit/acessoAtual->totalEnderecos);
 }
 
 void *buscaTLB(void *ptr){

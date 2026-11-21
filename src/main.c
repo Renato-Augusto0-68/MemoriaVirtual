@@ -38,8 +38,7 @@ int main(int argc, char *argv[]){
     }else{
         modoTLB=1;
     }    
-    FILE *arqt;
-    arqt=fopen("correct.txt","w");
+    
     dados x;
     x.totalEnderecos=0;
     pagina *atual=NULL;
@@ -53,12 +52,11 @@ int main(int argc, char *argv[]){
     if(alocarMemoria(&usada)==1){
         erro=1;
     }
-
     FILE *arq,*arq2;
-    
+    FILE *arqt;
+    arqt=fopen("correct.txt","w");
     arq=fopen("addresses.txt","r");
     arq2=fopen("BACKING_STORE.bin","rb");
-    
     if(arq==NULL){
         fprintf(stderr, "Não foi possível abrir adresses.txt\n");
         erro=1;
