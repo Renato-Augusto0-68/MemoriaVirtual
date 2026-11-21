@@ -33,8 +33,7 @@ int main(int argc, char *argv[]){
         modoTLB=2; //TLB 1=fifo, 2= lru
     }else{
         modoTLB=1;
-    }    
-    
+    }       
     dados x;
     x.totalEnderecos=0;
     pagina *atual=NULL;
@@ -48,27 +47,26 @@ int main(int argc, char *argv[]){
     if(alocarMemoria(&usada)==1){
         erro=1;
     }
-    FILE *arq,*arq2;
-    FILE *arqt;
-    arqt=fopen("correct.txt","w");
-    arq=fopen(argv[1],"r");
-    arq2=fopen("BACKING_STORE.bin","rb");
-    if(arq==NULL){
+    FILE *arqEnt,*arqMV, *arqResp;
+    arqEnt=fopen(argv[1],"r");
+    arqMV=fopen("BACKING_STORE.bin","rb");
+    if(arqEnt==NULL){
         fprintf(stderr, "Não foi possível abrir %s\n",argv[1]);
         erro=1;
     }
-    if(arq2==NULL){
+    if(arqMV==NULL){
         fprintf(stderr,"Não foi possível abrir BACKING_STORE.bin\n");
         erro=1;
     }
-    if(arqt==NULL){
+    arqResp=fopen("correct.txt","w");
+    if(arqResp==NULL){
         fprintf(stderr,"Não foi possível abrir correct.txt\n");
         erro=1;
     }
 
-    if(arq2!=NULL && arq!=NULL && arqt!=NULL && erro==0){
+    if(arqMV!=NULL && arqEnt!=NULL && arqResp!=NULL && erro==0){
         int dados;
-        while(fscanf(arq,"%d",&x.enderecoBruto)!=EOF){
+        while(fscanf(arqEnt,"%d",&x.enderecoBruto)==1 && !feof(arqEnt)){
             if(x.enderecoBruto<0){
                 fprintf(stderr,"Endereço inválido!\n");
                 erro=1;
@@ -78,18 +76,18 @@ int main(int argc, char *argv[]){
             x.pagina= (x.enderecoBruto>>8) & 0xFF;
             x.offset = x.enderecoBruto & 0xFF;   
             x.totalEnderecos++;  
-            localizarEnderecos(arq2,&x,atual,usada, arqt, &emUso);
+            localizarEnderecos(arqMV,&x,atual,usada, arqResp, &emUso);
         }
     }
     if(erro==0){
-        guardar(arqt,&x,&emUso,usada);
+        guardar(arqResp,&x,&emUso,usada);
     }
-    if(arq!=NULL)
-        fclose(arq);
-    if(arq2!=NULL)
-        fclose(arq2);
-    if(arqt!=NULL)
-        fclose(arqt);
+    if(arqEnt!=NULL)
+        fclose(arqEnt);
+    if(arqMV!=NULL)
+        fclose(arqMV);
+    if(arqResp!=NULL)
+        fclose(arqResp);
     if(usada!=NULL){
         if(usada->RAM!=NULL){
             for(int i=0;i<128;i++){
