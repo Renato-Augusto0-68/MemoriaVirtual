@@ -8,10 +8,15 @@ void alocarMemoria(ram **usada){
     
     (*usada)->RAM=malloc(sizeof(signed char*)*128);
     if((*usada)->RAM==NULL){
-        printf("RAM é nulo");
+        fprintf(stderr,"Não foi possível alocar memória para RAM ");
+        return 1;
     }
     for(int i=0;i<128;i++){
         (*usada)->RAM[i]=malloc(sizeof(signed char)*256);
+        if(*usada->RAM[i]==NULL){
+            fprintf(stderr,"Não foi possível alocar memória para os subnós de RAM ");
+            return 1;
+        }
         (*usada)->reverse[i]=-1;
         (*usada)->lastUsed[i]=0;
     }
