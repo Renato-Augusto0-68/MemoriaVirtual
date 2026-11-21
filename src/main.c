@@ -68,10 +68,12 @@ int main(int argc, char *argv[]){
         while((lidos=fscanf(arqEnt,"%d%*[ \t]%c",&x.enderecoBruto,&verif))>=1){
             if(lidos==2 && verif!='\n' && verif!='\r'){
                 fprintf(stderr,"Erro: formatação inválida!\n");
+                erro=1;
                 break;
             }       
             if(x.enderecoBruto<0){
                 fprintf(stderr,"Endereço inválido!\n");
+                erro=1;
                 break;
             }
             x.enderecoBruto=x.enderecoBruto & 0xFFFF;
