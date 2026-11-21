@@ -42,8 +42,7 @@ int main(int argc, char *argv[]){
     tlb emUso;
     alocarTLB(&emUso, modoTLB);
 
-    ram *usada=NULL;
-    usada = malloc(sizeof(ram));
+    ram *usada = malloc(sizeof(ram));
     if(alocarMemoria(&usada)==1){
         erro=1;
     }
