@@ -10,19 +10,19 @@
 
 int main(int argc, char *argv[]){
     if(argc!=4){
-        fpritnf(stderr,"Erro, argumentos insuficientes para exceutar\n");
+        fprintf(stderr,"Erro, argumentos insuficientes para exceutar\n");
         exit(1);
     }
     if(strcmp(argv[1],"address.txt")!=0){
-        fpritnf(stderr,"Erro, arquivo address.txt passado incorretamente ou ausente\n");
+        fprintf(stderr,"Erro, arquivo address.txt passado incorretamente ou ausente\n");
         exit(1);
     }    
     if(strcmp(argv[2],"lru")!=0 && strcmp(argv[2],"fifo")!=0){
-        fpritnf(stderr,"Erro, modo de substituição da página inexistente\n");
+        fprintf(stderr,"Erro, modo de substituição da página inexistente\n");
         exit(1);
     } 
     if(strcmp(argv[3],"lru")!=0 && strcmp(argv[3],"fifo")!=0){
-        fpritnf(stderr,"Erro, modo de substituição do TLB inexistente\n");
+        fprintf(stderr,"Erro, modo de substituição do TLB inexistente\n");
         exit(1);
     } 
     int erro=0;
@@ -45,7 +45,6 @@ int main(int argc, char *argv[]){
     pagina *atual=NULL;
     if(alocarPaginas(&atual, modo)==1)
         erro=1;
-
     tlb emUso;
     alocarTLB(&emUso, modoTLB);
 
