@@ -17,14 +17,17 @@ int main(){
     dados x;
     x.totalEnderecos=0;
     pagina *atual=NULL;
-    erro|=alocarPaginas(&atual, modo);
-    
+    if(alocarPaginas(&atual, modo)==1)
+        erro=1;
+
     tlb emUso;
     alocarTLB(&emUso, modoTLB);
 
     ram *usada=NULL;
     usada = malloc(sizeof(ram));
-    erro|=alocarMemoria(&usada);
+    if(alocarMemoria(&usada)==1){
+        erro=1;
+    }
 
     FILE *arq,*arq2;
     
@@ -33,13 +36,15 @@ int main(){
     
     if(arq==NULL){
         fprintf(stderr, "Não foi possível abrir adresses.txt\n");
-        
+        erro=1;
     }
     if(arq2==NULL){
         fprintf(stderr,"Não foi possível abrir BACKING_STORE.bin\n");
+        erro=1;
     }
     if(arqt==NULL){
         fprintf(stderr,"Não foi possível abrir correct.txt\n");
+        erro=1;
     }
 
     if(arq2!=NULL && arq!=NULL && arqt!=NULL){
@@ -58,15 +63,16 @@ int main(){
         fclose(arq2);
     if(arqt!=NULL)
         fclose(arqt);
-    if(erro!=1){
-        for(int i=0;i<128;i++){
-            free(usada->RAM[i]);
+    if(usada!=NULL){
+        if(usada->RAM!=NULL){
+            for(int i=0;i<128;i++){
+                if(usada->RAM!=NULL)
+                    free(usada->RAM[i]);
+            }   
+            free(usada->RAM);
         }
-    }
-    if(erro!=1)
-        free(usada->RAM);
-    if(erro!=1)
         free(usada);
+    }
     if(atual!=NULL)
         free(atual);
     return erro;

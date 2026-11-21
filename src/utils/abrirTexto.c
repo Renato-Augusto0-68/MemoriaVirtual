@@ -16,7 +16,6 @@ void guardar(FILE *arq,  dados *acessoAtual,tlb *emUso, ram *usada){
     fprintf(arq,"TLB Hit Rate = %.3f\n",(double)emUso->tlbHit/acessoAtual->totalEnderecos);
 }
 
-
 void *buscaTLB(void *ptr){
     tlbThread * recebido = (tlbThread*)ptr;
     if(((*recebido).acess) == ((*recebido).ptr->pagina[recebido->indicador]))    
@@ -62,10 +61,6 @@ int verificarTLB(tlb *emUso, dados *acessoAtual){
     
     return indiceTLB;
 }
-
-
-
-
 
 void localizarEnderecos(FILE *arquivo, dados *acessoAtual, pagina *tabela, ram *usada, FILE *arqt, tlb *emUso){
     int resultTLB = verificarTLB(emUso,acessoAtual);
