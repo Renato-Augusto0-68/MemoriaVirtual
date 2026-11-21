@@ -13,10 +13,6 @@ int main(int argc, char *argv[]){
         fprintf(stderr,"Erro, argumentos insuficientes para exceutar\n");
         exit(1);
     }
-    if(strcmp(argv[1],"address.txt")!=0){
-        fprintf(stderr,"Erro, arquivo address.txt passado incorretamente ou ausente\n");
-        exit(1);
-    }    
     if(strcmp(argv[2],"lru")!=0 && strcmp(argv[2],"fifo")!=0){
         fprintf(stderr,"Erro, modo de substituição da página inexistente\n");
         exit(1);
@@ -55,10 +51,10 @@ int main(int argc, char *argv[]){
     FILE *arq,*arq2;
     FILE *arqt;
     arqt=fopen("correct.txt","w");
-    arq=fopen("addresses.txt","r");
+    arq=fopen(argv[1],"r");
     arq2=fopen("BACKING_STORE.bin","rb");
     if(arq==NULL){
-        fprintf(stderr, "Não foi possível abrir adresses.txt\n");
+        fprintf(stderr, "Não foi possível abrir %s\n",argv[1]);
         erro=1;
     }
     if(arq2==NULL){
