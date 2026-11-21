@@ -10,8 +10,8 @@
 
 void guardar(FILE *arq,  dados *acessoAtual,tlb *emUso, ram *usada){
     fprintf(arq, "Number of Translated Addresses = %d\n",acessoAtual->totalEnderecos);
-    //fprintf(arq,"Page Faults = %d\n",);
-    //fprintf(arq,"Page Faults Rate = %.3f\n", (double) x/acessoAtual->totalEnderecos);
+    fprintf(arq,"Page Fault = %d\n",usada->pageFault);
+    fprintf(arq,"Page Faults Rate = %.3f\n", (double) usada->pageFault/acessoAtual->totalEnderecos);
     fprintf(arq,"TLB Hits = %d\n",emUso->tlbHit);
     fprintf(arq,"TLB Hit Rate = %.3f\n",(double)emUso->tlbHit/acessoAtual->totalEnderecos);
 }
