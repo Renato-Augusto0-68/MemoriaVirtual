@@ -26,16 +26,20 @@ int main(int argc, char *argv[]){
         exit(1);
     } 
     int erro=0;
-    
-    
-    
+    int modo=0;
+    int modoTLB=0;
+    if(strcmp(argv[2],"lru")==0){
+        modo=2;     //página, 1= fifo, 2 = lru
+    }else{
+        modo=1;
+    } 
+    if(strcmp(argv[3],"lru")==0){
+        modoTLB=2; //TLB 1=fifo, 2= lru
+    }else{
+        modoTLB=1;
+    }    
     FILE *arqt;
-    
-    
-    
     arqt=fopen("correct.txt","w");
-    int modo=2; //página, 1= fifo, 2 = lru
-    int modoTLB=1; //TLB 1=fifo, 2= lru
     dados x;
     x.totalEnderecos=0;
     pagina *atual=NULL;
