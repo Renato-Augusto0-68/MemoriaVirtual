@@ -28,13 +28,15 @@ int main(){
     
     arq=fopen("addresses.txt","r");
     arq2 = fopen("BACKING_STORE.bin","rb");
+    
     if(arq==NULL){
-        printf("arq é nulo");
-        exit(1);
+        fprintf(stderr, "Não foi possível abrir adresses.txt\n");
     }
     if(arq2==NULL){
-        printf("arq2 é nulo");
-        exit(1);
+        fprintf(stderr,"Não foi possível abrir BACKING_STORE.bin\n");
+    }
+    if(arqt==NULL){
+        fprintf(stderr,"Não foi possível abrir correct.txt\n");
     }
 
     if(arq2!=NULL && arq!=NULL && arqt!=NULL){
@@ -46,9 +48,13 @@ int main(){
         }
         guardar(arqt,&x,&emUso,usada);
     }
-    fclose(arq);
-    fclose(arq2);
-    fclose(arqt);
+    if(arq!=NULL)
+        fclose(arq);
+    if(arq2!=NULL)
+        fclose(arq2);
+    if(arqt!=NULL)
+        fclose(arqt);
+
     for(int i=0;i<128;i++){
         free(usada->RAM[i]);
     }
