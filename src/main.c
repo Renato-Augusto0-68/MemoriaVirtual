@@ -13,11 +13,11 @@ int main(int argc, char *argv[]){
         fprintf(stderr,"Erro, argumentos insuficientes para exceutar\n");
         exit(1);
     }
-    if(strcmp(argv[2],"lru")!=0 && strcmp(argv[2],"fifo")!=0){
+    if((strcmp(argv[2],"lru")!=0 && strcmp(argv[2],"fifo")!=0) || strlen(argv[2])==0){
         fprintf(stderr,"Erro, modo de substituição da página inexistente\n");
         exit(1);
     } 
-    if(strcmp(argv[3],"lru")!=0 && strcmp(argv[3],"fifo")!=0){
+    if((strcmp(argv[3],"lru")!=0 && strcmp(argv[3],"fifo")!=0) || strlen(argv[3])==0){
         fprintf(stderr,"Erro, modo de substituição do TLB inexistente\n");
         exit(1);
     } 
