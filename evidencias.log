@@ -43125,4 +43125,246 @@ make: *** [makefile:5: run] Error 1
 [?2004lgcc -pthread src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
 ./vm address.txt lru fifo
 [?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make run
-[?2004lgcc -pthread src/utils/alocar.c src/
+[?2004lgcc -pthread src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+./vm address.txt lru fifo
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make run
+[?2004l./vm address.txt lru fifo
+Endereço inválido!
+make: *** [makefile:5: run] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make run
+[?2004lgcc -pthread src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+./vm address.txt lru fifo
+Endereço inválido!
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make run
+[?2004l./vm address.txt lru fifo
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ m\k[K[Kake clean
+[?2004lrm -f vm correct.txt
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make clean[2Pru[C
+[?2004lgcc -pthread src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+./vm
+Erro, argumentos insuficientes para exceutar
+make: *** [makefile:5: run] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make run [K[K[K[Kclean[2Pru[C[2@clea[C[7mx.enderecoBruto<0[27mrun[K[2@clea[C[2Pru[C[2@clea[C[2Pru[C[2@clea[C[5Pclearmake run[2@clea[C./vm address.txt lru fifomake[K clean&& ./vm address.txt lru fifoclean[K./vm address.txt lru fifomake[K clean[2Pru[C[2@clea[C[2Pru[C[2@clea[C[2Pru[C[2@clea[C[2Pru[C[2@clea[C[K./vm address.txt lru fifo[15Pmake clean./vm address.txt lru fifo[1@m[1@k[1P[1@a[1@k[1@e[1@ [1@&[1@&[1@ [C[1@m[1@a[1@k[1@e[1@ [1@c[1@l[1@e[1@a[1@n[1@ [1@&[1@&[1@ 
+[?2004lrm -f vm correct.txt
+gcc -pthread src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+Erro: formatação inválida!
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make clean && make && ./vm address.txt lru fifo[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P
+[?2004lmake: 'vm' is up to date.
+Erro: formatação inválida!
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make && ./vm address.txt lru fifo
+[?2004lgcc -pthread src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+Erro: formatação inválida!
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make && ./vm address.txt lru fifo
+[?2004lmake: 'vm' is up to date.
+Erro: formatação inválida!
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make && ./vm address.txt lru fifo
+[?2004lmake: 'vm' is up to date.
+Erro: formatação inválida!
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make && ./vm address.txt lru fifo
+[?2004lgcc -pthread src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make && ./vm address.txt lru fifo
+[?2004lmake: 'vm' is up to date.
+Erro: formatação inválida!
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make && ./vm address.txt lru fifo
+[?2004lmake: 'vm' is up to date.
+Erro: formatação inválida!
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make && ./vm address.txt lru fifo[14@clean && make [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lmake: 'vm' is up to date.
+Erro: formatação inválida!
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make && ./vm address.txt lru fifo
+[?2004lmake: 'vm' is up to date.
+Erro: formatação inválida!
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make && ./vm address.txt lru fifo
+[?2004lgcc -pthread src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+Erro: formatação inválida!
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make clean
+[?2004lrm -f vm correct.txt
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make clean&& ./vm address.txt lru fifo
+[?2004lgcc -pthread src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make && ./vm address.txt lru fifoclean[K&& ./vm address.txt lru fifo
+[?2004lmake: 'vm' is up to date.
+Erro: formatação inválida!
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make && ./vm address.txt lru fifo
+[?2004lgcc -pthread src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make && ./vm address.txt lru fifo
+[?2004lmake: 'vm' is up to date.
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make && ./vm address.txt lru fifo
+[?2004lgcc -pthread src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+[01m[Ksrc/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Ksrc/main.c:68:36:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+   68 |         while((lidos=fscanf(arqEnt,[01;35m[K"%d%*[ \t]c"[m[K,&x.enderecoBruto,&verif))>=1){
+      |                                    [01;35m[K^~~~~~~~~~~~[m[K
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make && ./vm address.txt lru fifo
+[?2004lmake: 'vm' is up to date.
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make && ./vm address.txt lru fifo
+[?2004lgcc -pthread src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+[01m[Ksrc/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Ksrc/main.c:68:36:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+   68 |         while((lidos=fscanf(arqEnt,[01;35m[K"%d%*[ \t]c"[m[K,&x.enderecoBruto,&verif))>=1){
+      |                                    [01;35m[K^~~~~~~~~~~~[m[K
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make && ./vm address.txt lru fifo
+[?2004lgcc -pthread src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+Erro: formatação inválida!
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make && ./vm address.txt lru fifo
+[?2004lgcc -pthread src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+[01m[Ksrc/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Ksrc/main.c:68:36:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+   68 |         while((lidos=fscanf(arqEnt,[01;35m[K"%d%*[ \t]c"[m[K,&x.enderecoBruto,&verif))>=1){
+      |                                    [01;35m[K^~~~~~~~~~~~[m[K
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make && ./vm address.txt lru fifo
+[?2004lgcc -pthread src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+Erro: formatação inválida!
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make && ./vm address.txt lru fifo
+[?2004lgcc -pthread src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+Erro: formatação inválida!
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make clean
+[?2004lrm -f vm correct.txt
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make clean
+[?2004lrm -f vm correct.txt
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make clean&& ./vm address.txt lru fifo
+[?2004lgcc -pthread src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+Erro: formatação inválida!
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make && ./vm address.txt lru fifo
+[?2004lmake: 'vm' is up to date.
+Erro: formatação inválida!
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make && ./vm address.txt lru fifo
+[?2004lgcc -pthread src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+[01m[Ksrc/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Ksrc/main.c:68:36:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+   68 |         while((lidos=fscanf(arqEnt,[01;35m[K"%d%*[ \t]c"[m[K,&x.enderecoBruto,&verif))>=1){
+      |                                    [01;35m[K^~~~~~~~~~~~[m[K
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make && ./vm address.txt lru fifo
+[?2004lmake: 'vm' is up to date.
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make && ./vm address.txt lru fifoclean[K
+[?2004lrm -f vm correct.txt
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make clean&& ./vm address.txt lru fifo
+[?2004lgcc -pthread src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+[01m[Ksrc/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Ksrc/main.c:68:36:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+   68 |         while((lidos=fscanf(arqEnt,[01;35m[K"%d%*[ \t]c"[m[K,&x.enderecoBruto,&verif))>=1){
+      |                                    [01;35m[K^~~~~~~~~~~~[m[K
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make && ./vm address.txt lru fifo
+[?2004lgcc -pthread src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make && ./vm address.txt lru fifo
+[?2004lmake: 'vm' is up to date.
+Erro: formatação inválida!
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make && ./vm address.txt lru fifo
+[?2004lmake: 'vm' is up to date.
+Erro: formatação inválida!
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make && ./vm address.txt lru fifo
+[?2004lgcc -pthread src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+[01m[Ksrc/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Ksrc/main.c:68:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K[01;32m[K%s[m[K[m[K’ expects argument of type ‘[01m[K[01;32m[Kchar *[m[K[m[K’, but argument 4 has type ‘[01m[K[01;34m[Kchar **[m[K[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wformat-Wformat=]8;;[m[K]
+   68 |         while((lidos=fscanf(arqEnt,"%d[01;32m[K%[m[K[01;32m[Ks[m[K",&x.enderecoBruto,[01;34m[K&[m[K[01;34m[Kv[m[K[01;34m[Ke[m[K[01;34m[Kr[m[K[01;34m[Ki[m[K[01;34m[Kf[m[K))>=1){
+      |                                       [01;32m[K~[m[K[01;32m[K^[m[K                   [01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K
+      |                                        [01;32m[K|[m[K                   [01;34m[K|[m[K
+      |                                        [01;32m[Kchar *[m[K              [01;34m[Kchar **[m[K
+[01m[Ksrc/main.c:69:33:[m[K [01;35m[Kwarning: [m[Kcomparison between pointer and integer
+   69 |             if(lidos==2 && verif[01;35m[K!=[m[K'\n' && verif!='\r'){
+      |                                 [01;35m[K^~[m[K
+[01m[Ksrc/main.c:69:48:[m[K [01;35m[Kwarning: [m[Kcomparison between pointer and integer
+   69 |             if(lidos==2 && verif!='\n' && verif[01;35m[K!=[m[K'\r'){
+      |                                                [01;35m[K^~[m[K
+Erro: formatação inválida!
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make && ./vm address.txt lru fifo
+[?2004lgcc -pthread src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+[01m[Ksrc/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Ksrc/main.c:68:36:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+   68 |         while((lidos=fscanf(arqEnt,[01;35m[K"%d%*[ \t]c"[m[K,&x.enderecoBruto,&verif))>=1){
+      |                                    [01;35m[K^~~~~~~~~~~~[m[K
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make && ./vm address.txt lru fifo
+[?2004lgcc -pthread src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+Erro: formatação inválida!
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make && ./vm address.txt lru fifoclean[K&& ./vm address.txt lru fifo
+[?2004lgcc -pthread src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+Erro: formatação inválida!
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make && ./vm address.txt lru fifo
+[?2004lmake: 'vm' is up to date.
+Erro: formatação inválida!
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make && ./vm address.txt lru fifo
+[?2004lgcc -pthread src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+[01m[Ksrc/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Ksrc/main.c:69:48:[m[K [01;35m[Kwarning: [m[Kcomparison between pointer and integer
+   69 |             if(lidos==2 && verif!='\n' && verif[01;35m[K!=[m[K" " && verif!='\r'){
+      |                                                [01;35m[K^~[m[K
+Erro: formatação inválida!
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make && ./vm address.txt lru fifo
+[?2004lgcc -pthread src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+Erro: formatação inválida!
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make clean
+[?2004lrm -f vm correct.txt
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make clean&& ./vm address.txt lru fifo
+[?2004lgcc -pthread src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+Erro: formatação inválida!
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make && ./vm address.txt lru fifo
+[?2004lmake: 'vm' is up to date.
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make && ./vm address.txt lru fifo
+[?2004lgcc -pthread src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make && ./vm address.txt lru fifo
+[?2004lmake: 'vm' is up to date.
+Erro: formatação inválida!
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make && ./vm address.txt lru fifo
+[?2004lgcc -pthread src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+Erro: formatação inválida!
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make && ./vm address.txt lru fifo
+[?2004lgcc -pthread src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+Segmentation fault         ./vm address.txt lru fifo
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make && ./vm address.txt lru fifo
+[?2004lgcc -pthread src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make && ./vm address.txt lru fifo
+[?2004lmake: 'vm' is up to date.
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make && ./vm address.txt lru fifo
+[?2004lmake: 'vm' is up to date.
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make && ./vm address.txt lru fifo
+[?2004lgcc -pthread src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+[01m[Ksrc/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Ksrc/main.c:69:58:[m[K [01;31m[Kerror: [m[Kexpected expression before ‘[01m[K)[m[K’ token
+   69 |             if(lidos==2 && verif!='\n' && verif!='\r' || [01;31m[K)[m[K{
+      |                                                          [01;31m[K^[m[K
+make: *** [makefile:2: vm] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make && ./vm address.txt lru fifo
+[?2004lgcc -pthread src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make && ./vm address.txt lru fifo
+[?2004lmake: 'vm' is up to date.
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make && ./vm address.txt lru fifo
+[?2004lgcc -pthread src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+Erro: formatação inválida!
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make && ./vm address.txt lru fifo
+[?2004lmake: 'vm' is up to date.
+Erro: formatação inválida!
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make && ./vm address.txt lru fifo
+[?2004lgcc -pthread src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+Erro: formatação inválida!
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make && ./vm address.txt lru fifo
+[?2004lmake: 'vm' is up to date.
+Erro: formatação inválida!
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make && ./vm address.txt lru fifo
+[?2004lmake: 'vm' is up to date.
+Erro: formatação inválida!
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make && ./vm address.txt lru fifo
+[?2004lgcc -pthread src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+Erro: formatação inválida!
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make && ./vm address.txt lru fifo
+[?2004lmake: 'vm' is up to date.
+Erro: formatação inválida!
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make && ./vm address.txt lru fifo
+[?2004lmake: 'vm' is up to date.
+Erro: formatação inválida!
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make && ./vm address.txt lru fifo[Kmake && ./vm address.txt lru fifo
+[?2004lmake: 'vm' is up to date.
+Erro: formatação inválida!
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make && ./vm address.txt lru fifo
+[?2004lgcc -pthread src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make && ./vm address.txt lru fifo
+[?2004lmake: 'vm' is up to date.
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make && ./vm address.txt lru fifo
+[?2004lgcc -pthread src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+[01m[Ksrc/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Ksrc/main.c:68:36:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+   68 |         while((lidos=fscanf(arqEnt,[01;35m[K"%d %*[\t]c"[m[K,&x.enderecoBruto,&verif))>=1){
+      |                                    [01;35m[K^~~~~~~~~~~~[m[K
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make && ./vm address.txt lru fifo
+[?2004lmake: 'vm' is up to date.
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/MemoriaVirtual[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/MemoriaVirtual[00m$ make && ./vm address.txt lru fifo
+[?2004lgcc -pthread src/utils/alocar.c src/utils/abrirTexto.c src/main.c -o vm
+[01m[Ksrc/main.c

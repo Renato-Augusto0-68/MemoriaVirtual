@@ -62,14 +62,18 @@ int main(int argc, char *argv[]){
         fprintf(stderr,"Não foi possível abrir correct.txt\n");
         erro=1;
     }
-
+    char verif;
+    int lidos;
     if(arqMV!=NULL && arqEnt!=NULL && arqResp!=NULL && erro==0){
-        while(fscanf(arqEnt,"%d",&x.enderecoBruto)==1){
+        while((lidos=fscanf(arqEnt,"%d%*[ \t]%c",&x.enderecoBruto,&verif))>=1){
+            if(lidos==2 && verif!='\n' && verif!='\r'){
+                fprintf(stderr,"Erro: formatação inválida!\n");
+                break;
+            }       
             if(x.enderecoBruto<0){
                 fprintf(stderr,"Endereço inválido!\n");
                 break;
-            }       
-            
+            }
             x.enderecoBruto=x.enderecoBruto & 0xFFFF;
             x.pagina= (x.enderecoBruto>>8) & 0xFF;
             x.offset = x.enderecoBruto & 0xFF;   
