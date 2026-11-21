@@ -14,6 +14,7 @@ int main(){
     int modo=2; //página, 1= fifo, 2 = lru
     int modoTLB=1; //TLB 1=fifo, 2= lru
     dados x;
+    x.totalEnderecos=0;
     pagina *atual=NULL;
     alocarPaginas(&atual, modo);
     
@@ -43,7 +44,8 @@ int main(){
         while(fscanf(arq,"%d",&x.enderecoBruto)!=EOF){
             x.enderecoBruto=x.enderecoBruto & 0xFFFF;
             x.pagina= (x.enderecoBruto>>8) & 0xFF;
-            x.offset = x.enderecoBruto & 0xFF;     
+            x.offset = x.enderecoBruto & 0xFF;   
+            x.totalEnderecos++;  
             localizarEnderecos(arq2,&x,atual,usada, arqt, &emUso);
         }
         guardar(arqt,&x,&emUso,usada);
