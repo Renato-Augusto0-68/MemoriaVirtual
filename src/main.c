@@ -6,11 +6,25 @@
 #include "utils/ram.h"
 #include "utils/tlb.h"
 #include "utils/alocar.h"
+#include <string.h>
 
-
-int main(){
+int main(int argc, char *argv[]){
+    if(argc!=4){
+        fpritnf(stderr,"Erro, argumentos insuficientes para exceutar\n");
+        exit(1);
+    }
+    if(strcmp(argv[1],"address.txt")!=0){
+        fpritnf(stderr,"Erro, arquivo address.txt passado incorretamente ou ausente\n");
+        exit(1);
+    }    
     int erro=0;
+    
+    
+    
     FILE *arqt;
+    
+    
+    
     arqt=fopen("correct.txt","w");
     int modo=2; //página, 1= fifo, 2 = lru
     int modoTLB=1; //TLB 1=fifo, 2= lru
