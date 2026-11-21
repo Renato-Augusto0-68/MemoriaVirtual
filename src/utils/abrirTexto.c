@@ -4,7 +4,7 @@
 #include "pagina.h"
 #include "ram.h"
 #include "tlb.h"
-#include "pthread.h"
+#include <pthread.h>
 #include "abrirTexto.h"
 #include "tlbThread.h"
 
@@ -15,8 +15,6 @@ void *buscaTLB(void *ptr){
         (*recebido).achou=1;
     return NULL;
 }
-
-
 
 int verificarTLB(tlb *emUso, dados *acessoAtual){
     tlbThread divisao[16];
