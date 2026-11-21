@@ -24,7 +24,7 @@ int alocarMemoria(ram **usada){
     (*usada)->pageFault=0;
     (*usada)->ocupados=0;
     (*usada)->timeGoing=0;    
-    return;
+    return 0;
 }
 
 int alocarPaginas(pagina **atual, int modo){
@@ -38,7 +38,7 @@ int alocarPaginas(pagina **atual, int modo){
     for(int i=0;i<256;i++){   
             (*atual)[i].informacao=-1;
     }
-    return;
+    return 0;
 }
 
 void alocarTLB(tlb *emUso, int modo){
